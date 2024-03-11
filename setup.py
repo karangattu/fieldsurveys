@@ -12,6 +12,7 @@ setup(
     include_package_data=True,
     package_data={"fieldsurveys": ["*"]},
     entry_points={"console_scripts": ["fieldsurveys = fieldsurveys:copy_app_files"]},
+    setup_requires=["wheel"],
     install_requires=[
         "beautifulsoup4==4.12.3",
         "colorama==0.4.6",
