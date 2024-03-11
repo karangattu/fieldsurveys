@@ -8,7 +8,7 @@ pip install fieldsurveys
 ```
 
 # Prerequisites
-- Python 3.8 or higher (Install python from [here](https://www.python.org/downloads/))
+- Python 3.9 or higher (Install python from [here](https://www.python.org/downloads/))
 - tkinter (will be included with your python installation)
 - survey.yaml file (create a unique one for your use over [here](https://nafcillincat.shinyapps.io/survey_config_generator/))
 - Data CSV files (Your csv files should have species, genus and common names for each entry)
@@ -34,12 +34,6 @@ To download the keyfile.json for your Google Cloud account as a first-time user,
 
 # Usage
 
-
-To install the app, run the following command in your terminal:
-
-```bash
-pip install fieldsurveys
-```
 
 To instantiate the app, run the following command in your terminal:
 
