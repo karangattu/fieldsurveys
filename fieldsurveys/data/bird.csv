@@ -1,0 +1,2328 @@
+﻿Alpha Code,Common Name,Genus,Species
+ABDU,American Black Duck,Anas,rubripes
+ABFL,Asian Brown Flycatcher,Muscicapa,dauurica
+ABTO,Abert's Towhee,Melozone,aberti
+ACCA,Audubon's Crested Caracara,Caracara,plancus audubonii
+ACFL,Acadian Flycatcher,Empidonax,virescens
+ACGO,Aleutian Cackling Goose,Branta,hutchinsii leucopareia
+ACHH,Anna's x Costa's Hummingbird Hybrid,Calypte,anna x costae
+ACWO,Acorn Woodpecker,Melanerpes,formicivorus
+ADWA,Adelaide's Warbler,Setophaga,adelaidae
+AFCD,African Collared-Dove,Streptopelia,roseogrisea
+AFOW,Ashy-faced Owl,Tyto,glaucops
+AFSI,African Silverbill,Euodice,cantans
+AGHE,Agami Heron,Agamia,agami
+AGOL,American Goldfinch,Spinus,tristis
+AGOS,American Goshawk,Accipiter,atricapillus
+AGWT,American Green-winged Teal,Anas,crecca carolinensis
+AHJA,Azure-hooded Jay,Cyanolyca,cucullata
+AISP,Ainley's Storm-Petrel,Hydrobates,cheimomnestes
+AKEK,Akekee,Loxops,caeruleirostris
+AKIA,Akiapolaau,Hemignathus,wilsoni
+AKIK,Akikiki,Oreomystis,bairdi
+AKLW,Arctic/Kamchatka Leaf Warbler,Phylloscopus,borealis/examinandus
+AKOH,Akohekohe,Palmeria,dolei
+ALFL,Alder Flycatcher,Empidonax,alnorum
+ALHU,Allen's Hummingbird,Selasphorus,sasin
+ALOR,Altamira Oriole,Icterus,gularis
+ALSW,Alpine Swift,Apus,melba
+ALTE,Aleutian Tern,Onychoprion,aleuticus
+ALYE,Altamira Yellowthroat,Geothlypis,flavovelata
+AMAU,Amaui,Myadestes,woahensis
+AMAV,American Avocet,Recurvirostra,americana
+AMBI,American Bittern,Botaurus,lentiginosus
+AMCO,American Coot,Fulica,americana
+AMCR,American Crow,Corvus,brachyrhynchos
+AMDI,American Dipper,Cinclus,mexicanus
+AMFL,American Flamingo,Phoenicopterus,ruber
+AMGP,American Golden-Plover,Pluvialis,dominica
+AMHU,Amazilia Hummingbird,Amazilis,amazilia
+AMKE,American Kestrel,Falco,sparverius
+AMKI,Amazon Kingfisher,Chloroceryle,amazona
+AMMU,Alaska Marbled Murrelet,Brachyramphus,marmoratus a
+AMOY,American Oystercatcher,Haematopus,palliatus
+AMPI,American Pipit,Anthus,rubescens
+AMRE,American Redstart,Setophaga,ruticilla
+AMRO,American Robin,Turdus,migratorius
+AMWI,American Wigeon,Mareca,americana
+AMWO,American Woodcock,Scolopax,minor
+ANCH,Antillean Crested Hummingbird,Orthorhyncus,cristatus
+ANHI,Anhinga,Anhinga,anhinga
+ANHU,Anna's Hummingbird,Calypte,anna
+ANIA,Anianiau,Magumma,parva
+ANMU,Ancient Murrelet,Synthliboramphus,antiquus
+ANNI,Antillean Nighthawk,Chordeiles,gundlachii
+ANPI,Antillean Piculet,Nesoctites,micromegas
+ANPS,Antillean Palm-Swift,Tachornis,phoenicobia
+ANSI,Antillean Siskin,Spinus,dominicensis
+APAP,Apapane,Himatione,sanguinea
+APFA,Aplomado Falcon,Falco,femoralis
+APKI,American Pygmy Kingfisher,Chloroceryle,aenea
+ARLO,Arctic Loon,Gavia,arctica
+ARRW,Arrowhead Warbler,Setophaga,pharetra
+ARTA,Azure-rumped Tanager,Poecilostreptus,cabanisi
+ARTE,Arctic Tern,Sterna,paradisaea
+ARWA,Arctic Warbler,Phylloscopus,borealis
+ARWO,Arizona Woodpecker,Dryobates,arizonae
+ASRF,Asian Rosy-Finch,Leucosticte,arctoa
+ASSP,Ashy Storm-Petrel,Hydrobates,homochroa
+ASST,Asian Stonechat,Saxicola,maurus
+ATBR,Atlantic Brant,Branta,bernicula bernicula
+ATCH,Ashy-throated Chlorospingus,Chlorospingus,canigularis
+ATFL,Ash-throated Flycatcher,Myiarchus,cinerascens
+ATGR,Atitlan Grebe,Podilymbus,gigas
+ATMG,Amethyst-throated Mountain-gem,Lampornis,amethystinus
+ATPU,Atlantic Puffin,Fratercula,arctica
+ATSP,American Tree Sparrow,Spizelloides,arborea
+ATTW,American Three-toed Woodpecker,Picoides,dorsalis
+AUOR,Audubon's Oriole,Icterus,graduacauda
+AUSH,Audubon's Shearwater,Puffinus,lherminieri
+AUWA,Audubon's Warbler,Setophaga,coronata auduboni
+AWPE,American White Pelican,Pelecanus,erythrorhynchos
+AZCH,Azure-crowned Hummingbird,Saucerottia,cyanocephala
+AZGA,Azure Gallinule,Porphyrio,flavirostris
+AZRA,Aztec Rail,Rallus,tenuirostris
+AZTH,Aztec Thrush,Ridgwayia,pinicola
+BAAN,Barred Antshrike,Thamnophilus,doliatus
+BABE,Barred Becard,Pachyramphus,versicolor
+BABI,Black X Atlantic Brant Intergrade,Branta,bernicula bernicula x nigrican
+BABU,Barbados Bullfinch,Loxigilla,barbadensis
+BABW,Band-backed Wren,Campylorhynchus,zonatus
+BACA,Bare-crowned Antbird,Gymnocichla,nudiceps
+BACS,Bachman's Sparrow,Peucaea,aestivalis
+BADO,Barred Owl,Strix,varia
+BAEA,Bald Eagle,Haliaeetus,leucocephalus
+BAFA,Bat Falcon,Falco,rufigularis
+BAFF,Barred Forest-Falcon,Micrastur,ruficollis
+BAGO,Barrow's Goldeneye,Bucephala,islandica
+BAGT,Blue-and-gold Tanager,Bangsia,arcaei
+BAHA,Barred Hawk,Morphnarchus,princeps
+BAHO,Bahama Oriole,Icterus,northropi
+BAHS,Bahama Swallow,Tachycineta,cyaneoviridis
+BAHW,Bahama Warbler,Setophaga,flavescens
+BAIS,Baird's Sparrow,Centronyx,bairdii
+BAJU,Baird's Junco,Junco,bairdi
+BAMO,Bahama Mockingbird,Mimus,gundlachii
+BANA,Bananaquit,Coereba,flaveola
+BANO,Barn Owl,Tyto,alba
+BANS,Bank Swallow,Riparia,riparia
+BANU,Bahama Nuthatch,Sitta,insularis
+BANW,Banded Wren,Thryophilus,pleurostictus
+BAOR,Baltimore Oriole,Icterus,galbula
+BAPA,Barred Parakeet,Bolborhynchus,lineola
+BAPU,Barred Puffbird,Nystalus,radiatus
+BAQU,Banded Quail,Philortyx,fasciatus
+BARG,Barnacle Goose,Branta,leucopsis
+BARS,Barn Swallow,Hirundo,rustica
+BARW,Barbuda Warbler,Setophaga,subita
+BASA,Baird's Sandpiper,Calidris,bairdii
+BASH,Barolo Shearwater,Puffinus,baroli
+BASO,Balsas Screech-Owl,Megascops,seductus
+BATE,Baikal Teal,Sibirionetta,formosa
+BATR,Baird's Trogon,Trogon,bairdii
+BAWA,Bachman's Warbler,Vermivora,bachmanii
+BAWB,Black-and-white Becard,Pachyramphus,albogriseus
+BAWH,Black-and-white Hawk-Eagle,Spizaetus,melanoleucus
+BAWM,Blue-and-white Mockingbird,Melanotis,hypoleucus
+BAWO,Bahama Woodstar,Nesophlox,evelynae
+BAWS,Blue-and-white Swallow,Pygochelidon,cyanoleuca
+BAWW,Black-and-white Warbler,Mniotilta,varia
+BAYE,Bahama Yellowthroat,Geothlypis,rostrata
+BAYM,Blue-and-yellow Macaw,Ara,ararauna
+BAYS,Black-and-yellow Silky-flycatcher,Phainoptila,melanoxantha
+BAYT,Black-and-yellow Tanager,Chrysothlypis,chrysomelas
+BAYW,Bay Wren,Cantorchilus,nigricapillus
+BBAL,Black-browed Albatross,Thalassarche,melanophris
+BBCU,Black-billed Cuckoo,Coccyzus,erythropthalmus
+BBEH,Buff-bellied Hummingbird,Amazilia,yucatanensis
+BBEW,Black-bellied Wren,Pheugopedius,fasciatoventris
+BBFL,Buff-breasted Flycatcher,Empidonax,fulvifrons
+BBHE,Boat-billed Heron,Cochlearius,cochlearius
+BBIH,Broad-billed Hummingbird,Cynanthus,latirostris
+BBIS,Broad-billed Sandpiper,Calidris,falcinellus
+BBMA,Black-billed Magpie,Pica,hudsonia
+BBMO,Broad-billed Motmot,Electron,platyrhynchum
+BBNT,Black-billed Nightingale-Thrush,Catharus,gracilirostris
+BBNW,Black-banded Woodcreeper,Dendrocolaptes,picumnus
+BBOH,Bullock's x Baltimore Oriole Hybrid,Icterus,bullockii x galbula
+BBOR,Black-backed Oriole,Icterus,abeillei
+BBPA,Black-billed Parrot,Amazona,agilis
+BBPL,Black-bellied Plover,Pluvialis,squatarola
+BBPU,Black-breasted Puffbird,Notharchus,pectoralis
+BBRC,Bay-breasted Cuckoo,Coccyzus,rufigularis
+BBRW,Buff-breasted Wren,Cantorchilus,leucotis
+BBSA,Buff-breasted Sandpiper,Calidris,subruficollis
+BBSC,Brown-billed Scythebill,Campylorhamphus,pusillus
+BBSO,Brown-backed Solitaire,Myadestes,occidentalis
+BBSP,Black-bellied Storm-Petrel,Fregetta,tropica
+BBST,Black-billed Streamertail,Trochilus,scitulus
+BBTO,Broad-billed Tody,Todus,subulatus
+BBWA,Bay-breasted Warbler,Setophaga,castanea
+BBWD,Black-bellied Whistling-Duck,Dendrocygna,autumnalis
+BBWO,Black-backed Woodpecker,Picoides,arcticus
+BBWQ,Black-breasted Wood-Quail,Odontophorus,leucolaemus
+BCAF,Black-capped Flycatcher,Empidonax,atriceps
+BCAH,Blue-capped Hummingbird,Eupherusa,cyanophrys
+BCAP,Black-crowned Antpitta,Pittasoma,michleri
+BCAS,Black-crowned Antshrike,Thamnophilus,atrinucha
+BCAT,Black-cheeked Ant-Tanager,Habia,atrimaxillaris
+BCAV,Brown-capped Vireo,Vireo,leucophrys
+BCCH,Black-capped Chickadee,Poecile,atricapillus
+BCCO,Black-crested Coquette,Lophornis,helenae
+BCDO,Black-capped Donacobius,Donacobius,atricapilla
+BCFL,Brown-crested Flycatcher,Myiarchus,tyrannulus
+BCGN,Black-capped Gnatcatcher,Polioptila,nigriceps
+BCHA,Black-collared Hawk,Busarellus,nigricollis
+BCHH,Blue-chested Hummingbird,Polyerata,amabilis
+BCHJ,Black-chested Jay,Cyanocorax,affinis
+BCHS,Black-chested Sparrow,Peucaea,humeralis
+BCHU,Black-chinned Hummingbird,Archilochus,alexandri
+BCMA,Brown-chested Martin,Progne,tapera
+BCMO,Blue-capped Motmot,Momotus,coeruliceps
+BCNH,Black-crowned Night-Heron,Nycticorax,nycticorax
+BCNI,Buff-collared Nightjar,Antrostomus,ridgwayi
+BCOF,Bran-colored Flycatcher,Myiophobus,fasciatus
+BCOR,Black-cowled Oriole,Icterus,prosthemelas
+BCPE,Black-capped Petrel,Pterodroma,hasitata
+BCRC,Blue-crowned Chlorophonia,Chlorophonia,occipitalis
+BCRF,Brown-capped Rosy-Finch,Leucosticte,australis
+BCRJ,Bushy-crested Jay,Cyanocorax,melanocyaneus
+BCRT,Black-crowned Tityra,Tityra,inquisitor
+BCSI,Black-capped Siskin,Spinus,atriceps
+BCSP,Black-chinned Sparrow,Spizella,atrogularis
+BCSW,Black-capped Swallow,Atticora,pileata
+BCTE,Blue-winged/Cinnamon Teal,Spatula,discors/cyanoptera
+BCTI,Black-crested Titmouse,Baeolophus,atricristatus
+BCTY,Brown-capped Tyrannulet,Ornithion,brunneicapillus
+BCVI,Black-capped Vireo,Vireo,atricapilla
+BCWA,Black-cheeked Warbler,Basileuterus,melanogenys
+BCWO,Black-cheeked Woodpecker,Melanerpes,pucherani
+BCWP,Buffy-crowned Wood-Partridge,Dendrortyx,leucophrys
+BEAH,Beautiful Hummingbird,Calothorax,pulcher
+BEEH,Bee Hummingbird,Mellisuga,helenae
+BEFL,Belted Flycatcher,Xenotriccus,callizonus
+BEGU,Belcher's Gull,Larus,belcheri
+BEHU,Berylline Hummingbird,Saucerottia,beryllina
+BEKI,Belted Kingfisher,Megaceryle,alcyon
+BEPE,Bermuda Petrel,Pterodroma,cahow
+BESO,Bearded Screech-Owl,Megascops,barbarus
+BESP,Bell's Sparrow,Artemisiospiza,belli
+BESW,Bewick's Swan,Cygnus,columbianus bewickii
+BETH,Bendire's Thrasher,Toxostoma,bendirei
+BETR,Beautiful Treerunner,Margarornis,bellulus
+BEVI,Bell's Vireo,Vireo,bellii
+BEWP,Bearded Wood-Partridge,Dendrortyx,barbatus
+BEWQ,Black-eared Wood-Quail,Odontophorus,melanotis
+BEWR,Bewick's Wren,Thryomanes,bewickii
+BEYE,Belding's Yellowthroat,Geothlypis,beldingi
+BFAG,Black-faced Grosbeak,Caryothraustes,poliogaster
+BFAL,Black-footed Albatross,Phoebastria,nigripes
+BFAN,Black-faced Antthrush,Formicarius,analis
+BFBO,Blue-footed Booby,Sula,nebouxii
+BFFG,Buff-fronted Foliage-gleaner,Dendroma,rufa
+BFGR,Black-faced Grassquit,Melanospiza,bicolor
+BFPA,Blue-fronted Parrotlet,Touit,dilectissimus
+BFQD,Buff-fronted Quail-Dove,Zentrygon,costaricensis
+BFSO,Black-faced Solitaire,Myadestes,melanops
+BGDO,Blue Ground Dove,Claravis,pretiosa
+BGGN,Blue-gray Gnatcatcher,Polioptila,caerulea
+BGNO,Blue-gray Noddy,Anous,ceruleus
+BGRA,Blue-black Grassquit,Volatinia,jacarina
+BGRO,Blue-black Grosbeak,Cyanoloxia,cyanoides
+BGTA,Blue-gray Tanager,Thraupis,episcopus
+BHBR,Black-headed Brushfinch,Arremon,atricapillus
+BHCO,Brown-headed Cowbird,Molothrus,ater
+BHEA,Black-headed Antthrush,Formicarius,nigricapillus
+BHEP,Blue-headed Parrot,Pionus,menstruus
+BHGR,Black-headed Grosbeak,Pheucticus,melanocephalus
+BHGU,Black-headed Gull,Chroicocephalus,ridibundus
+BHHU,Blue-headed Hummingbird,Riccordia,bicolor
+BHNT,Black-headed Nightingale-Thrush,Catharus,mexicanus
+BHNU,Brown-headed Nuthatch,Sitta,pusilla
+BHOA,Black-hooded Antshrike,Thamnophilus,bridgesi
+BHOP,Brown-hooded Parrot,Pyrilia,haematotis
+BHQD,Blue-headed Quail-Dove,Starnoenas,cyanocephala
+BHSA,Black-headed Saltator,Saltator,atriceps
+BHSI,Black-headed Siskin,Spinus,notatus
+BHTA,Bay-headed Tanager,Tangara,gyrola
+BHTF,Black-headed Tody-Flycatcher,Todirostrum,nigriceps
+BHTR,Black-headed Trogon,Trogon,melanocephalus
+BHVI,Blue-headed Vireo,Vireo,solitarius
+BIAN,Bicolored Antbird,Gymnopithys,bicolor
+BIHA,Bicolored Hawk,Accipiter,bicolor
+BIOO,Bishop's Oo,Moho,bishopi
+BITH,Bicknell's Thrush,Catharus,bicknelli
+BIWR,Bicolored Wren,Campylorhynchus,griseus
+BLAG,Black Guan,Chamaepetes,unicolor
+BLAK,Black Kite,Milvus,migrans
+BLAN,Black Antshrike,Thamnophilus,nigriceps
+BLBF,Black-billed Flycatcher,Aphanotriccus,audax
+BLBH,Black-bellied Hummingbird,Eupherusa,nigriventris
+BLBR,Black Brant,Branta,bernicula nigricans
+BLBU,Blue Bunting,Cyanocompsa,parellina
+BLBW,Blackburnian Warbler,Setophaga,fusca
+BLCA,Black Catbird,Melanoptila,glabrirostris
+BLCO,Blue Cotinga,Cotinga,nattererii
+BLDA,Blue Dacnis,Dacnis,cayana
+BLFR,Black Francolin,Francolinus,francolinus
+BLGR,Blue Grosbeak,Passerina,caerulea
+BLGU,Black Guillemot,Cepphus,grylle
+BLHE,Black Hawk-Eagle,Spizaetus,tyrannus
+BLJA,Blue Jay,Cyanocitta,cristata
+BLKI,Black-legged Kittiwake,Rissa,tridactyla
+BLMA,Black Mamo,Drepanis,funerea
+BLMO,Blue Mockingbird,Melanotis,caerulescens
+BLNO,Black Noddy,Anous,minutus
+BLOR,Black Oropendola,Psarocolius,guatimozinus
+BLOW,Bare-legged Owl,Margarobyas,lawrencii
+BLOY,Black Oystercatcher,Haematopus,bachmani
+BLPH,Black Phoebe,Sayornis,nigricans
+BLPW,Blackpoll Warbler,Setophaga,striata
+BLRA,Black Rail,Laterallus,jamaicensis
+BLRF,Black Rosy-Finch,Leucosticte,atrata
+BLRW,Black-rumped Waxbill,Estrilda,troglodytes
+BLSC,Black Scoter,Melanitta,americana
+BLSE,Blue Seedeater,Amaurospiza,concolor
+BLSK,Black Skimmer,Rynchops,niger
+BLSP,Black Storm-Petrel,Hydrobates,melania
+BLSW,Black Swift,Cypseloides,niger
+BLTE,Black Tern,Chlidonias,niger
+BLTG,Black-tailed Godwit,Limosa,limosa
+BLTH,Black Thrush,Turdus,infuscatus
+BLTU,Black Turnstone,Arenaria,melanocephala
+BLUE,Bluethroat,Cyanecula,svecica
+BLVU,Black Vulture,Coragyps,atratus
+BLWO,Black-and-white Owl,Strix,nigrolineata
+BMVI,Blue Mountain Vireo,Vireo,osburni
+BNIB,Buff-necked Ibis,Theristicus,caudatus
+BNST,Black-necked Stilt,Himantopus,mexicanus
+BNUM,Bare-necked Umbrellabird,Cephalopterus,glabricollis
+BOBF,Boat-billed Flycatcher,Megarynchus,pitangua
+BOBO,Bobolink,Dolichonyx,oryzivorus
+BOCH,Boreal Chickadee,Poecile,hudsonicus
+BOGU,Bonaparte's Gull,Chroicocephalus,philadelphia
+BOOW,Boreal Owl,Aegolius,funereus
+BOPE,Bonin Petrel,Pterodroma,hypoleuca
+BOPT,Bronze-olive Pygmy-Tyrant,Pseudotriccus,pelzelni
+BOSP,Botteri's Sparrow,Peucaea,botterii
+BOWA,Bohemian Waxwing,Bombycilla,garrulus
+BOWR,Boucard's Wren,Campylorhynchus,jocosus
+BPLT,Black-crowned Palm-Tanager,Phaenicophilus,palmarum
+BPYE,Black-polled Yellowthroat,Geothlypis,speciosa
+BPYT,Black-capped Pygmy-Tyrant,Myiornis,atricapillus
+BRAC,Brandt's Cormorant,Urile,penicillatus
+BRAM,Brambling,Fringilla,montifringilla
+BRAN,Brant,Branta,bernicla
+BRAT,Bright-rumped Attila,Attila,spadiceus
+BRBL,Brewer's Blackbird,Euphagus,cyanocephalus
+BRBO,Brown Booby,Sula,leucogaster
+BRCR,Brown Creeper,Certhia,americana
+BREM,Brace's Emerald,Riccordia,bracei
+BREW,Blyth's Reed Warbler,Acrocephalus,dumetorum
+BRHE,Bronzy Hermit,Glaucis,aeneus
+BRIS,Bridled Sparrow,Peucaea,mystacalis
+BRJA,Brown Jay,Psilorhinus,morio
+BRMA,Bronze Mannikin,Spermestes,cucullata
+BRNO,Brown Noddy,Anous,stolidus
+BROC,Bronzed Cowbird,Molothrus,aeneus
+BROS,Brown Shrike,Lanius,cristatus
+BRPE,Brown Pelican,Pelecanus,occidentalis
+BRQD,Bridled Quail-Dove,Geotrygon,mystacea
+BRSP,Brewer's Sparrow,Spizella,breweri
+BRSW,Band-rumped Swift,Chaetura,spinicaudus
+BRTE,Bridled Tern,Onychoprion,anaethetus
+BRTH,Brown Thrasher,Toxostoma,rufum
+BRTI,Bridled Titmouse,Baeolophus,wollweberi
+BRTR,Brown Trembler,Cinclocerthia,ruficauda
+BRTW,Brownish Twistwing,Cnipodectes,subbrunneus
+BRVI,Brown Violetear,Colibri,delphinae
+BRWA,Brewster's Warbler,Vermivora,chrysoptera x cyanoptera
+BRYS,Bryan's Shearwater,Puffinus,bryani
+BSSO,Bare-shanked Screech-Owl,Megascops,clarkii
+BSSP,Belding's Savannah Sparrow,Passerculus,sandwichensis beldingi
+BSTP,Band-rumped Storm-Petrel,Hydrobates,castro
+BSTS,Black-striped Sparrow,Arremonops,conirostris
+BSWO,Black-striped Woodcreeper,Xiphorhynchus,lachrymosus
+BTAH,Blue-tailed Hummingbird,Saucerottia,cyanura
+BTAT,Black-tailed Trogon,Trogon,melanurus
+BTBA,Band-tailed Barbthroat,Threnetes,ruckeri
+BTBO,Black-throated Bobwhite,Colinus,nigrogularis
+BTBW,Black-throated Blue Warbler,Setophaga,caerulescens
+BTCO,Black-tipped Cotinga,Carpodectes,hopkei
+BTCU,Bristle-thighed Curlew,Numenius,tahitiensis
+BTFG,Buff-throated Foliage-gleaner,Automolus,ochrolaemus
+BTFL,Black-tailed Flycatcher,Myiobius,atricaudus
+BTGG,Black-thighed Grosbeak,Pheucticus,tibialis
+BTGN,Black-tailed Gnatcatcher,Polioptila,melanura
+BTGO,Bar-tailed Godwit,Limosa,lapponica
+BTGR,Boat-tailed Grackle,Quiscalus,major
+BTGU,Black-tailed Gull,Larus,crassirostris
+BTHT,Black-throated Trogon,Trogon,rufus
+BTHU,Broad-tailed Hummingbird,Selasphorus,platycercus
+BTJA,Black-throated Jay,Cyanolyca,pumilo
+BTMA,Black-throated Mango,Anthracothorax,nigricollis
+BTMG,Blue-throated Mountain-gem,Lampornis,clemenciae
+BTMJ,Black-throated Magpie-Jay,Calocitta,colliei
+BTMO,Blue-throated Motmot,Aspatha,gularis
+BTNW,Black-throated Green Warbler,Setophaga,virens
+BTPA,Brown-throated Parakeet,Eupsittula,pertinax
+BTPI,Band-tailed Pigeon,Patagioenas,fasciata
+BTPL,Bronze-tailed Plumeleteer,Chalybura,urochrysia
+BTRG,Blue-throated Goldentail,Chlorestes,eliciae
+BTSA,Buff-throated Saltator,Saltator,maximus
+BTSP,Black-throated Sparrow,Amphispiza,bilineata
+BTST,Black-throated Shrike-Tanager,Lanio,aurantius
+BTTH,Bare-throated Tiger-Heron,Tigrisoma,mexicanum
+BTWR,Black-throated Wren,Pheugopedius,atrogularis
+BTYW,Black-throated Gray Warbler,Setophaga,nigrescens
+BUFF,Bufflehead,Bucephala,albeola
+BUHU,Bumblebee Hummingbird,Selasphorus,heloisa
+BULS,Buller's Shearwater,Ardenna,bulleri
+BUOR,Bullock's Oriole,Icterus,bullockii
+BUOW,Burrowing Owl,Athene,cunicularia
+BUPE,Bulwer's Petrel,Bulweria,bulwerii
+BURW,Buff-rumped Warbler,Myiothlypis,fulvicauda
+BUSH,Bushtit,Psaltriparus,minimus
+BUTU,Buffy Tuftedcheek,Pseudocolaptes,lawrencii
+BVHU,Blue-vented Hummingbird,Saucerottia,hoffmanni
+BVOR,Black-vented Oriole,Icterus,wagleri
+BVSH,Black-vented Shearwater,Puffinus,opisthomelas
+BWHA,Broad-winged Hawk,Buteo,platypterus
+BWOR,Bar-winged Oriole,Icterus,maculialatus
+BWPE,Black-winged Petrel,Pterodroma,nigripennis
+BWST,Black-winged Stilt,Himantopus,himantopus
+BWTE,Blue-winged Teal,Spatula,discors
+BWVI,Black-whiskered Vireo,Vireo,altiloquus
+BWWA,Blue-winged Warbler,Vermivora,cyanoptera
+CAAU,Cassin's Auklet,Ptychoramphus,aleuticus
+CABW,Cabanis's Wren,Cantorchilus,modestus
+CACG,Cackling Goose,Branta,hutchinsii
+CACH,Carolina Chickadee,Poecile,carolinensis
+CACO,California Condor,Gymnogyps,californianus
+CACR,Cassia Crossbill,Loxia,sinesciuris
+CACW,Cactus Wren,Campylorhynchus,brunneicapillus
+CADO,Caribbean Dove,Leptotila,jamaicensis
+CAEG,Cattle Egret,Bubulcus,ibis
+CAEL,Caribbean Elaenia,Elaenia,martinica
+CAEM,Canivet's Emerald,Cynanthus,canivetii
+CAFI,Cassin's Finch,Haemorhous,cassinii
+CAGN,California Gnatcatcher,Polioptila,californica
+CAGR,Carib Grackle,Quiscalus,lugubris
+CAGS,Cabanis's Ground-Sparrow,Melozone,cabanisi
+CAGU,California Gull,Larus,californicus
+CAHE,Capped Heron,Pilherodius,pileatus
+CAHU,Calliope Hummingbird,Selasphorus,calliope
+CAJA,Canada Jay,Perisoreus,canadensis
+CAKI,Cassin's Kingbird,Tyrannus,vociferans
+CAKW,Canebrake Wren,Cantorchilus,zeledoni
+CALT,California Towhee,Melozone,crissalis
+CAMA,Caribbean Martin,Progne,dominicensis
+CANG,Canada Goose,Branta,canadensis
+CANT,Canyon Towhee,Melozone,fusca
+CANV,Canvasback,Aythya,valisineria
+CANW,Canyon Wren,Catherpes,mexicanus
+CAPA,Carolina Parakeet,Conuropsis,carolinensis
+CAPO,Central American Pygmy-Owl,Glaucidium,griseiceps
+CAQU,California Quail,Callipepla,californica
+CARW,Carolina Wren,Thryothorus,ludovicianus
+CASJ,California Scrub-Jay,Aphelocoma,californica
+CASP,Cassin's Sparrow,Peucaea,cassinii
+CASW,Cave Swallow,Petrochelidon,fulva
+CATA,Carmiol's Tanager,Chlorothraupis,carmioli
+CATE,Caspian Tern,Hydroprogne,caspia
+CATH,California Thrasher,Toxostoma,redivivum
+CATY,Cattle Tyrant,Machetornis,rixosa
+CAVI,Cassin's Vireo,Vireo,cassinii
+CAWA,Canada Warbler,Cardellina,canadensis
+CAYT,Cayenne Tern,Thalasseus,sandvicensis eurygnathus
+CBAN,Chestnut-backed Antbird,Poliocrania,exsul
+CBCH,Chestnut-backed Chickadee,Poecile,rufescens
+CBCU,Chestnut-bellied Cuckoo,Coccyzus,pluvialis
+CBFL,Cinnamon-bellied Flowerpiercer,Diglossa,baritula
+CBRA,California Black Rail,Laterallus,jamaicensis coturniculus
+CBSA,Chestnut-bellied Sandgrouse,Pterocles,exustus
+CBTA,Crimson-backed Tanager,Ramphocelus,dimidiatus
+CBTH,Curve-billed Thrasher,Toxostoma,curvirostre
+CBWO,Crimson-bellied Woodpecker,Campephilus,haematogaster
+CCAW,Chestnut-capped Warbler,Basileuterus,delattrii
+CCBR,Chestnut-capped Brushfinch,Arremon,brunneinucha
+CCGO,Cackling/Canada Goose,Branta,hutchinsii/canadensis
+CCGR,Crimson-collared Grosbeak,Periporphyrus,celaeno
+CCHA,Common Chaffinch,Fringilla,coelebs
+CCHI,Common Chiffchaff,Phylloscopus,collybita
+CCLO,Chestnut-collared Longspur,Calcarius,ornatus
+CCOW,Chestnut-colored Woodpecker,Celeus,castaneus
+CCRA,Common Crane,Grus,grus
+CCRW,Crimson-crested Woodpecker,Campephilus,melanoleucos
+CCSP,Clay-colored Sparrow,Spizella,pallida
+CCSW,Chestnut-collared Swift,Streptoprocne,rutila
+CCTA,Crimson-collared Tanager,Ramphocelus,sanguinolentus
+CCTH,Clay-colored Thrush,Turdus,grayi
+CCWA,Crescent-chested Warbler,Oreothlypis,superciliosa
+CEDW,Cedar Waxwing,Bombycilla,cedrorum
+CERW,Cerulean Warbler,Setophaga,cerulea
+CFMA,Chestnut-fronted Macaw,Ara,severus
+CFPA,Crimson-fronted Parakeet,Psittacara,finschi
+CGDO,Common Ground Dove,Columbina,passerina
+CGWO,Cuban Green Woodpecker,Xiphidiopicus,percussus
+CHAL,Chatham Albatross,Thalassarche,eremita
+CHAS,Chapman's Swift,Chaetura,chapmani
+CHEG,Chinese Egret,Egretta,eulophotes
+CHEM,Coppery-headed Emerald,Microchera,cupreiceps
+CHFG,Chiriqui Foliage-gleaner,Automolus,exsertus
+CHHU,Charming Hummingbird,Polyerata,decora
+CHIS,Chinese Sparrowhawk,Accipiter,soloensis
+CHME,Chihuahuan Meadowlark,Sturnella,lilianae
+CHMU,Chestnut Munia,Lonchura,atricapilla
+CHOR,Chestnut-headed Oropendola,Psarocolius,wagleri
+CHPH,Chinese Pond-Heron,Ardeola,bacchus
+CHQD,Chiriqui Quail-Dove,Zentrygon,chiriquensis
+CHRA,Chihuahuan Raven,Corvus,cryptoleucus
+CHSH,Christmas Shearwater,Puffinus,nativitatis
+CHSI,Choco Sirystes,Sirystes,albogriseus
+CHSO,Choco Screech-Owl,Megascops,centralis
+CHSP,Chipping Sparrow,Spizella,passerina
+CHSW,Chimney Swift,Chaetura,pelagica
+CHTA,Choco Tapaculo,Scytalopus,chocoensis
+CHTI,Choco Tinamou,Crypturellus,kerriae
+CHUK,Chukar,Alectoris,chukar
+CIBS,Cinnamon-bellied Saltator,Saltator,grandis
+CIHU,Cinnamon Hummingbird,Amazilia,rutila
+CIMB,Cinnamon Becard,Pachyramphus,cinnamomeus
+CIOW,Cinereous Owl,Strix,sartorii
+CIRB,Cinereous Becard,Pachyramphus,rufus
+CITE,Cinnamon Teal,Spatula,cyanoptera
+CITR,Citreoline Trogon,Trogon,citreolus
+CIWA,Citrine Wagtail,Motacilla,citreola
+CIWO,Cinnamon Woodpecker,Celeus,loricatus
+CLGR,Clark's Grebe,Aechmophorus,clarkii
+CLNU,Clark's Nutcracker,Nucifraga,columbiana
+CLRA,Clapper Rail,Rallus,crepitans
+CLSW,Cliff Swallow,Petrochelidon,pyrrhonota
+CLTE,California Least Tern,Sternula,antillarum browni
+CLWR,Clarion Wren,Troglodytes,tanneri
+CMWA,Cape May Warbler,Setophaga,tigrina
+COAR,Collared Aracari,Pteroglossus,torquatus
+COBH,Common Black Hawk,Buteogallus,anthracinus
+COCC,Cocos Cuckoo,Coccyzus,ferrugineus
+COCL,Common Chlorospingus,Chlorospingus,flavopectus
+COCT,Cocoa Thrush,Turdus,fumigatus
+COCU,Common Cuckoo,Cuculus,canorus
+CODU,Comb Duck,Sarkidiornis,sylvicola
+COEI,Common Eider,Somateria,mollissima
+COEM,Cozumel Emerald,Cynanthus,forficatus
+COFF,Collared Forest-Falcon,Micrastur,semitorquatus
+COFI,Cocos Finch,Pinaroloxias,inornata
+COFL,Cocos Flycatcher,Nesotriccus,ridgwayi
+COGA,Common Gallinule,Gallinula,galeata
+COGO,Common Goldeneye,Bucephala,clangula
+COGR,Common Grackle,Quiscalus,quiscula
+COGU,Common Gull,Larus,canus
+COHA,Cooper's Hawk,Accipiter,cooperii
+COHE,Cocoi Heron,Ardea,cocoi
+COHU,Costa's Hummingbird,Calypte,costae
+COKI,Couch's Kingbird,Tyrannus,couchii
+COLC,Colombian Crake,Mustelirallus,colombianus
+COLO,Common Loon,Gavia,immer
+COLR,Collared Redstart,Myioborus,torquatus
+COLW,Colima Warbler,Leiothlypis,crissalis
+COME,Common Merganser,Mergus,merganser
+COMG,Common Greenshank,Tringa,nebularia
+COMO,Common Moorhen,Gallinula,chloropus
+COMP,Common Pochard,Aythya,ferina
+COMS,Common Shelduck,Tadorna,tadorna
+COMU,Common Murre,Uria,aalge
+COMW,Common Waxbill,Estrilda,astrild
+COMY,Common Myna,Acridotheres,tristis
+CONI,Common Nighthawk,Chordeiles,minor
+CONW,Connecticut Warbler,Oporornis,agilis
+COPA,Common Pauraque,Nyctidromus,albicollis
+COPE,Cook's Petrel,Pterodroma,cookii
+COPL,Collared Plover,Charadrius,collaris
+COPO,Common Poorwill,Phalaenoptilus,nuttallii
+COPR,Collared Pratincole,Glareola,pratincola
+CORA,Common Raven,Corvus,corax
+CORC,Corn Crake,Crex,crex
+CORE,Common Redpoll,Acanthis,flammea
+CORO,Common Rosefinch,Carpodacus,erythrinus
+CORS,Cory's Shearwater,Calonectris,diomedea
+COSA,Common Sandpiper,Actitis,hypoleucos
+COSC,Common Scoter,Melanitta,nigra
+COSN,Common Snipe,Gallinago,gallinago
+COSP,Coiba Spinetail,Cranioleuca,dissita
+COSW,Common Swift,Apus,apus
+COTE,Common Tern,Sterna,hirundo
+COTF,Common Tody-Flycatcher,Todirostrum,cinereum
+COTO,Collared Towhee,Pipilo,ocai
+COTR,Collared Trogon,Trogon,collaris
+COVI,Cozumel Vireo,Vireo,bairdi
+COWO,Cocoa Woodcreeper,Xiphorhynchus,susurrans
+COYE,Common Yellowthroat,Geothlypis,trichas
+COZT,Cozumel Thrasher,Toxostoma,guttatum
+CPAK,Cuban Parakeet,Psittacara,euops
+CPAT,Cuban Parrot,Amazona,leucocephala
+CPOT,Common Potoo,Nyctibius,griseus
+CPYO,Colima Pygmy-Owl,Glaucidium,palmarum
+CRAU,Crested Auklet,Aethia,cristatella
+CRBO,Crested Bobwhite,Colinus,cristatus
+CRBR,Costa Rican Brushfinch,Arremon,costaricensis
+CRCA,Crested Caracara,Caracara,plancus
+CREA,Crested Eagle,Morphnus,guianensis
+CREH,Common Redshank,Tringa,totanus
+CRET,Common Redstart,Phoenicurus,phoenicurus
+CRGU,Crested Guan,Penelope,purpurascens
+CRHA,Crane Hawk,Geranospiza,caerulescens
+CRMU,Craveri's Murrelet,Synthliboramphus,craveri
+CROR,Crested Oropendola,Psarocolius,decumanus
+CROW,Crested Owl,Lophostrix,cristata
+CRPL,Common Ringed Plover,Charadrius,hiaticula
+CRPO,Costa Rican Pygmy-Owl,Glaucidium,costaricanum
+CRQD,Crested Quail-Dove,Geotrygon,versicolor
+CRRA,California Ridgway's Rail,Rallus,obsoletus obsoletus
+CRSE,Cinnamon-rumped Seedeater,Sporophila,torqueola
+CRSW,Costa Rican Swift,Chaetura,fumosa
+CRTH,Crissal Thrasher,Toxostoma,crissale
+CRWA,Costa Rican Warbler,Basileuterus,melanotis
+CRWO,Crowned Woodnymph,Thalurania,colombica
+CSFL,Crowned Slaty Flycatcher,Empidonomus,aurantioatrocristatus
+CSOW,California Spotted Owl,Strix,occidentalis occidentalis
+CSSS,Cape Sable Seaside-Sparrow,Ammospiza,maritima mirabilis
+CSSV,Chestnut-sided Shrike-Vireo,Vireolanius,melitophrys
+CSWA,Chestnut-sided Warbler,Setophaga,pensylvanica
+CTSP,Cinnamon-tailed Sparrow,Peucaea,sumichrasti
+CTST,Checker-throated Stipplethroat,Epinecrophylla,fulviventris
+CUBH,Cuban Black Hawk,Buteogallus,gundlachii
+CUBL,Cuban Blackbird,Ptiloxena,atroviolacea
+CUBM,Cuban Macaw,Ara,tricolor
+CUBU,Cuban Bullfinch,Melopyrrha,nigra
+CUCR,Cuban Crow,Corvus,nasicus
+CUEM,Cuban Emerald,Riccordia,ricordii
+CUGN,Cuban Gnatcatcher,Polioptila,lembeyei
+CUGR,Cuban Grassquit,Phonipara,canora
+CUKI,Cuban Kite,Chondrohierax,wilsonii
+CUMA,Cuban Martin,Progne,cryptoleuca
+CUNI,Cuban Nightjar,Antrostomus,cubanensis
+CUOR,Cuban Oriole,Icterus,melanopsis
+CUPC,Cuban Palm-Crow,Corvus,minutus
+CUPE,Cuban Pewee,Contopus,caribaeus
+CUPO,Cuban Pygmy-Owl,Glaucidium,siju
+CUSA,Curlew Sandpiper,Calidris,ferruginea
+CUSO,Cuban Solitaire,Myadestes,elisabeth
+CUTO,Cuban Tody,Todus,multicolor
+CUTR,Cuban Trogon,Priotelus,temnurus
+CUVI,Cuban Vireo,Vireo,gundlachii
+CVSH,Cape Verde Shearwater,Calonectris,edwardsii
+CWPI,Common Wood Pigeon,Columba,palumbus
+CWWI,Chuck-will's-widow,Antrostomus,carolinensis
+DAPE,Dark Pewee,Contopus,lugubris
+DBCU,Dark-billed Cuckoo,Coccyzus,melacoryphus
+DBGR,Double-banded Graytail,Xenerpestes,minlosi
+DBJA,Dusky-backed Jacamar,Brachygalba,salmoni
+DCCO,Double-crested Cormorant,Nannopterum,auritum
+DCFL,Dusky-capped Flycatcher,Myiarchus,tuberculifer
+DEJU,Dark-eyed Junco,Junco,hyemalis
+DFTA,Dusky-faced Tanager,Mitrospingus,cassinii
+DICK,Dickcissel,Spiza,americana
+DMAN,Dull-mantled Antbird,Sipia,laemosticta
+DOVE,Dovekie,Alle,alle
+DOWO,Downy Woodpecker,Dryobates,pubescens
+DSFL,Dark-sided Flycatcher,Muscicapa,sibirica
+DSSP,Dusky Seaside-Sparrow,Ammospiza,maritima nigrescens
+DSTK,Double-striped Thick-knee,Burhinus,bistriatus
+DTKI,Double-toothed Kite,Harpagus,bidentatus
+DUAN,Dusky Antbird,Cercomacroides,tyrannina
+DUFL,Dusky Flycatcher,Empidonax,oberholseri
+DUGR,Dusky Grouse,Dendragapus,obscurus
+DUHU,Dusky Hummingbird,Phaeoptila,sordida
+DUNI,Dusky Nightjar,Antrostomus,saturatus
+DUNL,Dunlin,Calidris,alpina
+DUPI,Dusky Pigeon,Patagioenas,goodsoni
+DUTH,Dusky Thrush,Turdus,eunomus
+DUWA,Dusky Warbler,Phylloscopus,fuscatus
+DWAN,Dot-winged Antwren,Microrhopias,quixensis
+DWCU,Dwarf Cuckoo,Coccycua,pumila
+DWJA,Dwarf Jay,Cyanolyca,nanus
+DWVI,Dwarf Vireo,Vireo,nelsoni
+EABL,Eastern Bluebird,Sialia,sialis
+EACT,Eastern Chat-Tanager,Calyptophilus,frugivorus
+EADO,Eared Dove,Zenaida,auriculata
+EAGR,Eared Grebe,Podiceps,nigricollis
+EAKI,Eastern Kingbird,Tyrannus,tyrannus
+EAME,Eastern Meadowlark,Sturnella,magna
+EAPH,Eastern Phoebe,Sayornis,phoebe
+EAPO,Eared Poorwill,Nyctiphrynus,mcleodii
+EAQU,Eared Quetzal,Euptilotis,neoxenus
+EASO,Eastern Screech-Owl,Megascops,asio
+EATO,Eastern Towhee,Pipilo,erythrophthalmus
+EAWP,Eastern Wood-Pewee,Contopus,virens
+EBRA,Eastern Black Rail,Laterallus,jamaicensis jamaicensis
+ECHU,Emerald-chinned Hummingbird,Abeillia,abeillei
+EGGO,Egyptian Goose,Alopochen,aegyptiaca
+EGOL,European Goldfinch,Carduelis,carduelis
+EGWT,Eurasian Green-winged Teal,Anas,crecca crecca
+EHOB,Eurasian Hobby,Falco,subbuteo
+EHOO,Eurasian Hoopoe,Upupa,epops
+ELEU,Elegant Euphonia,Chlorophonia,elegantissima
+ELOW,Elf Owl,Micrathene,whitneyi
+ELQU,Elegant Quail,Callipepla,douglasii
+ELTE,Elegant Tern,Thalasseus,elegans
+ELTR,Elegant Trogon,Trogon,elegans
+EMGO,Emperor Goose,Anser,canagicus
+EMTA,Emerald Tanager,Tangara,florida
+ERFL,Eye-ringed Flatbill,Rhynchocyclus,brevirostris
+ERFR,Erckel's Francolin,Pternistis,erckelii
+ESBD,Eastern Spot-billed Duck,Anas,zonorhyncha
+ESCU,Eskimo Curlew,Numenius,borealis
+ETSP,Eurasian Tree Sparrow,Passer,montanus
+EUBB,Eurasian Blackbird,Turdus,merula
+EUBC,Eurasian Blackcap,Sylvia,atricapilla
+EUBU,Eurasian Bullfinch,Pyrrhula,pyrrhula
+EUCD,Eurasian Collared-Dove,Streptopelia,decaocto
+EUCO,Eurasian Coot,Fulica,atra
+EUCU,Eurasian Curlew,Numenius,arquata
+EUDO,Eurasian Dotterel,Charadrius,morinellus
+EUFL,Euler's Flycatcher,Lathrotriccus,euleri
+EUGO,Eurasian Goshawk,Accipiter,gentilis
+EUGP,European Golden-Plover,Pluvialis,apricaria
+EUJA,Eurasian Jackdaw,Corvus,monedula
+EUKE,Eurasian Kestrel,Falco,tinnunculus
+EUOY,Eurasian Oystercatcher,Haematopus,ostralegus
+EURO,European Robin,Erithacus,rubecula
+EURS,Eurasian Spoonbill,Platalea,leucorodia
+EUSI,Eurasian Siskin,Spinus,spinus
+EUSK,Eurasian Skylark,Alauda,arvensis
+EUSP,European Storm-Petrel,Hydrobates,pelagicus
+EUST,European Starling,Sturnus,vulgaris
+EUTD,European Turtle-Dove,Streptopelia,turtur
+EUWI,Eurasian Wigeon,Mareca,penelope
+EUWO,Eurasian Woodcock,Scolopax,rusticola
+EUWR,Eurasian Wryneck,Jynx,torquilla
+EVGR,Evening Grosbeak,Coccothraustes,vespertinus
+EWCS,Eastern White-crowned Sparrow,Zonotrichia,leucophrys leucophrys
+EWME,Eastern/Western Meadowlark,Sturnella,magna/neglecta
+EWPW,Eastern Whip-poor-will,Antrostomus,vociferus
+EWWA,Elfin-woods Warbler,Setophaga,angelae
+EYTH,Eyebrowed Thrush,Turdus,obscurus
+EYWA,Eastern Yellow Wagtail,Motacilla,tschutschensis
+FAAN,Fasciated Antshrike,Cymbilaimus,lineatus
+FADU,Falcated Duck,Mareca,falcata
+FBAR,Fiery-billed Aracari,Pteroglossus,frantzii
+FBVI,Flat-billed Vireo,Vireo,nanus
+FCTA,Flame-colored Tanager,Piranga,bidentata
+FECU,Far Eastern Curlew,Numenius,madagascariensis
+FEFL,Fernandina's Flicker,Colaptes,fernandinae
+FEHA,Ferruginous Hawk,Buteo,regalis
+FEPE,Fea's Petrel,Pterodroma,feae
+FEPO,Ferruginous Pygmy-Owl,Glaucidium,brasilianum
+FFSH,Flesh-footed Shearwater,Ardenna,carneipes
+FGSP,Florida Grasshopper Sparrow,Ammodramus,savannarum floridanus
+FICR,Fish Crow,Corvus,ossifragus
+FIEL,Fieldfare,Turdus,pilaris
+FISP,Field Sparrow,Spizella,pusilla
+FLFL,Flammulated Flycatcher,Ramphotrigon,flammulatum
+FLIN,Flicker Intergrade,Colaptes,auratus auratus x cafer
+FLOW,Flammulated Owl,Psiloscops,flammeolus
+FLSJ,Florida Scrub-Jay,Aphelocoma,coerulescens
+FOEL,Forest Elaenia,Myiopagis,gaimardii
+FOSP,Fox Sparrow,Passerella,iliaca
+FOTE,Forster's Tern,Sterna,forsteri
+FOTH,Forest Thrush,Turdus,lherminieri
+FRGU,Franklin's Gull,Leucophaeus,pipixcan
+FRTA,Flame-rumped Tanager,Ramphocelus,flammigerus
+FSSP,Five-striped Sparrow,Amphispizopsis,quinquestriata
+FTFL,Fork-tailed Flycatcher,Tyrannus,savana
+FTHE,Fasciated Tiger-Heron,Tigrisoma,fasciatum
+FTHU,Fiery-throated Hummingbird,Panterpe,insignis
+FTHW,Flame-throated Warbler,Oreothlypis,gutturalis
+FTSP,Fork-tailed Storm-Petrel,Hydrobates,furcatus
+FTSW,Fork-tailed Swift,Apus,pacificus
+FTWA,Fan-tailed Warbler,Basileuterus,lachrymosus
+FUOW,Fulvous Owl,Strix,fulvescens
+FUWD,Fulvous Whistling-Duck,Dendrocygna,bicolor
+FVEU,Fulvous-vented Euphonia,Euphonia,fulvicrissa
+GABU,Greater Antillean Bullfinch,Melopyrrha,violacea
+GADW,Gadwall,Mareca,strepera
+GAEL,Greater Antillean Elaenia,Elaenia,fallax
+GAEM,Garden Emerald,Chlorostilbon,assimilis
+GAGR,Greater Antillean Grackle,Quiscalus,niger
+GAGT,Gray-and-gold Tanager,Poecilostreptus,palmeri
+GANT,Great Antshrike,Taraba,major
+GAPE,Galapagos Petrel,Pterodroma,phaeopygia
+GAQU,Gambel's Quail,Callipepla,gambelii
+GARG,Garganey,Spatula,querquedula
+GARK,Green-and-rufous Kingfisher,Chloroceryle,inda
+GASH,Galapagos Shearwater,Puffinus,subalaris
+GATH,Garnet-throated Hummingbird,Lamprolaima,rhami
+GATR,Gartered Trogon,Trogon,caligatus
+GBAN,Groove-billed Ani,Crotophaga,sulcirostris
+GBAT,Gray-backed Tern,Onychoprion,lunatus
+GBBG,Great Black-backed Gull,Larus,marinus
+GBCH,Golden-browed Chlorophonia,Chlorophonia,callophrys
+GBCR,Gray-breasted Crake,Laterallus,exilis
+GBEH,Gray-bellied Hawk,Accipiter,poliogaster
+GBFL,Golden-bellied Flycatcher,Myiodynastes,hemichrysus
+GBHA,Great Black Hawk,Buteogallus,urubitinga
+GBHE,Great Blue Heron,Ardea,herodias
+GBMG,Green-breasted Mountain-gem,Lampornis,sybillae
+GBSP,Green-backed Sparrow,Arremonops,chloronotus
+GBTE,Gull-billed Tern,Gelochelidon,nilotica
+GBWA,Golden-browed Warbler,Basileuterus,belli
+GBWH,Blue-wg. x Golden-wg. Warbler Hybrid,Vermivora,hybrid
+GBWO,Gray-breasted Woodpecker,Melanerpes,hypopolius
+GBWR,Gray-barred Wren,Campylorhynchus,megalopterus
+GBWW,Gray-breasted Wood-Wren,Henicorhina,leucophrys
+GCAF,Gray-capped Flycatcher,Myiozetetes,granadensis
+GCAT,Grand Cayman Thrush,Turdus,ravidus
+GCBE,Gray-collared Becard,Pachyramphus,major
+GCBR,Green-crowned Brilliant,Heliodoxa,jacula
+GCBT,Gray-cheeked/Bicknell's Thrush,Catharus,minimus/bicknelli
+GCBU,Grand Cayman Bullfinch,Melopyrrha,taylori
+GCCU,Gray-capped Cuckoo,Coccyzus,lansbergi
+GCDO,Gray-chested Dove,Leptotila,cassinii
+GCEM,Golden-crowned Emerald,Cynanthus,auriceps
+GCFL,Great Crested Flycatcher,Myiarchus,crinitus
+GCHW,Golden-cheeked Woodpecker,Melanerpes,chrysogenys
+GCKI,Golden-crowned Kinglet,Regulus,satrapa
+GCMA,Golden-collared Manakin,Manacus,vitellinus
+GCNU,Gray-cheeked Nunlet,Nonnula,frontalis
+GCPT,Gray-crowned Palm-Tanager,Phaenicophilus,poliocephalus
+GCRF,Gray-crowned Rosy-Finch,Leucosticte,tephrocotis
+GCRS,Golden-crowned Spadebill,Platyrinchus,coronatus
+GCRW,Golden-crowned Warbler,Basileuterus,culicivorus
+GCSP,Golden-crowned Sparrow,Zonotrichia,atricapilla
+GCTE,Great Crested Tern,Thalasseus,bergii
+GCTH,Gray-cheeked Thrush,Catharus,minimus
+GCWA,Golden-cheeked Warbler,Setophaga,chrysoparia
+GCWR,Gray-cowled Wood-Rail,Aramides,cajaneus
+GCYE,Gray-crowned Yellowthroat,Geothlypis,poliocephala
+GFGR,Golden-fronted Greenlet,Pachysylvia,aurantiifrons
+GFHU,Green-fronted Hummingbird,Ramosomyia,viridifrons
+GFLY,Grenada Flycatcher,Myiarchus,nugator
+GFPE,Gray-faced Petrel,Pterodroma,gouldi
+GFQD,Gray-fronted Quail-Dove,Geotrygon,caniceps
+GFRL,Green-fronted Lancebill,Doryfera,ludovicae
+GFWO,Golden-fronted Woodpecker,Melanerpes,aurifrons
+GGMA,Great Green Macaw,Ara,ambiguus
+GGOW,Great Gray Owl,Strix,nebulosa
+GGWO,Golden-green Woodpecker,Piculus,chrysochloros
+GHCH,Gray-headed Chickadee,Poecile,cinctus
+GHDO,Gray-headed Dove,Leptotila,plumbeiceps
+GHEC,Gray-headed Chachalaca,Ortalis,cinereiceps
+GHET,Gray-headed Tanager,Eucometis,penicillata
+GHGU,Gray-hooded Gull,Chroicocephalus,cirrocephalus
+GHJU,Gray-headed Junco,Junco,hyemalis caniceps
+GHKI,Gray-headed Kite,Leptodon,cayanensis
+GHMA,Golden-headed Manakin,Ceratopipra,erythrocephala
+GHOT,Golden-hooded Tanager,Stilpnia,larvata
+GHOW,Great Horned Owl,Bubo,virginianus
+GHPI,Gray-headed Piprites,Piprites,griseiceps
+GHQU,Golden-headed Quetzal,Pharomachrus,auriceps
+GICO,Giant Cowbird,Molothrus,oryzivorus
+GIFL,Gilded Flicker,Colaptes,chrysoides
+GIKI,Giant Kingbird,Tyrannus,cubensis
+GIWO,Gila Woodpecker,Melanerpes,uropygialis
+GIWR,Giant Wren,Campylorhynchus,chiapensis
+GKIN,Green Kingfisher,Chloroceryle,americana
+GKIS,Great Kiskadee,Pitangus,sulphuratus
+GLGU,Glaucous Gull,Larus,hyperboreus
+GLHA,Gray-lined Hawk,Buteo,nitidus
+GLIB,Glossy Ibis,Plegadis,falcinellus
+GLTH,Glow-throated Hummingbird,Selasphorus,ardens
+GMAG,Green Mango,Anthracothorax,viridis
+GMAK,Green Manakin,Cryptopipo,holochlora
+GNBM,Green-breasted Mango,Anthracothorax,prevostii
+GNLA,Greater Necklaced Laughingthrush,Garrulax,pectoralis
+GNTA,Green-naped Tanager,Tangara,fucosa
+GNWO,Golden-naped Woodpecker,Melanerpes,chrysauchen
+GOEA,Golden Eagle,Aquila,chrysaetos
+GOSW,Golden Swallow,Tachycineta,euchrysea
+GOVI,Golden Vireo,Vireo,hypochryseus
+GOWO,Golden-olive Woodpecker,Colaptes,rubiginosus
+GRAE,Gray Elaenia,Myiopagis,caniceps
+GRAF,Gray Francolin,Francolinus,pondicerianus
+GRAH,Gray Heron,Ardea,cinerea
+GRAK,Gray Kingbird,Tyrannus,dominicensis
+GRAM,Greater Amakihi,Viridonia,sagittirostris
+GRAP,Gray Partridge,Perdix,perdix
+GRAT,Gray Thrasher,Toxostoma,cinereum
+GRAU,Great Auk,Pinguinus,impennis
+GRAW,Gray Wagtail,Motacilla,cinerea
+GRBU,Gray Bunting,Emberiza,variabilis
+GRCA,Gray Catbird,Dumetella,carolinensis
+GRCO,Great Cormorant,Phalacrocorax,carbo
+GRCU,Great Curassow,Crax,rubra
+GRCW,Gray-crowned Woodpecker,Colaptes,auricularis
+GRDO,Grenada Dove,Leptotila,wellsi
+GREF,Great Frigatebird,Fregata,minor
+GREG,Great Egret,Ardea,alba
+GREH,Green Hermit,Phaethornis,guy
+GREJ,Great Jacamar,Jacamerops,aureus
+GREL,Greenish Elaenia,Myiopagis,viridicata
+GREP,Green Parakeet,Psittacara,holochlorus
+GRET,Green Thorntail,Discosura,conversii
+GRFL,Gray Flycatcher,Empidonax,wrightii
+GRGO,Graylag Goose,Anser,anser
+GRGU,Gray Gull,Leucophaeus,modestus
+GRHA,Gray Hawk,Buteo,plagiatus
+GRHE,Green Heron,Butorides,virescens
+GRHO,Green Honeycreeper,Chlorophanes,spiza
+GRIB,Green Ibis,Mesembrinibis,cayennensis
+GRJA,Green Jay,Cyanocorax,yncas
+GRKF,Greater Koa-Finch,Rhodacanthis,palmeri
+GRKN,Great Knot,Calidris,tenuirostris
+GRLC,Great Lizard-Cuckoo,Coccyzus,merlini
+GRNI,Gray Nightjar,Caprimulgus,jotaka
+GRPC,Greater Prairie-Chicken,Tympanuchus,cupido
+GRPE,Greater Pewee,Contopus,pertinax
+GRPO,Great Potoo,Nyctibius,grandis
+GRPU,Greenish Puffleg,Haplophaedia,aureliae
+GRRO,Greater Roadrunner,Geococcyx,californianus
+GRSA,Green Sandpiper,Tringa,ochropus
+GRSC,Greater Scaup,Aythya,marila
+GRSF,Gray Silky-flycatcher,Ptiliogonys,cinereus
+GRSG,Greater Sage-Grouse,Centrocercus,urophasianus
+GRSH,Great Shearwater,Ardenna,gravis
+GRSK,Great Skua,Stercorarius,skua
+GRSP,Grasshopper Sparrow,Ammodramus,savannarum
+GRSV,Green Shrike-Vireo,Vireolanius,pulchellus
+GRSW,Gray-rumped Swift,Chaetura,cinereiventris
+GRTA,Greater Ani,Crotophaga,major
+GRTI,Great Tinamou,Tinamus,major
+GRTR,Gray Trembler,Cinclocerthia,gutturalis
+GRUP,Green-rumped Parrotlet,Forpus,passerinus
+GRVI,Gray Vireo,Vireo,vicinior
+GRWA,Grace's Warbler,Setophaga,graciae
+GRWR,Grass Wren,Cistothorus,platensis
+GRYE,Greater Yellowlegs,Tringa,melanoleuca
+GRYF,Grassland Yellow-Finch,Sicalis,luteola
+GSAP,Greater Sand-Plover,Charadrius,leschenaultii
+GSBR,Green-striped Brushfinch,Arremon,virenticeps
+GSFL,Gray-streaked Flycatcher,Muscicapa,griseisticta
+GSGB,Greater Snow Goose Blue-morph,Anser,caerulescens atlantica
+GSGI,Greater Snow Goose Intermediate-morph,Anser,caerulescens atlantica
+GSGW,Greater Snow Goose White-morph,Anser,caerulescens atlantica
+GSTS,Great Swallow-tailed Swift,Panyptila,sanctihieronymi
+GSWO,Great Spotted Woodpecker,Dendrocopos,major
+GTCA,Green-throated Carib,Eulampis,holosericeus
+GTCH,Gray-throated Chat,Granatellus,sallaei
+GTGR,Great-tailed Grackle,Quiscalus,mexicanus
+GTLE,Gray-throated Leaftosser,Sclerurus,albigularis
+GTMG,Green-throated Mountain-gem,Lampornis,viridipallens
+GTTA,Gray-tailed Tattler,Tringa,brevipes
+GTTO,Green-tailed Towhee,Pipilo,chlorurus
+GTWA,Green-tailed Warbler,Microligea,palustris
+GUCA,Guadalupe Caracara,Caracara,lutosa
+GUHA,Gundlach's Hawk,Accipiter,gundlachi
+GUJU,Guadalupe Junco,Junco,insularis
+GUMU,Guadalupe Murrelet,Synthliboramphus,hypoleucus
+GUSG,Gunnison Sage-Grouse,Centrocercus,minimus
+GUSP,Guadalupe Storm-Petrel,Hydrobates,macrodactylus
+GUTY,Guatemalan Tyrannulet,Zimmerius,vilissimus
+GUWO,Guadeloupe Woodpecker,Melanerpes,herminieri
+GWCS,Gambel's White-crowned Sparrow,Zonotrichia,leucophrys gambelii
+GWFG,Greater White-fronted Goose,Anser,albifrons
+GWGU,Glaucous-winged Gull,Larus,glaucescens
+GWHE,Great White Heron,Ardea,herodias occidentalis
+GWTE,Green-winged Teal,Anas,crecca
+GWWA,Golden-winged Warbler,Vermivora,chrysoptera
+GYBM,Gray-breasted Martin,Progne,chalybea
+GYRF,Gyrfalcon,Falco,rusticolus
+HAAK,Hawaii Akepa,Loxops,coccineus
+HAAM,Hawaii Amakihi,Chlorodrepanis,virens
+HACO,Hawaiian Coot,Fulica,alai
+HADU,Harlequin Duck,Histrionicus,histrionicus
+HAEA,Harpy Eagle,Harpia,harpyja
+HAEL,Hawaii Elepaio,Chasiempis,sandwichensis
+HAFL,Hammond's Flycatcher,Empidonax,hammondii
+HAGA,Hawaiian Gallinule,Gallinula,galeata sandvicensis
+HAGO,Hawaiian Goose,Branta,sandvicensis
+HAHA,Harris's Hawk,Parabuteo,unicinctus
+HAMA,Hawaii Mamo,Drepanis,pacifica
+HAOO,Hawaii Oo,Moho,nobilis
+HAPE,Hawaiian Petrel,Pterodroma,sandwichensis
+HARA,Hawaiian Rail,Zapornia,sandwichensis
+HASP,Harris's Sparrow,Zonotrichia,querula
+HAST,Hawaiian Stilt,Himantopus,mexicanus knudseni
+HAWD,Hawaiian Duck,Anas,wyvilliana
+HAWF,Hawfinch,Coccothraustes,coccothraustes
+HAWH,Hawaiian Hawk,Buteo,solitarius
+HAWO,Hairy Woodpecker,Dryobates,villosus
+HAWR,Happy Wren,Pheugopedius,felix
+HBKI,Hook-billed Kite,Chondrohierax,uncinatus
+HCRE,Hawaii Creeper,Loxops,mana
+HCRO,Hawaiian Crow,Corvus,hawaiiensis
+HCRW,Hooded Crow,Corvus,cornix
+HDFL,Hammond's/Dusky Flycatcher,Empidonax,hammondii/oberholseri
+HEEG,Heermann's Gull,Larus,heermanni
+HELG,Helmeted Guineafowl,Numida,meleagris
+HEPE,Herald Petrel,Pterodroma,heraldica
+HERG,Herring Gull,Larus,argentatus
+HESP,Henslow's Sparrow,Centronyx,henslowii
+HETA,Hepatic Tanager,Piranga,flava
+HETH,Hermit Thrush,Catharus,guttatus
+HEWA,Hermit Warbler,Setophaga,occidentalis
+HICR,Hispaniolan Crossbill,Loxia,megaplaga
+HIEM,Hispaniolan Emerald,Riccordia,swainsonii
+HIEU,Hispaniolan Euphonia,Chlorophonia,musica
+HIGU,Highland Guan,Penelopina,nigra
+HILC,Hispaniolan Lizard-Cuckoo,Coccyzus,longirostris
+HIMA,Hispaniolan Mango,Anthracothorax,dominicus
+HINI,Hispaniolan Nightjar,Antrostomus,ekmani
+HIOR,Hispaniolan Oriole,Icterus,dominicensis
+HIPC,Hispaniolan Palm-Crow,Corvus,palmarum
+HIPE,Hispaniolan Pewee,Contopus,hispaniolensis
+HISN,Himalayan Snowcock,Tetraogallus,himalayensis
+HISP,Hispaniolan Spindalis,Spindalis,dominicensis
+HITI,Highland Tinamou,Nothocercus,bonapartei
+HITR,Hispaniolan Trogon,Priotelus,roseigaster
+HIWO,Hispaniolan Woodpecker,Melanerpes,striatus
+HOCR,Hooded Crane,Grus,monacha
+HOEM,Honduran Emerald,Amazilia,luciae
+HOFI,House Finch,Haemorhous,mexicanus
+HOGR,Horned Grebe,Podiceps,auritus
+HOGU,Horned Guan,Oreophasis,derbianus
+HOLA,Horned Lark,Eremophila,alpestris
+HOME,Hooded Merganser,Lophodytes,cucullatus
+HOOG,Hooded Grosbeak,Coccothraustes,abeillei
+HOOR,Hooded Oriole,Icterus,cucullatus
+HOPU,Horned Puffin,Fratercula,corniculata
+HORE,Hoary Redpoll,Acanthis,hornemanni
+HOSP,House Sparrow,Passer,domesticus
+HOWA,Hooded Warbler,Setophaga,citrina
+HOWO,Hoffmann's Woodpecker,Melanerpes,hoffmannii
+HOWR,House Wren,Troglodytes,aedon
+HOYE,Hooded Yellowthroat,Geothlypis,nelsoni
+HPAK,Hispaniolan Parakeet,Psittacara,chloropterus
+HPAT,Hispaniolan Parrot,Amazona,ventralis
+HRLH,Harlan's Hawk,Buteo,jamaicensis harlani
+HUGO,Hudsonian Godwit,Limosa,haemastica
+HUSA,Humboldt's Sapphire,Chrysuronia,humboldtii
+HUVI,Hutton's Vireo,Vireo,huttoni
+HWAM,Hwamei,Garrulax,canorus
+HYBL,Hybrid Bluebird,Sialia,hybrid
+HYCH,Hybrid Chickadee,Poecile,hybrid
+HYHU,Hybrid Hummingbird,Trochilidae,hybrid
+HYSA,Hybrid Sapsucker,Sphyrapicus,hybrid
+HYTO,Hybrid Towhee,Pipilo,hybrid
+HYWA,Hybrid Warbler,Parulidae,hybrid
+IBIW,Ivory-billed Woodcreeper,Xiphorhynchus,flavigaster
+IBWO,Ivory-billed Woodpecker,Campephilus,principalis
+ICGU,Iceland Gull,Larus,glaucoides
+ICTO,Inyo California Towhee,Melozone,crissalis eremophilus
+IIWI,Iiwi,Drepanis,coccinea
+ILBH,Indigo X Lazuli Bunting Hybrid,Passerina,cyanea x amoena
+ILTE,Interior Least Tern,Sternula,antillarum athalassos
+IMPA,Imperial Parrot,Amazona,imperialis
+IMWO,Imperial Woodpecker,Campephilus,imperialis
+INBU,Indigo Bunting,Passerina,cyanea
+INDO,Inca Dove,Columbina,inca
+INEG,Intermediate Egret,Ardea,intermedia
+INPE,Indian Peafowl,Pavo,cristatus
+INSI,Indian Silverbill,Euodice,malabarica
+INTE,Inca Tern,Larosterna,inca
+INWO,Inagua Woodstar,Nesophlox,lyrura
+IPSP,Ipswich Sparrow,Passerculus,sandwichensis princeps
+ISCA,Island Canary,Serinus,canaria
+ISSJ,Island Scrub-Jay,Aphelocoma,insularis
+ISWR,Isthmian Wren,Cantorchilus,elutus
+IVGU,Ivory Gull,Pagophila,eburnea
+JABE,Jamaican Becard,Pachyramphus,niger
+JABI,Jabiru,Jabiru,mycteria
+JABL,Jamaican Blackbird,Nesopsar,nigerrimus
+JABW,Japanese Bush-Warbler,Horornis,diphone
+JACR,Jamaican Crow,Corvus,jamaicensis
+JAEL,Jamaican Elaenia,Myiopagis,cotta
+JAEU,Jamaican Euphonia,Euphonia,jamaica
+JALC,Jamaican Lizard-Cuckoo,Coccyzus,vetula
+JAMA,Jamaican Mango,Anthracothorax,mango
+JAMS,Jamaican Spindalis,Spindalis,nigricephala
+JAOR,Jamaican Oriole,Icterus,leucopteryx
+JAOW,Jamaican Owl,Asio,grammicus
+JAPA,Jamaican Pauraque,Siphonorhis,americana
+JAPE,Jamaican Pewee,Contopus,pallidus
+JAQU,Japanese Quail,Coturnix,japonica
+JASN,Jack Snipe,Lymnocryptes,minimus
+JASP,Java Sparrow,Padda,oryzivora
+JATO,Jamaican Tody,Todus,todus
+JAVI,Jamaican Vireo,Vireo,modestus
+JAWO,Jamaican Woodpecker,Melanerpes,radiolatus
+JEAN,Jet Antbird,Cercomacra,nigricans
+JFPE,Juan Fernandez Petrel,Pterodroma,externa
+JOPE,Jouanin's Petrel,Bulweria,fallax
+JUTI,Juniper Titmouse,Baeolophus,ridgwayi
+KAAK,Kauai Akialoa,Akialoa,stejnegeri
+KAAM,Kauai Amakihi,Chlorodrepanis,stejnegeri
+KAEL,Kauai Elepaio,Chasiempis,sclateri
+KAKA,Kakawahie,Paroreomyza,flammea
+KAMA,Kamao,Myadestes,myadestinus
+KANU,Kauai Nukupuu,Hemignathus,hanapepe
+KAOO,Kauai Oo,Moho,braccatus
+KAPH,Kalij Pheasant,Lophura,leucomelanos
+KBMO,Keel-billed Motmot,Electron,carinatum
+KBTO,Keel-billed Toucan,Ramphastos,sulfuratus
+KEGU,Kelp Gull,Larus,dominicanus
+KEPE,Kermadec Petrel,Pterodroma,neglecta
+KEWA,Kentucky Warbler,Geothlypis,formosa
+KIEI,King Eider,Somateria,spectabilis
+KILL,Killdeer,Charadrius,vociferus
+KIMU,Kittlitz's Murrelet,Brachyramphus,brevirostris
+KIOE,Kioea,Chaetoptila,angustipluma
+KIRA,King Rail,Rallus,elegans
+KIVU,King Vulture,Sarcoramphus,papa
+KIWA,Kirtland's Warbler,Setophaga,kirtlandii
+KLWA,Kamchatka Leaf Warbler,Phylloscopus,examinandus
+KOGR,Kona Grosbeak,Chloridops,kona
+KUGU,Kumlien's Gull,Larus,glaucoides kumlieni
+KWQD,Key West Quail-Dove,Geotrygon,chrysia
+LAAL,Laysan Albatross,Phoebastria,immutabilis
+LABD,Labrador Duck,Camptorhynchus,labradorius
+LAEU,Lesser Antillean Euphonia,Chlorophonia,flavifrons
+LAFA,Laughing Falcon,Herpetotheres,cachinnans
+LAFI,Laysan Finch,Telespiza,cantans
+LAFL,Lesser Antillean Flycatcher,Myiarchus,oberi
+LAGO,Lawrence's Goldfinch,Spinus,lawrencei
+LAGU,Laughing Gull,Leucophaeus,atricilla
+LALO,Lapland Longspur,Calcarius,lapponicus
+LAMO,Lanceolated Monklet,Micromonacha,lanceolata
+LANB,Lesser Antillean Bullfinch,Loxigilla,noctis
+LANH,Lanai Hookbill,Dysmorodrepanis,munroi
+LANW,Lanceolated Warbler,Locustella,lanceolata
+LAPE,Lesser Antillean Pewee,Contopus,latirostris
+LARA,Laysan Rail,Zapornia,palmeri
+LARB,Lark Bunting,Calamospiza,melanocorys
+LASA,Lesser Antillean Saltator,Saltator,albicollis
+LASP,Lark Sparrow,Chondestes,grammacus
+LASW,Lesser Antillean Swift,Chaetura,martinica
+LATA,Lesser Antillean Tanager,Stilpnia,cucullata
+LATM,Lance-tailed Manakin,Chiroxiphia,lanceolata
+LAVW,Lavender Waxbill,Glaucestrilda,caerulescens
+LAWA,Lawrence's Warbler,Vermivora,cyanoptera x chrysoptera
+LAYD,Laysan Duck,Anas,laysanensis
+LAYH,Laysan Honeycreeper,Himatione,fraithii
+LAZB,Lazuli Bunting,Passerina,amoena
+LBBG,Lesser Black-backed Gull,Larus,fuscus
+LBCU,Long-billed Curlew,Numenius,americanus
+LBDO,Long-billed Dowitcher,Limnodromus,scolopaceus
+LBFH,Laysan X Black-foot. Albatross Hybrid,Phoebastria,immutabilis x nigripes
+LBGN,Long-billed Gnatwren,Ramphocaenus,melanurus
+LBHE,Little Blue Heron,Egretta,caerulea
+LBIH,Long-billed Hermit,Phaethornis,longirostris
+LBMU,Long-billed Murrelet,Brachyramphus,perdix
+LBSF,Large-billed Seed-Finch,Sporophila,crassirostris
+LBSP,Large-billed Sparrow,Passerculus,sandwichensis rostratus
+LBST,Long-billed Starthroat,Heliomaster,longirostris
+LBTE,Large-billed Tern,Phaetusa,simplex
+LBTH,Long-billed Thrasher,Toxostoma,longirostre
+LBVI,Least Bell's Vireo,Vireo,bellii pusillus
+LBWO,Ladder-backed Woodpecker,Dryobates,scalaris
+LCGO,Large Canada Goose,Branta,canadensis moffitti
+LCPA,Lilac-crowned Parrot,Amazona,finschi
+LCSP,LeConte's Sparrow,Ammospiza,leconteii
+LCTH,LeConte's Thrasher,Toxostoma,lecontei
+LEAK,Lesser Akialoa,Akialoa,obscura
+LEAU,Least Auklet,Aethia,pusilla
+LEBI,Least Bittern,Ixobrychus,exilis
+LEEL,Lesser Elaenia,Elaenia,chiriquensis
+LEFL,Least Flycatcher,Empidonax,minimus
+LEFR,Lesser Frigatebird,Fregata,ariel
+LEGC,Lesser Ground-Cuckoo,Morococcyx,erythropygus
+LEGO,Lesser Goldfinch,Spinus,psaltria
+LEGP,Lesser Golden-Plover,Pluvialis,dominica/fulva
+LEGR,Least Grebe,Tachybaptus,dominicus
+LEKF,Lesser Koa-Finch,Rhodacanthis,flaviceps
+LEKI,Lesser Kiskadee,Philohydor,lictor
+LEMO,Lesson's Motmot,Momotus,lessonii
+LENI,Lesser Nighthawk,Chordeiles,acutipennis
+LEOW,Long-eared Owl,Asio,otus
+LEPA,Least Pauraque,Siphonorhis,brewsteri
+LEPC,Lesser Prairie-Chicken,Tympanuchus,pallidicinctus
+LERE,Lesser Redpoll,Acanthis,cabaret
+LERO,Lesser Roadrunner,Geococcyx,velox
+LESA,Least Sandpiper,Calidris,minutilla
+LESC,Lesser Scaup,Aythya,affinis
+LESE,Lesson's Seedeater,Sporophila,bouvronides
+LESG,Lesser Greenlet,Pachysylvia,decurtata
+LESP,Leach's Storm-Petrel,Hydrobates,leucorhous
+LETE,Least Tern,Sternula,antillarum
+LEVI,Lesser Violetear,Colibri,cyanotus
+LEWH,Lesser Whitethroat,Sylvia,curruca
+LEWO,Lewis's Woodpecker,Melanerpes,lewis
+LEYE,Lesser Yellowlegs,Tringa,flavipes
+LFFI,Large-footed Finch,Pezopetes,capitalis
+LFRR,Light-footed Ridgway's Rail,Rallus,obsoletus levipes
+LIBI,Little Bittern,Ixobrychus,minutus
+LIBU,Little Bunting,Emberiza,pusilla
+LICU,Little Curlew,Numenius,minutus
+LIEG,Little Egret,Egretta,garzetta
+LIFG,Lineated Foliage-gleaner,Syndactyla,subalaris
+LIGU,Little Gull,Hydrocoloeus,minutus
+LIMP,Limpkin,Aramus,guarauna
+LISE,Lined Seedeater,Sporophila,lineola
+LISP,Lincoln's Sparrow,Melospiza,lincolnii
+LIST,Little Stint,Calidris,minuta
+LITC,Little Cuckoo,Coccycua,minuta
+LITE,Little Tern,Sternula,albifrons
+LITI,Little Tinamou,Crypturellus,soui
+LIWO,Lineated Woodpecker,Dryocopus,lineatus
+LLBU,Long-legged Buzzard,Buteo,rufinus
+LMAL,Light-mantled Albatross,Phoebetria,palpebrata
+LOCO,Lovely Cotinga,Cotinga,amabilis
+LOKI,Loggerhead Kingbird,Tyrannus,caudifasciatus
+LOSH,Loggerhead Shrike,Lanius,ludovicianus
+LOTM,Long-tailed Manakin,Chiroxiphia,linearis
+LOWA,Louisiana Waterthrush,Parkesia,motacilla
+LRPL,Little Ringed Plover,Charadrius,dubius
+LSAP,Lesser Sand-Plover,Charadrius,mongolus
+LSFL,La Sagra's Flycatcher,Myiarchus,sagrae
+LSGB,Lesser Snow Goose Blue-morph,Anser,caerulescens caerulescens
+LSGI,Lesser Snow Goose Intermediate-morph,Anser,caerulescens caerulescens
+LSGW,Lesser Snow Goose White-morph,Anser,caerulescens caerulescens
+LSTA,Lemon-spectacled Tanager,Chlorothraupis,olivacea
+LSTH,La Selle Thrush,Turdus,swalesi
+LSTP,Least Storm-Petrel,Hydrobates,microsoma
+LSTS,Lesser Swallow-tailed Swift,Panyptila,cayennensis
+LTDU,Long-tailed Duck,Clangula,hyemalis
+LTJA,Long-tailed Jaeger,Stercorarius,longicaudus
+LTSF,Long-tailed Silky-flycatcher,Ptiliogonys,caudatus
+LTST,Long-toed Stint,Calidris,subminuta
+LTTR,Lattice-tailed Trogon,Trogon,clathratus
+LTTY,Long-tailed Tyrant,Colonia,colonus
+LTWO,Long-tailed Woodcreeper,Deconychura,longicauda
+LTWP,Long-tailed Wood-Partridge,Dendrortyx,macroura
+LUHU,Lucifer Hummingbird,Calothorax,lucifer
+LUWA,Lucy's Warbler,Leiothlypis,luciae
+LWFG,Lesser White-fronted Goose,Anser,erythropus
+LWHA,Long-winged Harrier,Circus,buffoni
+LYHV,Lesser Yellow-headed Vulture,Cathartes,burrovianus
+MAAK,Maui Akepa,Loxops,ochraceus
+MAAL,Maui Alauahio,Paroreomyza,montana
+MAAN,Mayan Antthrush,Formicarius,moniliger
+MABO,Masked Booby,Sula,dactylatra
+MACU,Mangrove Cuckoo,Coccyzus,minor
+MADU,Masked Duck,Nomonyx,dominicus
+MAFR,Magnificent Frigatebird,Fregata,magnificens
+MAGO,Marbled Godwit,Limosa,fedoa
+MAHU,Mangrove Hummingbird,Amazilia,boucardi
+MALL,Mallard,Anas,platyrhynchos
+MAMU,Marbled Murrelet,Brachyramphus,marmoratus
+MANS,Mangrove Swallow,Tachycineta,albilinea
+MANU,Maui Nukupuu,Hemignathus,affinis
+MANW,Mangrove Warbler,Setophaga,petechia erithachorides
+MAOR,Martinique Oriole,Icterus,bonana
+MAPA,Maui Parrotbill,Pseudonestor,xanthophrys
+MARA,Mangrove Rail,Rallus,longirostris
+MASA,Marsh Sandpiper,Tringa,stagnatilis
+MASH,Manx Shearwater,Puffinus,puffinus
+MASO,Middle American Screech-Owl,Megascops,guatemalae
+MASP,Markham's Storm-Petrel,Hydrobates,markhami
+MAST,Maguari Stork,Ciconia,maguari
+MASW,Mariana Swiftlet,Aerodramus,bartschi
+MATI,Masked Tityra,Tityra,semifasciata
+MAVI,Mangrove Vireo,Vireo,pallens
+MAWA,Magnolia Warbler,Setophaga,magnolia
+MAWQ,Marbled Wood-Quail,Odontophorus,gujanensis
+MAWR,Marsh Wren,Cistothorus,palustris
+MBDH,Mallard X American Black Duck Hybrid,Anas,platyrhynchos x rubripes
+MCGD,Maroon-chested Ground Dove,Paraclaravis,mondetoura
+MCGO,Minima Cackling Goose,Branta,hutchinsii minima
+MCTY,Mouse-colored Tyrannulet,Nesotriccus,murinus
+MEAP,Mealy Parrot,Amazona,farinosa
+MEBL,Melodious Blackbird,Dives,dives
+MECH,Mexican Chickadee,Poecile,sclateri
+MEDU,Mexican Duck,Anas,diazi
+MEHE,Mexican Hermit,Phaethornis,mexicanus
+MEJA,Mexican Jay,Aphelocoma,wollweberi
+MEPI,Meadow Pipit,Anthus,pratensis
+MERL,Merlin,Falco,columbarius
+MESH,Mexican Sheartail,Doricha,eliza
+MEVI,Mexican Violetear,Colibri,thalassinus
+MEWO,Mexican Woodnymph,Eupherusa,ridgwayi
+MEXP,Mexican Parrotlet,Forpus,cyanopygius
+MFPA,Maroon-fronted Parrot,Rhynchopsitta,terrisi
+MGRW,Middendorff's Grasshopper Warbler,Helopsaltes,ochotensis
+MGWA,MacGillivray's Warbler,Geothlypis,tolmiei
+MHDH,Mallard X Hawaiian Duck Hybrid,Anas,platyrhynchos x wyvilliana
+MIKI,Mississippi Kite,Ictinia,mississippiensis
+MILL,Millerbird,Acrocephalus,familiaris
+MIMA,Military Macaw,Ara,militaris
+MIPA,Mitred Parakeet,Psittacara,mitratus
+MITH,Mistle Thrush,Turdus,viscivorus
+MITY,Mistletoe Tyrannulet,Zimmerius,parvus
+MKBU,McKay's Bunting,Plectrophenax,hyperboreus
+MNAK,Maui-nui Akialoa,Akialoa,lanaiensis
+MOAN,Moustached Antwren,Myrmotherula,ignota
+MOBL,Mountain Bluebird,Sialia,currucoides
+MOCH,Mountain Chickadee,Poecile,gambeli
+MODO,Mourning Dove,Zenaida,macroura
+MODU,Mottled Duck,Anas,fulvigula
+MOEL,Mountain Elaenia,Elaenia,frantzii
+MONQ,Montezuma Quail,Cyrtonyx,montezumae
+MOOW,Mottled Owl,Strix,virgata
+MOPA,Monk Parakeet,Myiopsitta,monachus
+MOPE,Mottled Petrel,Pterodroma,inexpectata
+MOPL,Mountain Plover,Charadrius,montanus
+MORI,Montserrat Oriole,Icterus,oberi
+MORO,Montezuma Oropendola,Psarocolius,montezuma
+MOSE,Morelet's Seedeater,Sporophila,morelleti
+MOTH,Mountain Thrush,Turdus,plebejus
+MOTR,Mountain Trogon,Trogon,mexicanus
+MOUQ,Mountain Quail,Oreortyx,pictus
+MOWA,Mourning Warbler,Geothlypis,philadelphia
+MSCR,Mississippi Sandhill Crane,Antigone,canadensis pulla
+MSOW,Mexican Spotted Owl,Strix,occidentalis lucida
+MTWO,Magenta-throated Woodstar,Philodice,bryantae
+MUDU,Muscovy Duck,Cairina,moschata
+MUFL,Mugimaki Flycatcher,Ficedula,mugimaki
+MUPE,Murphy's Petrel,Pterodroma,ultima
+MUSW,Mute Swan,Cygnus,olor
+MWCS,Mountain White-crowned Sparrow,Zonotrichia,leucophrys oriantha
+MWPW,Mexican Whip-poor-will,Antrostomus,arizonae
+MYWA,Myrtle Warbler,Setophaga,coronata coronata
+NABO,Nazca Booby,Sula,granti
+NAFL,Narcissus Flycatcher,Ficedula,narcissina
+NAPA,Nanday Parakeet,Aratinga,nenday
+NATH,Naumann's Thrush,Turdus,naumanni
+NAWA,Nashville Warbler,Leiothlypis,ruficapilla
+NAWR,Nava's Wren,Hylorchilus,navai
+NBTO,Narrow-billed Tody,Todus,angustirostris
+NECO,Neotropic Cormorant,Nannopterum,brasilianum
+NESH,Newell's Shearwater,Puffinus,newelli
+NESP,Nelson's Sparrow,Ammospiza,nelsoni
+NHOW,Northern Hawk Owl,Surnia,ulula
+NIFI,Nihoa Finch,Telespiza,ultima
+NIGR,Nicaraguan Grackle,Quiscalus,nicaraguensis
+NISF,Nicaraguan Seed-Finch,Sporophila,nuttingi
+NIWR,Nightingale Wren,Microcerculus,philomela
+NOBB,Northern Boobook,Ninox,japonica
+NOBE,Northern Bentbill,Oncostoma,cinereigulare
+NOBO,Northern Bobwhite,Colinus,virginianus
+NOBT,Northern Beardless-Tyrannulet,Camptostoma,imberbe
+NOBW,Northern Barred-Woodcreeper,Dendrocolaptes,sanctithomae
+NOCA,Northern Cardinal,Cardinalis,cardinalis
+NOET,Northern Emerald-Toucanet,Aulacorhynchus,prasinus
+NOFL,Northern Flicker,Colaptes,auratus
+NOFU,Northern Fulmar,Fulmarus,glacialis
+NOGA,Northern Gannet,Morus,bassanus
+NOGP,Northern Giant-Petrel,Macronectes,halli
+NOHA,Northern Harrier,Circus,hudsonius
+NOJA,Northern Jacana,Jacana,spinosa
+NOLA,Northern Lapwing,Vanellus,vanellus
+NOMO,Northern Mockingbird,Mimus,polyglottos
+NONE,None, None, none
+NOPA,Northern Parula,Setophaga,americana
+NOPI,Northern Pintail,Anas,acuta
+NOPO,Northern Pygmy-Owl,Glaucidium,gnoma
+NORP,Northern Potoo,Nyctibius,jamaicensis
+NOSC,Northern Schiffornis,Schiffornis,veraepacis
+NOSF,Northern Scrub-Flycatcher,Sublegatus,arenarum
+NOWA,Northern Waterthrush,Parkesia,noveboracensis
+NOWH,Northern Wheatear,Oenanthe,oenanthe
+NRBI,Northern Red Bishop,Euplectes,franciscanus
+NRWS,Northern Rough-winged Swallow,Stelgidopteryx,serripennis
+NSHO,Northern Shoveler,Spatula,clypeata
+NSHR,Northern Shrike,Lanius,borealis
+NSOW,Northern Spotted Owl,Strix,occidentalis caurina
+NSWO,Northern Saw-whet Owl,Aegolius,acadicus
+NUFL,Nutting's Flycatcher,Myiarchus,nuttingi
+NUWO,Nuttall's Woodpecker,Dryobates,nuttallii
+NWCS,Nuttall's White-crowned Sparrow,Zonotrichia,leucophrys nuttalli
+OAAL,Oahu Alauahio,Paroreomyza,maculata
+OAAM,Oahu Amakihi,Chlorodrepanis,flava
+OAEL,Oahu Elepaio,Chasiempis,ibidis
+OAKE,Oahu Akepa,Loxops,wolstenholmei
+OAKI,Oahu Akialoa,Akialoa,ellisiana
+OANU,Oahu Nukupuu,Hemignathus,lucidus
+OAOO,Oahu Oo,Moho,apicalis
+OASP,Oaxaca Sparrow,Aimophila,notosticta
+OATI,Oak Titmouse,Baeolophus,inornatus
+OBAE,Olive-backed Euphonia,Euphonia,gouldi
+OBAN,Ochre-breasted Antpitta,Grallaricula,flavirostris
+OBBU,Orange-breasted Bunting,Passerina,leclancherii
+OBEE,Orange-bellied Euphonia,Euphonia,xanthogaster
+OBFA,Orange-breasted Falcon,Falco,deiroleucus
+OBFL,Ochre-bellied Flycatcher,Mionectes,oleagineus
+OBNT,Orange-billed Nightingale-Thrush,Catharus,aurantiirostris
+OBPI,Olive-backed Pipit,Anthus,hodgsoni
+OBQD,Olive-backed Quail-Dove,Leptotrygon,veraguensis
+OBSP,Orange-billed Sparrow,Arremon,aurantiirostris
+OBTR,Orange-bellied Trogon,Trogon,collaris aurantiiventris
+OCAN,Ocellated Antbird,Phaenostictus,mcleannani
+OCAW,Olive-capped Warbler,Setophaga,pityophila
+OCBE,One-colored Becard,Pachyramphus,homochrous
+OCCR,Ocellated Crake,Rufirallus,schomburgkii
+OCHW,Orange-cheeked Waxbill,Estrilda,melpoda
+OCMA,Orange-collared Manakin,Manacus,aurantiacus
+OCOR,Orange-crowned Oriole,Icterus,auricapillus
+OCPA,Orange-chinned Parakeet,Brotogeris,jugularis
+OCPE,Ochraceous Pewee,Contopus,ochraceus
+OCPO,Ocellated Poorwill,Nyctiphrynus,ocellatus
+OCQU,Ocellated Quail,Cyrtonyx,ocellatus
+OCTH,Ocellated Thrasher,Toxostoma,ocellatum
+OCTU,Ocellated Turkey,Meleagris,ocellata
+OCWA,Orange-crowned Warbler,Leiothlypis,celata
+OCWR,Ochraceous Wren,Troglodytes,ochraceus
+OCYE,Olive-crowned Yellowthroat,Geothlypis,semiflava
+OFPA,Orange-fronted Parakeet,Eupsittula,canicularis
+OILB,Oilbird,Steatornis,caripensis
+OLFL,Olivaceous Flatbill,Rhynchocyclus,olivaceus
+OLOM,Olomao,Myadestes,lanaiensis
+OLPI,Olivaceous Piculet,Picumnus,olivaceus
+OLSP,Olive Sparrow,Arremonops,rufivirgatus
+OLWA,Olive Warbler,Peucedramus,taeniatus
+OLWO,Olivaceous Woodcreeper,Sittasomus,griseicapillus
+OMAO,Omao,Myadestes,obscurus
+ORAN,Orangequit,Euneornis,campestris
+ORAO,Orange Oriole,Icterus,auratus
+ORCU,Oriental Cuckoo,Cuculus,optatus
+ORGO,Orinoco Goose,Neochen,jubata
+ORGR,Oriental Greenfinch,Chloris,sinica
+ORHE,Ornate Hawk-Eagle,Spizaetus,ornatus
+ORJU,Oregon Junco,Junco,hyemalis oreganus
+OROR,Orchard Oriole,Icterus,spurius
+ORPL,Oriental Plover,Charadrius,veredus
+ORPR,Oriental Pratincole,Glareola,maldivarum
+ORSO,Oriental Scops-Owl,Otus,sunia
+ORTD,Oriental Turtle-Dove,Streptopelia,orientalis
+ORWA,Oriente Warbler,Teretistris,fornsi
+OSFL,Olive-sided Flycatcher,Contopus,cooperi
+OSPR,Osprey,Pandion,haliaetus
+OSTF,Olive-striped Flycatcher,Mionectes,olivaceus
+OTPA,Olive-throated Parakeet,Eupsittula,nana
+OU,Ou,Psittirostra,psittacea
+OVEN,Ovenbird,Seiurus,aurocapilla
+PAAN,Pacific Antwren,Myrmotherula,pacifica
+PAAU,Parakeet Auklet,Aethia,psittacula
+PABU,Painted Bunting,Passerina,ciris
+PACP,Pacific Parakeet,Psittacara,strenuus
+PAFL,Panama Flycatcher,Myiarchus,panamensis
+PAGP,Pacific Golden-Plover,Pluvialis,fulva
+PAGU,Pallas's Gull,Ichthyaetus,ichthyaetus
+PAIP,Painted Parakeet,Pyrrhura,picta
+PAJA,Parasitic Jaeger,Stercorarius,parasiticus
+PALB,Pallas's Bunting,Emberiza,pallasi
+PALI,Palila,Loxioides,bailleui
+PALM,Palmchat,Dulus,dominicus
+PALO,Pacific Loon,Gavia,pacifica
+PAPE,Parkinson's Petrel,Procellaria,parkinsoni
+PAPI,Passenger Pigeon,Ectopistes,migratorius
+PARE,Painted Redstart,Myioborus,pictus
+PARO,Pallas's Rosefinch,Carpodacus,roseus
+PASO,Pacific Screech-Owl,Megascops,cooperi
+PATA,Palm Tanager,Thraupis,palmarum
+PAWA,Palm Warbler,Setophaga,palmarum
+PAWR,Pacific Wren,Troglodytes,pacificus
+PBBA,Prong-billed Barbet,Semnornis,frantzii
+PBCR,Paint-billed Crake,Mustelirallus,erythrops
+PBCU,Pearly-breasted Cuckoo,Coccyzus,euleri
+PBFI,Peg-billed Finch,Acanthidops,bairdi
+PBGD,Plain-breasted Ground Dove,Columbina,minuta
+PBGR,Pied-billed Grebe,Podilymbus,podiceps
+PBHE,Pale-bellied Hermit,Phaethornis,anthophilus
+PBIW,Pale-billed Woodpecker,Campephilus,guatemalensis
+PBJA,Purplish-backed Jay,Cyanocorax,beecheii
+PBQD,Purplish-backed Quail-Dove,Zentrygon,lawrencii
+PBRW,Plain-brown Woodcreeper,Dendrocincla,fuliginosa
+PBSP,Pale-breasted Spinetail,Synallaxis,albescens
+PBWH,Puerto Rican Broad-winged Hawk,Buteo,platypterus brunnescens
+PCFA,Purple-crowned Fairy,Heliothryx,barroti
+PCST,Plain-capped Starthroat,Heliomaster,constantii
+PCTA,Plain-colored Tanager,Tangara,inornata
+PEBO,Peruvian Booby,Sula,variegata
+PECO,Pelagic Cormorant,Urile,pelagicus
+PEFA,Peregrine Falcon,Falco,peregrinus
+PEKI,Pearl Kite,Gampsonyx,swainsonii
+PEPI,Pechora Pipit,Anthus,gustavi
+PEPT,Pale-eyed Pygmy-Tyrant,Lophotriccus,pilaris
+PESA,Pectoral Sandpiper,Calidris,melanotos
+PETH,Pearly-eyed Thrasher,Margarops,fuscatus
+PFGO,Pink-footed Goose,Anser,brachyrhynchus
+PFSH,Pink-footed Shearwater,Ardenna,creatopus
+PGWA,Pallas's Grasshopper Warbler,Helopsaltes,certhiola
+PHAI,Phainopepla,Phainopepla,nitens
+PHCU,Pheasant Cuckoo,Dromococcyx,phasianellus
+PHVI,Philadelphia Vireo,Vireo,philadelphicus
+PHWA,Pink-headed Warbler,Cardellina,versicolor
+PIBI,Pinnated Bittern,Botaurus,pinnatus
+PIBU,Pine Bunting,Emberiza,leucocephalos
+PICH,Pirre Chlorospingus,Chlorospingus,inornatus
+PIGR,Pine Grosbeak,Pinicola,enucleator
+PIGU,Pigeon Guillemot,Cepphus,columba
+PIHU,Pirre Hummingbird,Goldmania,bella
+PIJA,Pinyon Jay,Gymnorhinus,cyanocephalus
+PILF,Pileated Flycatcher,Xenotriccus,mexicanus
+PINF,Pine Flycatcher,Empidonax,affinis
+PIPL,Piping Plover,Charadrius,melodus
+PIPU,Pied Puffbird,Notharchus,tectus
+PIRF,Piratic Flycatcher,Legatus,leucophaius
+PIRW,Pirre Warbler,Basileuterus,ignotus
+PISI,Pine Siskin,Spinus,pinus
+PIWA,Pine Warbler,Setophaga,pinus
+PIWH,Pied Wheatear,Oenanthe,pleschanka
+PIWO,Pileated Woodpecker,Dryocopus,pileatus
+PIWT,Pied Water-Tyrant,Fluvicola,pica
+PLAN,Plain Antvireo,Dysithamnus,mentalis
+PLAP,Plain Pigeon,Patagioenas,inornata
+PLCH,Plain Chachalaca,Ortalis,vetula
+PLEW,Pallas's Leaf Warbler,Phylloscopus,proregulus
+PLHA,Plumbeous Hawk,Cryptoleucopteryx,plumbea
+PLKI,Plumbeous Kite,Ictinia,plumbea
+PLUP,Plumbeous Pigeon,Patagioenas,plumbea
+PLUW,Plumbeous Warbler,Setophaga,plumbea
+PLVI,Plumbeous Vireo,Vireo,plumbeus
+PLXE,Plain Xenops,Xenops,minutus
+POJA,Pomarine Jaeger,Stercorarius,pomarinus
+POUL,Poo-uli,Melamprosops,phaeosoma
+PRAW,Prairie Warbler,Setophaga,discolor
+PRBU,Puerto Rican Bullfinch,Melopyrrha,portoricensis
+PREM,Puerto Rican Emerald,Riccordia,maugaeus
+PREU,Puerto Rican Euphonia,Chlorophonia,sclateri
+PRFA,Prairie Falcon,Falco,mexicanus
+PRFL,Puerto Rican Flycatcher,Myiarchus,antillarum
+PRIO,Puerto Rican Owl,Gymnasio,nudipes
+PRLC,Puerto Rican Lizard-Cuckoo,Coccyzus,vieilloti
+PRMA,Puerto Rican Mango,Anthracothorax,aurulentus
+PRNI,Puerto Rican Nightjar,Antrostomus,noctitherus
+PROR,Puerto Rican Oriole,Icterus,portoricensis
+PROW,Prothonotary Warbler,Protonotaria,citrea
+PRPE,Providence Petrel,Pterodroma,solandri
+PRPK,Puerto Rican Parakeet,Psittacara,maugei
+PRPO,Puerto Rican Parrot,Amazona,vittata
+PRPP,Puerto Rican Plain Pigeon,Patagioenas,inornata wetmorei
+PRSP,Puerto Rican Spindalis,Spindalis,portoricensis
+PRTA,Puerto Rican Tanager,Nesospingus,speculiferus
+PRTO,Puerto Rican Tody,Todus,mexicanus
+PRVI,Puerto Rican Vireo,Vireo,latimeri
+PRWO,Puerto Rican Woodpecker,Melanerpes,portoricensis
+PSJU,Pink-sided Junco,Junco,hyemalis mearnsi
+PSSH,Puerto Rican Sharp-shinned Hawk,Accipiter,striatus venator
+PSWS,Puget Sound White-crowned Sparrow,Zonotrichia,leucophrys pugetensis
+PTCA,Purple-throated Carib,Eulampis,jugularis
+PTFR,Purple-throated Fruitcrow,Querula,purpurata
+PTMG,Purple-throated Mountain-gem,Lampornis,calolaemus
+PTSN,Pin-tailed Snipe,Gallinago,stenura
+PTWH,Pin-tailed Whydah,Vidua,macroura
+PTWO,Purple-throated Woodstar,Philodice,mitchellii
+PUAI,Puaiohi,Myadestes,palmeri
+PUFI,Purple Finch,Haemorhous,purpureus
+PUGA,Purple Gallinule,Porphyrio,martinicus
+PUHE,Purple Heron,Ardea,purpurea
+PUHO,Purple Honeycreeper,Cyanerpes,caeruleus
+PUMA,Purple Martin,Progne,subis
+PUSA,Purple Sandpiper,Calidris,maritima
+PUSW,Purple Swamphen,Porphyrio,porphyrio
+PVPI,Pale-vented Pigeon,Patagioenas,cayennensis
+PVTH,Pale-vented Thrush,Turdus,obsoletus
+PWWR,Pacific/Winter Wren,Troglodytes,pacificus/hiemalis
+PYNU,Pygmy Nuthatch,Sitta,pygmaea
+PYRR,Pyrrhuloxia,Cardinalis,sinuatus
+RAGM,Red-and-green Macaw,Ara,chloropterus
+RAHH,Rufous x Allen's Hummingbird Hybrid,Selasphorus,rufus x sasin
+RAWW,Rufous-and-white Wren,Thryophilus,rufalbus
+RAZO,Razorbill,Alca,torda
+RBAN,Rufous-breasted Antthrush,Formicarius,rufipectus
+RBBU,Rose-bellied Bunting,Passerina,rositae
+RBEC,Rufous-bellied Chachalaca,Ortalis,wagleri
+RBGR,Rose-breasted Grosbeak,Pheucticus,ludovicianus
+RBGU,Ring-billed Gull,Larus,delawarensis
+RBHE,Rufous-breasted Hermit,Glaucis,hirsutus
+RBJU,Red-backed Junco,Junco,hyemalis dorsalis
+RBLE,Red-billed Leiothrix,Leiothrix,lutea
+RBME,Red-breasted Merganser,Mergus,serrator
+RBNU,Red-breasted Nuthatch,Sitta,canadensis
+RBPE,Rufous-browed Peppershrike,Cyclarhis,gujanensis
+RBPI,Red-billed Pigeon,Patagioenas,flavirostris
+RBRC,Red-breasted Chat,Granatellus,venustus
+RBRM,Red-breasted Meadowlark,Leistes,militaris
+RBRO,Rufous-backed Robin,Turdus,rufopalliatus
+RBSA,Red-breasted Sapsucker,Sphyrapicus,ruber
+RBSC,Red-billed Scythebill,Campylorhamphus,trochilirostris
+RBSE,Ruddy-breasted Seedeater,Sporophila,minuta
+RBSH,Red-backed Shrike,Lanius,collurio
+RBSP,Rufous-breasted Spinetail,Synallaxis,erythrothorax
+RBST,Red-billed Streamertail,Trochilus,polytmus
+RBSW,Rufous-breasted Wren,Pheugopedius,rutilus
+RBTR,Red-billed Tropicbird,Phaethon,aethereus
+RBTY,Rufous-browed Tyrannulet,Phylloscartes,superciliaris
+RBWO,Red-bellied Woodpecker,Melanerpes,carolinus
+RBWW,Rufous-browed Wren,Troglodytes,rufociliatus
+RCAT,Red-crowned Ant-Tanager,Habia,rubica
+RCBR,Rufous-capped Brushfinch,Atlapetes,pileatus
+RCCA,Red-crested Cardinal,Paroaria,coronata
+RCGS,Rusty-crowned Ground-Sparrow,Melozone,kieneri
+RCKI,Ruby-crowned Kinglet,Corthylio,calendula
+RCMA,Red-capped Manakin,Ceratopipra,mentalis
+RCMO,Russet-crowned Motmot,Momotus,mexicanus
+RCNT,Ruddy-capped Nightingale-Thrush,Catharus,frantzii
+RCOS,Rufous-collared Sparrow,Zonotrichia,capensis
+RCPA,Red-crowned Parrot,Amazona,viridigenalis
+RCQD,Russet-crowned Quail-Dove,Zentrygon,goldmani
+RCRC,Rufous-crested Coquette,Lophornis,delattrei
+RCRO,Rufous-collared Robin,Turdus,rufitorques
+RCRW,Red-crowned Woodpecker,Melanerpes,rubricapillus
+RCSP,Rufous-crowned Sparrow,Aimophila,ruficeps
+RCWA,Rufous-capped Warbler,Basileuterus,rufifrons
+RCWO,Red-cockaded Woodpecker,Dryobates,borealis
+RDTF,Ruddy-tailed Flycatcher,Terenotriccus,erythrurus
+REAV,Red Avadavat,Amandava,amandava
+REBU,Reed Bunting,Emberiza,schoeniclus
+RECR,Red Crossbill,Loxia,curvirostra
+REDH,Redhead,Aythya,americana
+REDW,Redwing,Turdus,iliacus
+REEG,Reddish Egret,Egretta,rufescens
+REJU,Red Junglefowl,Gallus,gallus
+REKN,Red Knot,Calidris,canutus
+REPH,Red Phalarope,Phalaropus,fulicarius
+REQU,Resplendent Quetzal,Pharomachrus,mocinno
+RESI,Red Siskin,Spinus,cucullatus
+REVI,Red-eyed Vireo,Vireo,olivaceus
+REWA,Red Warbler,Cardellina,rubra
+RFBL,Red-flanked Bluetail,Tarsiger,cyanurus
+RFBO,Red-footed Booby,Sula,sula
+RFCO,Red-faced Cormorant,Urile,urile
+RFFA,Red-footed Falcon,Falco,vespertinus
+RFLO,Rosy-faced Lovebird,Agapornis,roseicollis
+RFPA,Red-fronted Parrotlet,Touit,costaricensis
+RFSP,Red-faced Spinetail,Cranioleuca,erythrops
+RFTF,Rufous-tailed Flycatcher,Myiarchus,validus
+RFWA,Red-faced Warbler,Cardellina,rubrifrons
+RGDO,Ruddy Ground Dove,Columbina,talpacoti
+RHAU,Rhinoceros Auklet,Cerorhinca,monocerata
+RHBA,Red-headed Barbet,Eubucco,bourcierii
+RHTA,Red-headed Tanager,Piranga,erythrocephala
+RHWO,Red-headed Woodpecker,Melanerpes,erythrocephalus
+RIHA,Ridgway's Hawk,Buteo,ridgwayi
+RIHU,Rivoli's Hummingbird,Eugenes,fulgens
+RIKI,Ringed Kingfisher,Megaceryle,torquata
+RIRA,Ridgway's Rail,Rallus,obsoletus
+RISP,Ringed Storm-Petrel,Hydrobates,hornbyi
+RIWA,River Warbler,Locustella,fluviatilis
+RIWR,Riverside Wren,Cantorchilus,semibadius
+RLHA,Rough-legged Hawk,Buteo,lagopus
+RLHO,Red-legged Honeycreeper,Cyanerpes,cyaneus
+RLKI,Red-legged Kittiwake,Rissa,brevirostris
+RLPA,Red-lored Parrot,Amazona,autumnalis
+RLTH,Red-legged Thrush,Turdus,plumbeus
+RLTY,Rough-legged Tyrannulet,Phyllomyias,burmeisteri
+RMFL,Rusty-margined Flycatcher,Myiozetetes,cayanensis
+RMOT,Rufous Motmot,Baryphthengus,martii
+RMOU,Rufous Mourner,Rhytipterna,holerythra
+RMPA,Red-masked Parakeet,Psittacara,erythrogenys
+RNAW,Rufous-naped Wren,Campylorhynchus,rufinucha
+RNDU,Ring-necked Duck,Aythya,collaris
+RNEP,Ring-necked Pheasant,Phasianus,colchicus
+RNGR,Red-necked Grebe,Podiceps,grisegena
+RNPA,Red-necked Parrot,Amazona,arausiaca
+RNPH,Red-necked Phalarope,Phalaropus,lobatus
+RNSA,Red-naped Sapsucker,Sphyrapicus,nuchalis
+RNST,Red-necked Stint,Calidris,ruficollis
+RNWR,Rufous-necked Wood-Rail,Aramides,axillaris
+ROFL,Royal Flycatcher,Onychorhynchus,coronatus
+ROGO,Ross's Goose,Anser,rossii
+ROGU,Ross's Gull,Rhodostethia,rosea
+ROHA,Roadside Hawk,Rupornis,magnirostris
+ROOK,Rook,Corvus,frugilegus
+ROPI,Rock Pigeon,Columba,livia
+ROPT,Rock Ptarmigan,Lagopus,muta
+ROSA,Rock Sandpiper,Calidris,ptilocnemis
+ROSP,Roseate Spoonbill,Platalea,ajaja
+ROST,Roseate Tern,Sterna,dougallii
+ROTT,Rosy Thrush-Tanager,Rhodinocichla,rosea
+ROWR,Rock Wren,Salpinctes,obsoletus
+ROYT,Royal Tern,Thalasseus,maximus
+RRAN,Rufous-rumped Antwren,Euchrepomis,callinota
+RRKN,Rufa Red Knot,Calidris,canutus rufa
+RRPA,Rose-ringed Parakeet,Psittacula,krameri
+RRWO,Red-rumped Woodpecker,Dryobates,kirkii
+RSBL,Red-shouldered Blackbird,Agelaius,assimilis
+RSFL,Red-shafted Flicker,Colaptes,auratus cafer
+RSHA,Red-shouldered Hawk,Buteo,lineatus
+RSWR,Russet-naped Wood-Rail,Aramides,albiventris
+RTAH,Rufous-tailed Hummingbird,Amazilia,tzacatl
+RTAP,Ring-tailed Pigeon,Patagioenas,caribaea
+RTAT,Red-throated Ant-Tanager,Habia,fuscicauda
+RTBE,Rose-throated Becard,Pachyramphus,aglaiae
+RTCA,Red-throated Caracara,Ibycter,americanus
+RTHA,Red-tailed Hawk,Buteo,jamaicensis
+RTHE,Rufescent Tiger-Heron,Tigrisoma,lineatum
+RTHU,Ruby-throated Hummingbird,Archilochus,colubris
+RTJA,Rufous-tailed Jacamar,Galbula,ruficauda
+RTLO,Red-throated Loon,Gavia,stellata
+RTOH,Ruby-topaz Hummingbird,Chrysolampis,mosquitus
+RTPI,Red-throated Pipit,Anthus,cervinus
+RTRO,Rufous-tailed Robin,Larvivora,sibilans
+RTRT,Rufous-tailed Rock-thrush,Monticola,saxatilis
+RTSO,Rufous-throated Solitaire,Myadestes,genibarbis
+RTTA,Rose-throated Tanager,Piranga,roseogularis
+RTTR,Red-tailed Tropicbird,Phaethon,rubricauda
+RUAN,Russet Antshrike,Thamnistes,anabatinus
+RUBL,Rusty Blackbird,Euphagus,carolinus
+RUBU,Rustic Bunting,Emberiza,rustica
+RUCR,Ruddy Crake,Laterallus,ruber
+RUDP,Ruddy Pigeon,Patagioenas,subvinacea
+RUDU,Ruddy Duck,Oxyura,jamaicensis
+RUFF,Ruff,Calidris,pugnax
+RUFG,Ruddy Foliage-gleaner,Clibanornis,rubiginosus
+RUFP,Rufous Piha,Lipaugus,unirufus
+RUGR,Ruffed Grouse,Bonasa,umbellus
+RUHU,Rufous Hummingbird,Selasphorus,rufus
+RUNI,Rufous Nightjar,Antrostomus,rufus
+RUNT,Russet Nightingale-Thrush,Catharus,occidentalis
+RUQD,Ruddy Quail-Dove,Geotrygon,montana
+RUSA,Rufous Sabrewing,Pampa,rufa
+RUSH,Ruddy Shelduck,Tadorna,ferruginea
+RUSP,Rusty Sparrow,Aimophila,rufescens
+RUTR,Ruddy Treerunner,Margarornis,rubiginosus
+RUTU,Ruddy Turnstone,Arenaria,interpres
+RUWO,Ruddy Woodcreeper,Dendrocincla,homochroa
+RVBU,Red-vented Bulbul,Pycnonotus,cafer
+RVCH,Rufous-vented Chachalaca,Ortalis,ruficauda
+RVGC,Rufous-vented Ground-Cuckoo,Neomorphus,geoffroyi
+RWAN,Rusty-winged Antwren,Herpsilochmus,frater
+RWBL,Red-winged Blackbird,Agelaius,phoeniceus
+RWBU,Red-whiskered Bulbul,Pycnonotus,jocosus
+RWSC,Russet-winged Schiffornis,Schiffornis,stenorhyncha
+RWSP,Rufous-winged Sparrow,Peucaea,carpalis
+RWTA,Rufous-winged Tanager,Tangara,lavinia
+RWWO,Rufous-winged Woodpecker,Piculus,simplex
+SAAL,Salvin's Albatross,Thalassarche,salvini
+SABS,Sagebrush Sparrow,Artemisiospiza,nevadensis
+SACR,Sandhill Crane,Antigone,canadensis
+SAFI,Saffron Finch,Sicalis,flaveola
+SAFL,Sad Flycatcher,Myiarchus,barbirostris
+SAGU,Sabine's Gull,Xema,sabini
+SAHA,Savanna Hawk,Buteogallus,meridionalis
+SALS,Saltmarsh Sparrow,Ammospiza,caudacuta
+SAND,Sanderling,Calidris,alba
+SAPA,Sapayoa,Sapayoa,aenigma
+SAPH,Say's Phoebe,Sayornis,saya
+SATE,Sandwich Tern,Thalasseus,sandvicensis
+SATH,Sage Thrasher,Oreoscoptes,montanus
+SAVI,San Andres Vireo,Vireo,caribaeus
+SAVS,Savannah Sparrow,Passerculus,sandwichensis
+SBAG,Slaty-backed Gull,Larus,schistisagus
+SBAN,Smooth-billed Ani,Crotophaga,ani
+SBAO,Streak-backed Oriole,Icterus,pustulatus
+SBCU,Slender-billed Curlew,Numenius,tenuirostris
+SBDO,Short-billed Dowitcher,Limnodromus,griseus
+SBEH,Snowy-bellied Hummingbird,Saucerottia,edward
+SBEL,Small-billed Elaenia,Elaenia,parvirostris
+SBFF,Slaty-backed Forest-Falcon,Micrastur,mirandollei
+SBFL,Sulphur-bellied Flycatcher,Myiodynastes,luteiventris
+SBGR,Slender-billed Grackle,Quiscalus,palustris
+SBIG,Short-billed Gull,Larus,brachyrhynchus
+SBJA,San Blas Jay,Cyanocorax,sanblasianus
+SBKI,Slender-billed Kite,Helicolestes,hamatus
+SBMU,Scaly-breasted Munia,Lonchura,punctulata
+SBNT,Slaty-backed Nightingale-Thrush,Catharus,fuscater
+SBOH,Spotted x Barred Owl Hybrid,Strix,occidentalis x varia
+SBOR,Spot-breasted Oriole,Icterus,pectoralis
+SBPI,Short-billed Pigeon,Patagioenas,nigrirostris
+SBRH,Scaly-breasted Hummingbird,Phaeochroa,cuvierii
+SBRO,Siberian Blue Robin,Larvivora,cyane
+SBSA,Spoon-billed Sandpiper,Calidris,pygmea
+SBTA,Scarlet-browed Tanager,Heterospingus,xanthopygius
+SBTH,Scaly-breasted Thrasher,Allenia,fusca
+SBTI,Slaty-breasted Tinamou,Crypturellus,boucardi
+SBTR,Streak-breasted Treehunter,Thripadectes,rufobrunneus
+SBTS,Stub-tailed Spadebill,Platyrinchus,cancrominus
+SBWP,Spot-breasted Woodpecker,Colaptes,punctigula
+SCAA,Scaled Antpitta,Grallaria,guatimalensis
+SCBA,Spot-crowned Barbet,Capito,maculicoronatus
+SCBS,San Clemente Bell's Sparrow,Artemisiospiza,belli clementeae
+SCBW,Scaly-breasted Wren,Microcerculus,marginatus
+SCCH,Sooty-capped Chlorospingus,Chlorospingus,pileatus
+SCCO,Short-crested Coquette,Lophornis,brachylophus
+SCGO,Small Canada Goose,Branta,canadensis parvipes
+SCHA,Streak-chested Antpitta,Hylopezus,perspicillatus
+SCHT,Spangle-cheeked Tanager,Tangara,dowii
+SCHU,Scintillant Hummingbird,Selasphorus,scintilla
+SCHW,Stripe-cheeked Woodpecker,Piculus,callopterus
+SCIB,Scarlet Ibis,Eudocimus,ruber
+SCJU,Slate-colored Junco,Junco,hyemalis hyemalis
+SCLS,San Clemente Loggerhead Shrike,Lanius,ludovicianus mearnsi
+SCMA,Scarlet Macaw,Ara,macao
+SCMU,Scripps's Murrelet,Synthliboramphus,scrippsi
+SCOG,Slate-colored Grosbeak,Saltator,grossus
+SCOR,Scott's Oriole,Icterus,parisorum
+SCPI,Scaled Pigeon,Patagioenas,speciosa
+SCPT,Scale-crested Pygmy-Tyrant,Lophotriccus,pileatus
+SCQU,Scaled Quail,Callipepla,squamata
+SCRG,Scrub Greenlet,Hylophilus,flavipes
+SCRT,Scarlet-rumped Tanager,Ramphocelus,passerinii
+SCRW,Spot-crowned Woodcreeper,Lepidocolaptes,affinis
+SCSE,Slate-colored Seedeater,Sporophila,schistacea
+SCSO,Slate-colored Solitaire,Myadestes,unicolor
+SCTA,Scarlet Tanager,Piranga,olivacea
+SECF,Sepia-capped Flycatcher,Leptopogon,amaurocephalus
+SEHA,Semiplumbeous Hawk,Leucopternis,semiplumbeus
+SEMW,Semper's Warbler,Leucopeza,semperi
+SEOW,Short-eared Owl,Asio,flammeus
+SEPL,Semipalmated Plover,Charadrius,semipalmatus
+SESA,Semipalmated Sandpiper,Calidris,pusilla
+SESP,Seaside Sparrow,Ammospiza,maritima
+SEUP,Scrub Euphonia,Euphonia,affinis
+SEWA,Sedge Warbler,Acrocephalus,schoenobaenus
+SEWR,Sedge Wren,Cistothorus,stellaris
+SFAN,Spiny-faced Antshrike,Xenornis,setifrons
+SFFI,Sooty-faced Finch,Arremon,crassirostris
+SFSW,Spot-fronted Swift,Cypseloides,cherriei
+SFTA,Silvery-fronted Tapaculo,Scytalopus,argentifrons
+SGBW,Straight-billed Woodcreeper,Dendroplex,picus
+SHAR,Sharpbill,Oxyruncus,cristatus
+SHCO,Shiny Cowbird,Molothrus,bonariensis
+SHHO,Shining Honeycreeper,Cyanerpes,lucidus
+SHLA,Streaked Horned Lark,Eremophila,alpestris strigata
+SHPA,Saffron-headed Parrot,Pyrilia,pyrilia
+SHSP,Stripe-headed Sparrow,Peucaea,ruficauda
+SHTF,Slate-headed Tody-Flycatcher,Poecilotriccus,sylvia
+SHTH,Sapphire-throated Hummingbird,Chrysuronia,coeruleogularis
+SHTN,Short-tailed Nighthawk,Lurocalis,semitorquatus
+SHTY,Sooty-headed Tyrannulet,Phyllomyias,griseiceps
+SHWO,Streak-headed Woodcreeper,Lepidocolaptes,souleyetii
+SHWR,Sooty-headed Wren,Pheugopedius,spadix
+SIAC,Siberian Accentor,Prunella,montanella
+SIBW,Stripe-breasted Wren,Cantorchilus,thoracicus
+SICR,Sinaloa Crow,Corvus,sinaloae
+SIHM,Siberian House-Martin,Delichon,lagopodum
+SIMA,Sinaloa Martin,Progne,sinaloae
+SIQU,Singing Quail,Dactylortyx,thoracicus
+SIRU,Siberian Rubythroat,Calliope,calliope
+SISW,Sick's Swift,Chaetura,meridionalis
+SIWR,Sinaloa Wren,Thryophilus,sinaloa
+SKBU,St. Kitts Bullfinch,Melopyrrha,grandis
+SKTH,Sparkling-tailed Hummingbird,Tilmatura,dupontii
+SLAN,Slaty Antwren,Myrmotherula,schisticolor
+SLBF,St. Lucia Black Finch,Melanospiza,richardsoni
+SLCF,Slaty-capped Flycatcher,Leptopogon,superciliaris
+SLFI,Slaty Finch,Haplospiza,rustica
+SLFL,Slaty Flowerpiercer,Diglossa,plumbea
+SLOR,St. Lucia Oriole,Icterus,laudabilis
+SLPA,St. Lucia Parrot,Amazona,versicolor
+SLSH,Slender Sheartail,Doricha,enicura
+SLSP,Slaty Spinetail,Synallaxis,brachyura
+SLVI,Slaty Vireo,Vireo,brevipennis
+SLWA,St. Lucia Warbler,Setophaga,delicata
+SMBW,Smoky-brown Woodpecker,Dryobates,fumigatus
+SMEW,Smew,Mergellus,albellus
+SMLO,Smith's Longspur,Calcarius,pictus
+SMSP,Sierra Madre Sparrow,Xenospiza,baileyi
+SNBU,Snow Bunting,Plectrophenax,nivalis
+SNBW,Strong-billed Woodcreeper,Xiphocolaptes,promeropirhynchus
+SNCO,Snowy Cotinga,Carpodectes,nitidus
+SNEG,Snowy Egret,Egretta,thula
+SNGO,Snow Goose,Anser,caerulescens
+SNKI,Snail Kite,Rostrhamus,sociabilis
+SNOC,Snowcap,Microchera,albocoronata
+SNOW,Snowy Owl,Bubo,scandiacus
+SNPI,Scaly-naped Pigeon,Patagioenas,squamosa
+SNPL,Snowy Plover,Charadrius,nivosus
+SOBE,Southern Bentbill,Oncostoma,olivaceum
+SOBT,Southern Beardless-Tyrannulet,Camptostoma,obsoletum
+SOBW,Spot-breasted Wren,Pheugopedius,maculipectus
+SOCW,Socorro Wren,Troglodytes,sissonii
+SODO,Socorro Dove,Zenaida,graysoni
+SOEA,Solitary Eagle,Buteogallus,solitarius
+SOFL,Social Flycatcher,Myiozetetes,similis
+SOGR,Sooty Grouse,Dendragapus,fuliginosus
+SOHW,Southern House-Wren,Troglodytes,aedon musculus
+SOLA,Southern Lapwing,Vanellus,chilensis
+SOMA,Southern Martin,Progne,elegans
+SOMO,Socorro Mockingbird,Mimus,graysoni
+SONW,Song Wren,Cyphorhinus,phaeocephalus
+SOOT,Sooty Thrush,Turdus,nigrescens
+SOPA,Socorro Parakeet,Psittacara,brevipes
+SORA,Sora,Porzana,carolina
+SOSA,Solitary Sandpiper,Tringa,solitaria
+SOSH,Sooty Shearwater,Ardenna,grisea
+SOSN,Solitary Snipe,Gallinago,solitaria
+SOSP,Song Sparrow,Melospiza,melodia
+SOTE,Sooty Tern,Onychoprion,fuscatus
+SOTH,Song Thrush,Turdus,philomelos
+SOVI,Solitary Vireo,Vireo,(sp)
+SPAN,Spotted Antbird,Hylophylax,naevioides
+SPBA,Spotted Barbtail,Premnoplex,brunnescens
+SPCA,Spot-crowned Antvireo,Dysithamnus,puncticeps
+SPCE,Spot-crowned Euphonia,Euphonia,imitans
+SPCR,Spotted Crake,Porzana,porzana
+SPDO,Spotted Dove,Streptopelia,chinensis
+SPEI,Spectacled Eider,Somateria,fischeri
+SPEO,Spectacled Owl,Pulsatrix,perspicillata
+SPFL,Spotted Flycatcher,Muscicapa,striata
+SPGR,Spruce Grouse,Canachites,canadensis
+SPMO,Speckled Mourner,Laniocera,rufescens
+SPOW,Spotted Owl,Strix,occidentalis
+SPPA,Spectacled Parrotlet,Forpus,conspicillatus
+SPPI,Sprague's Pipit,Anthus,spragueii
+SPRA,Spotted Rail,Pardirallus,maculatus
+SPRE,Spotted Redshank,Tringa,erythropus
+SPSA,Spotted Sandpiper,Actitis,macularius
+SPSK,South Polar Skua,Stercorarius,maccormicki
+SPTA,Speckled Tanager,Ixothraupis,guttata
+SPTH,Spectacled Thrush,Turdus,nudigenis
+SPTN,Spot-tailed Nightjar,Hydropsalis,maculicaudus
+SPTO,Spotted Towhee,Pipilo,maculatus
+SPTS,Sharp-tailed Sandpiper,Calidris,acuminata
+SPWO,Spotted Woodcreeper,Xiphorhynchus,erythropygius
+SPWQ,Spotted Wood-Quail,Odontophorus,guttatus
+SPWR,Spotted Wren,Campylorhynchus,gularis
+SQCU,Squirrel Cuckoo,Piaya,cayana
+SRCA,Scarlet-rumped Cacique,Cacicus,uropygialis
+SRFL,Sulphur-rumped Flycatcher,Myiobius,sulphureipygius
+SRGH,Snow X Ross's Goose Hybrid,Anser,caerulescens x rossii
+SRGO,Snow/Ross's Goose,Anser,caerulescens/rossii
+SRWS,Southern Rough-winged Swallow,Stelgidopteryx,ruficollis
+SSAL,Streaked Saltator,Saltator,striatipectus
+SSHA,Sharp-shinned Hawk,Accipiter,striatus
+SSPA,Striped Sparrow,Oriturus,superciliosus
+SSTP,Swinhoe's Storm-Petrel,Hydrobates,monorhis
+STAL,Short-tailed Albatross,Phoebastria,albatrus
+STCA,Streak-crowned Antvireo,Dysithamnus,striaticeps
+STCU,Striped Cuckoo,Tapera,naevia
+STCW,Strickland's Woodpecker,Dryobates,stricklandi
+STDA,Scarlet-thighed Dacnis,Dacnis,venusta
+STEI,Steller's Eider,Polysticta,stelleri
+STFG,Scaly-throated Foliage-gleaner,Anabacerthia,variegaticeps
+STFL,Scissor-tailed Flycatcher,Tyrannus,forficatus
+STGN,Slate-throated Gnatcatcher,Polioptila,schistaceigula
+STGR,Sharp-tailed Grouse,Tympanuchus,phasianellus
+STGU,Swallow-tailed Gull,Creagrus,furcatus
+STHA,Short-tailed Hawk,Buteo,brachyurus
+STHJ,Silvery-throated Jay,Cyanolyca,argentigula
+STHM,Stripe-tailed Hummingbird,Eupherusa,eximia
+STHR,Stripe-throated Hermit,Phaethornis,striigularis
+STJA,Steller's Jay,Cyanocitta,stelleri
+STKI,Swallow-tailed Kite,Elanoides,forficatus
+STLE,Scaly-throated Leaftosser,Sclerurus,guatemalensis
+STOF,Stolid Flycatcher,Myiarchus,stolidus
+STOW,Stygian Owl,Asio,stygius
+STPE,Stejneger's Petrel,Pterodroma,longirostris
+STPW,Striped Woodhaunter,Automolus,subulatus
+STRE,Slate-throated Redstart,Myioborus,miniatus
+STRF,Streaked Flycatcher,Myiodynastes,maculatus
+STRH,Striated Heron,Butorides,striata
+STRO,Striped Owl,Asio,clamator
+STRS,Streaked Shearwater,Calonectris,leucomelas
+STSA,Stilt Sandpiper,Calidris,himantopus
+STSC,Stejneger's Scoter,Melanitta,stejnegeri
+STSE,Steller's Sea-Eagle,Haliaeetus,pelagicus
+STSP,Sharp-tailed Sparrow,Ammospiza,nelsoni/caudacuta
+STST,Sharp-tailed Streamcreeper,Lochmias,nematura
+STSW,Short-tailed Swift,Chaetura,brachyura
+STTA,Silver-throated Tanager,Tangara,icterocephala
+STTR,Slaty-tailed Trogon,Trogon,massena
+STTS,Short-tailed Shearwater,Ardenna,tenuirostris
+STWR,Stripe-throated Wren,Cantorchilus,leucopogon
+STXE,Streaked Xenops,Xenops,rutilans
+SUNB,Sunbittern,Eurypyga,helias
+SUNG,Sungrebe,Heliornis,fulica
+SURF,Surfbird,Calidris,virgata
+SURT,Sulphur-rumped Tanager,Heterospingus,rubrifrons
+SUSC,Surf Scoter,Melanitta,perspicillata
+SUTA,Summer Tanager,Piranga,rubra
+SUWA,Sutton's Warbler,Setophaga,americana x dominica
+SUWR,Sumichrast's Wren,Hylorchilus,sumichrasti
+SVPA,St. Vincent Parrot,Amazona,guildingii
+SWFG,Slaty-winged Foliage-gleaner,Philydor,fuscipenne
+SWFL,Southwestern Willow Flycatcher,Empidonax,traillii extimus
+SWHA,Swainson's Hawk,Buteo,swainsoni
+SWPA,Sulphur-winged Parakeet,Pyrrhura,hoffmanni
+SWSP,Swamp Sparrow,Melospiza,georgiana
+SWTA,Swallow Tanager,Tersina,viridis
+SWTH,Swainson's Thrush,Catharus,ustulatus
+SWWA,Swainson's Warbler,Limnothlypis,swainsonii
+TABG,Taiga Bean-Goose,Anser,fabalis
+TACH,Tacarcuna Chlorospingus,Chlorospingus,tacarcunae
+TACR,Tamaulipas Crow,Corvus,imparatus
+TAFL,Taiga Flycatcher,Ficedula,albicilla
+TAHU,Talamanca Hummingbird,Eugenes,spectabilis
+TAPE,Tahiti Petrel,Pseudobulweria,rostrata
+TAPO,Tamaulipas Pygmy-Owl,Glaucidium,sanchezi
+TATA,Tacarcuna Tapaculo,Scytalopus,panamensis
+TAWA,Tacarcuna Warbler,Basileuterus,tacarcunae
+TAWQ,Tacarcuna Wood-Quail,Odontophorus,dialeucos
+TBEU,Thick-billed Euphonia,Euphonia,laniirostris
+TBFL,Tawny-breasted Flycatcher,Myiobius,villosus
+TBHU,Tooth-billed Hummingbird,Androdon,aequatorialis
+TBKI,Thick-billed Kingbird,Tyrannus,crassirostris
+TBLO,Thick-billed Longspur,Rhynchophanes,mccownii
+TBMO,Turquoise-browed Motmot,Eumomota,superciliosa
+TBMU,Thick-billed Murre,Uria,lomvia
+TBPA,Thick-billed Parrot,Rhynchopsitta,pachyrhyncha
+TBSF,Thick-billed Seed-Finch,Sporophila,funerea
+TBVI,Thick-billed Vireo,Vireo,crassirostris
+TBWA,Thick-billed Warbler,Arundinax,aedon
+TCEU,Tawny-capped Euphonia,Euphonia,anneae
+TCFL,Tawny-chested Flycatcher,Aphanotriccus,capitalis
+TCGR,Tawny-crowned Greenlet,Tunchiornis,ochraceiceps
+TCHU,Turquoise-crowned Hummingbird,Cynanthus,doubledayi
+TCNI,Tawny-collared Nightjar,Antrostomus,salvini
+TCTA,Tawny-crested Tanager,Tachyphonus,delatrii
+TESA,Terek Sandpiper,Xenus,cinereus
+TEST,Temminck's Stint,Calidris,temminckii
+TEWA,Tennessee Warbler,Leiothlypis,peregrina
+TFGN,Tawny-faced Gnatwren,Microbates,cinereiventris
+TFQU,Tawny-faced Quail,Rhynchortyx,cinctus
+THAN,Thicket Antpitta,Myrmothera,dives
+THGU,Thayer's Gull,Larus,glaucoides thayeri
+THTI,Thicket Tinamou,Crypturellus,cinnamomeus
+THWH,Townsend's x Hermit Warbler Hybrid,Setophaga,townsendi x occidentalis
+TIHA,Tiny Hawk,Microspizias,superciliosus
+TIWR,Timberline Wren,Thryorchilus,browni
+TKGU,Thayer's/Kumlien's Gull,Larus,glaucoides thayeri/kumlieni
+TMHU,Tres Marias Hummingbird,Cynanthus,lawrencei
+TOMO,Tody Motmot,Hylomanes,momotula
+TOSH,Townsend's Shearwater,Puffinus,auricularis
+TOSO,Townsend's Solitaire,Myadestes,townsendi
+TOSP,Townsend's Storm-Petrel,Hydrobates,socorroensis
+TOTY,Torrent Tyrannulet,Serpophaga,cinerea
+TOWA,Townsend's Warbler,Setophaga,townsendi
+TRBL,Tricolored Blackbird,Agelaius,tricolor
+TRES,Tree Swallow,Tachycineta,bicolor
+TRFL,Traill's Flycatcher,Empidonax,alnorum/traillii
+TRHE,Tricolored Heron,Egretta,tricolor
+TRJA,Transvolcanic Jay,Aphelocoma,ultramarina
+TRKI,Tropical Kingbird,Tyrannus,melancholicus
+TRMO,Tropical Mockingbird,Mimus,gilvus
+TRMU,Tricolored Munia,Lonchura,malacca
+TROP,Tropical Pewee,Contopus,cinereus
+TRPA,Tropical Parula,Setophaga,pitiayumi
+TRPE,Trindade Petrel,Pterodroma,arminjoniana
+TRPI,Tree Pipit,Anthus,trivialis
+TRSO,Tropical Screech-Owl,Megascops,choliba
+TRSP,Tristram's Storm-Petrel,Hydrobates,tristrami
+TRUS,Trumpeter Swan,Cygnus,buccinator
+TSBL,Tawny-shouldered Blackbird,Agelaius,humeralis
+TTLE,Tawny-throated Leaftosser,Sclerurus,mexicanus
+TUBG,Tundra Bean-Goose,Anser,serrirostris
+TUCO,Turquoise Cotinga,Cotinga,ridgwayi
+TUDU,Tufted Duck,Aythya,fuligula
+TUFL,Tufted Flycatcher,Mitrephanes,phaeocercus
+TUJA,Tufted Jay,Cyanocorax,dickeyi
+TUPU,Tufted Puffin,Fratercula,cirrhata
+TUQD,Tuxtla Quail-Dove,Zentrygon,carrikeri
+TUSW,Tundra Swan,Cygnus,columbianus
+TUTI,Tufted Titmouse,Baeolophus,bicolor
+TUVU,Turkey Vulture,Cathartes,aura
+TWBE,Three-wattled Bellbird,Procnias,tricarunculatus
+TWFG,Tule Greater White-fronted Goose,Anser,albifrons elgasi
+TWWO,Tawny-winged Woodcreeper,Dendrocincla,anabatina
+UAHA,Unidentified Accipiter Hawk,Accipiter,(sp)
+UAIH,Ula-ai-hawane,Ciridops,anna
+UHFI,Unidentified Haemorhous Finch,Haemorhous,(sp)
+UNBI,Unidentified Bird,Aves,"(gen, sp)"
+UNBL,Unidentified Blackbird,Icteridae,"(gen, sp)"
+UNCH,Unidentified Chickadee,Poecile,(sp)
+UNCR,Unidentified Crow,Corvus,(sp)
+UNDO,Unidentified Dowitcher,Limnodromus,sp.
+UNDU,Unidentified Duck,Anatinae,"(gen, sp)"
+UNEM,Unidentified Empidonax,Empidonax,(sp)
+UNFL,Unidentified Flycatcher,Tyrannidae,"(gen, sp)"
+UNGO,Unidentified Goose,Anserinae,(gen. sp.)
+UNHA,Unidentified Hawk,Accipitridae,"(gen, sp)"
+UNHU,Unidentified Hummingbird,Trochilidae,"(gen, sp)"
+UNIC,Uniform Crake,Amaurolimnas,concolor
+UNJA,Unicolored Jay,Aphelocoma,unicolor
+UNLG,Unidentified Larus Gull,Larus,(sp)
+UNOW,Unidentified Owl,Strigidae,"(gen, sp)"
+UNPE,Unidentified Pewee,Contopus,(sp.)
+UNRE,Unidentified Redpoll,Acanthis,flammea/hornemanni
+UNSA,Unidentified Sapsucker,Sphyrapicus,(sp)
+UNSP,Unidentified Sparrow,Passerellidae,"(gen, sp)"
+UNSW,Unidentified Swallow,Hirundinidae,"(gen, sp)"
+UNTH,Unidentified Thrush,Turdidae,"(gen, sp)"
+UNWA,Unidentified Warbler,Parulidae,"(gen, sp)"
+UNWO,Unidentified Woodpecker,Picinae,"(gen, sp)"
+UNWR,Unidentified Wren,Troglodytidae,"(gen, sp)"
+UPSA,Upland Sandpiper,Bartramia,longicauda
+UPTA,Unidentified Piranga Tanager,Piranga,(sp)
+URST,Unidentified Rufous-sided Towhee,Pipilo,maculatus/erythrophthalmus
+USHU,Unidentified Selasphorus Hummingbird,Selaphorus,(sp)
+USSP,Unidentified Sage Sparrow,Artemisiospiza,nevadensis/belli
+USWO,Unspotted Saw-whet Owl,Aegolius,ridgwayi
+VABU,Varied Bunting,Passerina,versicolor
+VAFL,Variegated Flycatcher,Empidonomus,varius
+VASE,Variable Seedeater,Sporophila,corvina
+VASO,Varied Solitaire,Myadestes,coloratus
+VASW,Vaux's Swift,Chaetura,vauxi
+VATH,Varied Thrush,Ixoreus,naevius
+VBHU,Violet-bellied Hummingbird,Chlorestes,julie
+VCAH,Violet-capped Hummingbird,Goldmania,violiceps
+VCHU,Violet-crowned Hummingbird,Ramosomyia,violiceps
+VEER,Veery,Catharus,fuscescens
+VEFL,Vermilion Flycatcher,Pyrocephalus,rubinus
+VEHU,Vervain Hummingbird,Mellisuga,minima
+VELM,Velvety Manakin,Lepidothrix,velutina
+VERD,Verdin,Auriparus,flaviceps
+VERM,Veraguan Mango,Anthracothorax,veraguensis
+VESC,Velvet Scoter,Melanitta,fusca
+VESP,Vesper Sparrow,Pooecetes,gramineus
+VETR,Venezuelan Troupial,Icterus,icterus
+VGSW,Violet-green Swallow,Tachycineta,thalassina
+VHHU,Violet-headed Hummingbird,Klais,guimeti
+VIDA,Viridian Dacnis,Dacnis,viguieri
+VIQD,Violaceous Quail-Dove,Geotrygon,violacea
+VIRA,Virginia Rail,Rallus,limicola
+VISA,Violet Sabrewing,Campylopterus,hemileucurus
+VITW,Vitelline Warbler,Setophaga,vitellina
+VIWA,Virginia's Warbler,Leiothlypis,virginiae
+VIWE,Village Weaver,Ploceus,cucullatus
+VOHU,Volcano Hummingbird,Selasphorus,flammula
+VOJU,Volcano Junco,Junco,vulcani
+WAAL,Wandering Albatross,Diomedea,exulans
+WAJA,Wattled Jacana,Jacana,jacana
+WATA,Wandering Tattler,Tringa,incana
+WAVA,Waved Albatross,Phoebastria,irrorata
+WAVI,Warbling Vireo,Vireo,gilvus
+WAWE,Warbling White-eye,Zosterops,japonicus
+WBAA,Wing-banded Antbird,Myrmornis,torquata
+WBCH,White-bellied Chachalaca,Ortalis,leucogastra
+WBEA,White-bellied Antbird,Myrmeciza,longipes
+WBEM,White-bellied Emerald,Chlorestes,candida
+WBGN,White-browed Gnatcatcher,Polioptila,bilineata
+WBMG,White-bellied Mountain-gem,Lampornis,hemileucus
+WBNU,White-breasted Nuthatch,Sitta,carolinensis
+WBTH,White-breasted Thrasher,Ramphocinclus,brachyurus
+WBWO,Wedge-billed Woodcreeper,Glyphorynchus,spirurus
+WBWR,White-bellied Wren,Uropsila,leucogastra
+WBWW,White-breasted Wood-Wren,Henicorhina,leucosticta
+WCAL,White-capped Albatross,Thalassarche,cauta
+WCCO,White-crested Coquette,Lophornis,adorabilis
+WCEL,White-crested Elaenia,Elaenia,albiceps
+WCGR,Western/Clark's Grebe,Aechmophorus,occidentalis/clarkii
+WCHP,White-cheeked Pintail,Anas,bahamensis
+WCHS,White-chinned Swift,Cypseloides,cryptus
+WCOM,White-collared Manakin,Manacus,candei
+WCPA,White-crowned Parrot,Pionus,senilis
+WCPE,White-chinned Petrel,Procellaria,aequinoctialis
+WCPI,White-crowned Pigeon,Patagioenas,leucocephala
+WCRM,White-crowned Manakin,Pseudopipra,pipra
+WCSP,White-crowned Sparrow,Zonotrichia,leucophrys
+WCSW,White-collared Swift,Streptoprocne,zonaris
+WCTH,White-chinned Thrush,Turdus,aurantius
+WEBL,Western Bluebird,Sialia,mexicana
+WECO,White-eared Conebill,Conirostrum,leucogenys
+WECT,Western Chat-Tanager,Calyptophilus,tertius
+WEFL,Western Flycatcher,Empidonax,difficilis
+WEGR,Western Grebe,Aechmophorus,occidentalis
+WEGS,White-eared Ground-Sparrow,Melozone,leucotis
+WEGU,Western Gull,Larus,occidentalis
+WEHM,Western House-Martin,Delichon,urbicum
+WEHU,White-eared Hummingbird,Basilinna,leucotis
+WEKI,Western Kingbird,Tyrannus,verticalis
+WEME,Western Meadowlark,Sturnella,neglecta
+WERH,Western Reef-Heron,Egretta,gularis
+WESA,Western Sandpiper,Calidris,mauri
+WESO,Western Screech-Owl,Megascops,kennicottii
+WESP,Western Spindalis,Spindalis,zena
+WETA,Western Tanager,Piranga,ludoviciana
+WETH,White-eyed Thrush,Turdus,jamaicensis
+WEVI,White-eyed Vireo,Vireo,griseus
+WEWA,Worm-eating Warbler,Helmitheros,vermivorum
+WEWP,Western Wood-Pewee,Contopus,sordidulus
+WEWR,Western Water-Rail,Rallus,aquaticus
+WFAQ,White-faced Quail-Dove,Zentrygon,albifacies
+WFGS,White-faced Ground-Sparrow,Melozone,biarcuata
+WFIB,White-faced Ibis,Plegadis,chihi
+WFLA,White-flanked Antwren,Myrmotherula,axillaris
+WFNU,White-fronted Nunbird,Monasa,morphoeus
+WFPA,White-fronted Parrot,Amazona,albifrons
+WFRA,White-fringed Antwren,Formicivora,grisea
+WFRQ,White-fronted Quail-Dove,Geotrygon,leucometopia
+WFSP,White-faced Storm-Petrel,Pelagodroma,marina
+WFSW,White-fronted Swift,Cypseloides,storeri
+WFWD,White-faced Whistling-Duck,Dendrocygna,viduata
+WGWH,Western X Glaucous-winged Gull Hybrid,Larus,occidentalis x glaucescens
+WHAU,Whiskered Auklet,Aethia,pygmaea
+WHCR,Whooping Crane,Grus,americana
+WHHA,White Hawk,Pseudastur,albicollis
+WHHE,Whistling Heron,Syrigma,sibilatrix
+WHIB,White Ibis,Eudocimus,albus
+WHIM,Whimbrel,Numenius,phaeopus
+WHIW,Whistling Warbler,Catharopeza,bishopi
+WHMO,Whooping Motmot,Momotus,subrufescens
+WHOS,Whooper Swan,Cygnus,cygnus
+WHSO,Whiskered Screech-Owl,Megascops,trichopsis
+WHST,Whiskered Tern,Chlidonias,hybrida
+WHSW,Whistling Swan,Cygnus,columbianus columbianus
+WHTH,White's Thrush,Zoothera,aurea
+WHTT,White Tern,Gygis,alba
+WHWA,White Wagtail,Motacilla,alba
+WHWO,White-headed Woodpecker,Dryobates,albolarvatus
+WHWR,White-headed Wren,Campylorhynchus,albobrunneus
+WIFL,Willow Flycatcher,Empidonax,traillii
+WILL,Willet,Tringa,semipalmata
+WILW,Willow Warbler,Phylloscopus,trochilus
+WIPH,Wilson's Phalarope,Phalaropus,tricolor
+WIPL,Wilson's Plover,Charadrius,wilsonia
+WIPT,Willow Ptarmigan,Lagopus,lagopus
+WISA,Williamson's Sapsucker,Sphyrapicus,thyroideus
+WISN,Wilson's Snipe,Gallinago,delicata
+WISP,Wilson's Storm-Petrel,Oceanites,oceanicus
+WITU,Wild Turkey,Meleagris,gallopavo
+WIWA,Wilson's Warbler,Cardellina,pusilla
+WIWD,West Indian Whistling-Duck,Dendrocygna,arborea
+WIWO,West Indian Woodpecker,Melanerpes,superciliaris
+WIWR,Winter Wren,Troglodytes,hiemalis
+WLGN,White-lored Gnatcatcher,Polioptila,albiloris
+WLTA,White-lined Tanager,Tachyphonus,rufus
+WMCH,West Mexican Chachalaca,Ortalis,poliocephala
+WMEU,West Mexican Euphonia,Euphonia,godmani
+WMHA,Western Marsh Harrier,Circus,aeruginosus
+WNBR,White-naped Brushfinch,Atlapetes,albinucha
+WNCR,White-necked Crow,Corvus,leucognaphalus
+WNJA,White-necked Jacobin,Florisuga,mellivora
+WNPE,White-necked Petrel,Pterodroma,cervicalis
+WNPU,White-necked Puffbird,Notharchus,hyperrhynchus
+WNSW,White-naped Swift,Streptoprocne,semicollaris
+WODU,Wood Duck,Aix,sponsa
+WOSA,Wood Sandpiper,Tringa,glareola
+WOSJ,Woodhouse's Scrub-Jay,Aphelocoma,woodhouseii
+WOSP,Worthen's Sparrow,Spizella,wortheni
+WOST,Wood Stork,Mycteria,americana
+WOTH,Wood Thrush,Hylocichla,mustelina
+WOWA,Wood Warbler,Phylloscopus,sibilatrix
+WPWA,Western Palm Warbler,Setophaga,palmarum palmarum
+WREN,Wrentit,Chamaea,fasciata
+WRET,Wrenthrush,Zeledonia,coronata
+WRFL,White-ringed Flycatcher,Conopias,albovittatus
+WRMA,White-ruffed Manakin,Corapipo,altera
+WRSA,White-rumped Sandpiper,Calidris,fuscicollis
+WRSH,White-rumped Shama,Copsychus,malabaricus
+WRSP,Wedge-rumped Storm-Petrel,Hydrobates,tethys
+WSPL,Western Snowy Plover,Charadrius,nivosus nivosus
+WSTA,White-shouldered Tanager,Loriotus,luctuosus
+WSWO,White-striped Woodcreeper,Lepidocolaptes,leucogaster
+WTAH,White-tailed Hummingbird,Eupherusa,poliocerca
+WTAT,White-tailed Trogon,Trogon,chionurus
+WTCR,White-throated Crake,Laterallus,albigularis
+WTDO,White-tipped Dove,Leptotila,verreauxi
+WTEA,White-tailed Eagle,Haliaeetus,albicilla
+WTEM,White-tailed Emerald,Microchera,chionura
+WTFL,White-throated Flycatcher,Empidonax,albigularis
+WTGF,Wedge-tailed Grass-Finch,Emberizoides,herbicola
+WTGS,White-thighed Swallow,Atticora,tibialis
+WTHA,White-tailed Hawk,Geranoaetus,albicaudatus
+WTHH,Wine-throated Hummingbird,Selasphorus,ellioti
+WTJA,White-throated Jay,Cyanolyca,mirabilis
+WTKI,White-tailed Kite,Elanus,leucurus
+WTMG,White-throated Mountain-gem,Lampornis,castaneoventris
+WTMJ,White-throated Magpie-Jay,Calocitta,formosa
+WTNE,White-throated Needletail,Hirundapus,caudacutus
+WTNI,White-tailed Nightjar,Hydropsalis,cayennensis
+WTPT,White-tailed Ptarmigan,Lagopus,leucura
+WTRS,White-throated Spadebill,Platyrinchus,mystaceus
+WTSA,Wedge-tailed Sabrewing,Pampa,curvipennis
+WTSH,Wedge-tailed Shearwater,Ardenna,pacifica
+WTSI,White-tipped Sicklebill,Eutoxeres,aquila
+WTSP,White-throated Sparrow,Zonotrichia,albicollis
+WTST,White-throated Shrike-Tanager,Lanio,leucothorax
+WTSW,White-throated Swift,Aeronautes,saxatalis
+WTTH,White-throated Thrush,Turdus,assimilis
+WTTO,White-throated Towhee,Melozone,albicollis
+WTTR,White-tailed Tropicbird,Phaethon,lepturus
+WVEU,White-vented Euphonia,Euphonia,minuta
+WVPL,White-vented Plumeleteer,Chalybura,buffonii
+WWBE,White-winged Becard,Pachyramphus,polychopterus
+WWCR,White-winged Crossbill,Loxia,leucoptera
+WWDO,White-winged Dove,Zenaida,asiatica
+WWJU,White-winged Junco,Junco,hyemalis aikeni
+WWPA,White-winged Parakeet,Brotogeris,versicolurus
+WWPU,White-whiskered Puffbird,Malacoptila,panamensis
+WWSC,White-winged Scoter,Melanitta,deglandi
+WWTA,White-winged Tanager,Piranga,leucoptera
+WWTE,White-winged Tern,Chlidonias,leucopterus
+WWWA,White-winged Warbler,Xenoligea,montana
+XAHU,Xantus's Hummingbird,Basilinna,xantusii
+YBCA,Yellow-billed Cardinal,Paroaria,capitata
+YBCH,Yellow-breasted Chat,Icteria,virens
+YBCO,Yellow-billed Cotinga,Carpodectes,antoniae
+YBCR,Yellow-breasted Crake,Hapalocrex,flaviventer
+YBCU,Yellow-billed Cuckoo,Coccyzus,americanus
+YBEL,Yellow-bellied Elaenia,Elaenia,flavogaster
+YBFL,Yellow-bellied Flycatcher,Empidonax,flaviventris
+YBIC,Yellow-billed Cacique,Amblycercus,holosericeus
+YBLO,Yellow-billed Loon,Gavia,adamsii
+YBMA,Yellow-billed Magpie,Pica,nuttalli
+YBOR,Yellow-backed Oriole,Icterus,chrysater
+YBPA,Yellow-billed Parrot,Amazona,collaria
+YBRF,Yellow-breasted Flycatcher,Tolmomyias,flaviventris
+YBSA,Yellow-bellied Sapsucker,Sphyrapicus,varius
+YBSB,Yellow-breasted Bunting,Emberiza,aureola
+YBSE,Yellow-bellied Seedeater,Sporophila,nigricollis
+YBSI,Yellow-bellied Siskin,Spinus,xanthogastrus
+YBSV,Yellow-browed Shrike-Vireo,Vireolanius,eximius
+YBTA,Yellow-backed Tanager,Hemithraupis,flavicollis
+YBTE,Yellow-billed Tern,Sternula,superciliaris
+YBTY,Yellow-bellied Tyrannulet,Ornithion,semiflavum
+YBWA,Yellow-browed Warbler,Phylloscopus,inornatus
+YBWB,Yellow-browed Bunting,Emberiza,chrysophrys
+YCBI,Yellow-crowned Bishop,Euplectes,afer
+YCCH,Yellow-collared Chlorophonia,Chlorophonia,flavirostris
+YCEU,Yellow-crowned Euphonia,Euphonia,luteicapilla
+YCNH,Yellow-crowned Night-Heron,Nyctanassa,violacea
+YCPA,Yellow-chevroned Parakeet,Brotogeris,chiriri
+YCRP,Yellow-crowned Parrot,Amazona,ochrocephala
+YCTY,Yellow-crowned Tyrannulet,Tyrannulus,elatus
+YEBI,Yellow Bittern,Ixobrychus,sinensis
+YEFL,Yellowish Flycatcher,Empidonax,flavescens
+YEGR,Yellow Grosbeak,Pheucticus,chrysopeplus
+YEJU,Yellow-eyed Junco,Junco,phaeonotus
+YEPI,Yellowish Pipit,Anthus,chii
+YERA,Yellow Rail,Coturnicops,noveboracensis
+YETO,Yellow-eared Toucanet,Selenidera,spectabilis
+YETY,Yellow Tyrannulet,Capsiempis,flaveola
+YEWA,Yellow Warbler,Setophaga,petechia
+YFCA,Yellow-fronted Canary,Crithagra,mozambica
+YFGR,Yellow-faced Grassquit,Tiaris,olivaceus
+YFGU,Yellow-footed Gull,Larus,livens
+YGBR,Yellow-green Brushfinch,Atlapetes,luteoviridis
+YGGR,Yellow-green Grosbeak,Caryothraustes,canadensis
+YGTY,Yellow-green Tyrannulet,Phylloscartes,flavovirens
+YGVI,Yellow-green Vireo,Vireo,flavoviridis
+YHBL,Yellow-headed Blackbird,Xanthocephalus,xanthocephalus
+YHCA,Yellow-headed Caracara,Milvago,chimachima
+YHOB,Yellow-hooded Blackbird,Chrysomus,icterocephalus
+YHPA,Yellow-headed Parrot,Amazona,oratrix
+YHWA,Yellow-headed Warbler,Teretistris,fernandinae
+YLGU,Yellow-legged Gull,Larus,michahellis
+YLPA,Yellow-lored Parrot,Amazona,xantholora
+YMFL,Yellow-margined Flycatcher,Tolmomyias,assimilis
+YNAL,Yellow-nosed Albatross,Thalassarche,chlororhynchos
+YNPA,Yellow-naped Parrot,Amazona,auropalliata
+YOFL,Yellow-olive Flycatcher,Tolmomyias,sulphurescens
+YPWA,Yellow Palm Warbler,Setophaga,palmarum hypochrysea
+YRCA,Yellow-rumped Cacique,Cacicus,cela
+YRRA,Yuma Ridgway's Rail,Rallus,obsoletus yumanensis
+YRWA,Yellow-rumped Warbler,Setophaga,coronata
+YSBL,Yellow-shouldered Blackbird,Agelaius,xanthomus
+YSFL,Yellow-shafted Flicker,Colaptes,auratus auratus
+YSGR,Yellow-shouldered Grassquit,Loxipasser,anoxanthus
+YTBR,Yellow-thighed Brushfinch,Atlapetes,tibialis
+YTBU,Yellow-throated Bunting,Emberiza,elegans
+YTCH,Yellow-throated Chlorospingus,Chlorospingus,flavigularis
+YTEU,Yellow-throated Euphonia,Euphonia,hirundinacea
+YTNT,Yellow-throated Nightingale-Thrush,Catharus,dryas
+YTOR,Yellow-tailed Oriole,Icterus,mesomelas
+YTTO,Yellow-throated Toucan,Ramphastos,ambiguus
+YTVI,Yellow-throated Vireo,Vireo,flavifrons
+YTWA,Yellow-throated Warbler,Setophaga,dominica
+YUFL,Yucatan Flycatcher,Myiarchus,yucatanensis
+YUGN,Yucatan Gnatcatcher,Polioptila,albiventris
+YUJA,Yucatan Jay,Cyanocorax,yucatanicus
+YUNI,Yucatan Nightjar,Antrostomus,badius
+YUPO,Yucatan Poorwill,Nyctiphrynus,yucatanicus
+YUVI,Yucatan Vireo,Vireo,magister
+YUWO,Yucatan Woodpecker,Melanerpes,pygmaeus
+YUWR,Yucatan Wren,Campylorhynchus,yucatanicus
+YWCA,Yellow-winged Cacique,Cassiculus,melanicterus
+YWTA,Yellow-winged Tanager,Thraupis,abbas
+YWVI,Yellow-winged Vireo,Vireo,carmioli
+ZARA,Zapata Rail,Mustelirallus,cerverai
+ZASP,Zapata Sparrow,Torreornis,inexpectata
+ZAWR,Zapata Wren,Ferminia,cerverai
+ZEAN,Zeledon's Antbird,Hafferia,zeledoni
+ZEBD,Zebra Dove,Geopelia,striata
+ZEND,Zenaida Dove,Zenaida,aurita
+ZIPE,Zino's Petrel,Pterodroma,madeira
+ZSHY,Zonotrichia Sparrow Hybrid,Zonotrichia,hybrid
+ZTHA,Zone-tailed Hawk,Buteo,albonotatus

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.shiny-input-full-width
+  .shiny-input-container:not(.shiny-input-container-inline) {
+  width: 100%;
+  max-width: 100%;
+}
+
+body,
+.control-label{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+.f {
+  animation: blink 3s infinite;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+
+@keyframes blink {
+  0%, 10%, 90% {
+    transform: none;
+  }
+  8% {
+    transform: scaleY(0.3);
+  }
+}
+
+.accordion-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: large;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+#gps {
+  background-color: #fda400;
+  color: #ffffff;
+}
+
+#google_sheets_selector {
+  border: hsl(0, 0%, 0%);
+  border-style: groove;
+
+}
+
+.bslib-value-box .value-box-title {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #78c2ad;
+  --bs-btn-border-color: #78c2ad;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #3551d0;
+  --bs-btn-hover-border-color: #78c2ad;
+  --bs-btn-focus-shadow-rgb: 120,194,173;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #78c2ad;
+  --bs-btn-active-border-color: #78c2ad;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+  --bs-btn-disabled-color: #78c2ad;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #78c2ad;
+  --bs-btn-bg: transparent;
+  --bs-gradient: none;
+}
+
+.btn-outline-danger {
+  --bs-btn-color: #f27077;
+  --bs-btn-border-color: #f27077;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #f27077;
+  --bs-btn-hover-border-color: #f27077;
+  --bs-btn-focus-shadow-rgb: 255,120,81;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #f27077;
+  --bs-btn-active-border-color: #f27077;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+  --bs-btn-disabled-color: #ad2b03;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #ad2b03;
+  --bs-btn-bg: transparent;
+  --bs-gradient: none;
+}
+
+[id^="delete_"]{
+  margin-left: auto;
+}
+
+.card-header:first-child {
+  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+  background: lightslategrey;
+  color: white;
+}
+
+#reminder{
+  color: black;
+}
+
+.btn-info {
+  --bs-btn-bg: #1f9bcf;
+  width: 100%;
+}
+
+.btn-warning {
+  --bs-btn-bg: rgb(158, 147, 229);
+}

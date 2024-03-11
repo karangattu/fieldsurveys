@@ -1,0 +1,88 @@
+# Add all surveyors below
+surveyors:
+  - Jon Jones
+  - Kerry Watson
+  - Laurie Bowen
+  - Judith Mckenzie
+  - Preston Patrick
+location:
+  - Pulgas Ridge Preserve
+  - Purisima Creek Redwoods Preserve
+  - Teague Hill Preserve
+  - Thornewood Preserve
+  - Wunderlich County Park
+  - El Corte de Madera Creek Preserve
+  - La Honda Creek Open Space Preserve
+plots:
+  - Fir Trail
+  - Redwood Trail
+  - Bay Trail
+  - Oak Trail
+  - Buckeye Trail
+survey_points:
+  - Point1
+  - Point2
+  - Point3
+  - Point4
+survey_side:
+  - North section
+  - South section
+  - East section
+  - West section
+google_workbook_name: demo surveys
+company_logo_url: https://cdn-icons-png.flaticon.com/512/6662/6662934.png
+survey_data_sources:
+  - amphibian
+  - arthropod
+  - bird
+  - butterfly
+  - mammal
+  - plant
+  - reptile
+  - tree
+canopy_cover:
+  0 - 5%:
+    1: Class 1
+  5 - 25%:
+    2: Class 2
+  25 - 50%:
+    3: Class 3
+  50 - 75%:
+    4: Class 4
+  75 - 95%:
+    5: Class 5
+  95 - 100%:
+    6: Class 6
+count:
+  Sparse:
+    1: "1"
+    2-5: "2-5"
+    6-10: "6-10"
+  Low Abundance:
+    11-20: "11-20"
+    21-50: "21-50"
+  Moderately Abundant:
+    51-100: "51-100"
+    101-500: "101-500"
+  High Abundance:
+    501-1000: "501-1000"
+    1000+: "1000+"
+  Non-existent:
+    0: "0"
+abundance_category:
+  - Rare
+  - Common
+  - Abundant
+  - Dominant
+  - Occasional
+  - Uncommon
+life_stage:
+  - Seedling
+  - Vegetative growth
+  - Bud formation
+  - Flowering
+  - Fruit/seed formation
+  - Senescence
+  - Dormancy
+database_link: https://tinyurl.com/cbuvzzcf
+google_folder_id: 1Xtr6qWGANk3S8Sd10cF6LM3SpjcAc0iB
