@@ -3,9 +3,10 @@ from shiny import ui
 
 from .utils import get_sheets
 
-loading_tag = ui.tags.img(src="loading.svg", height="32px", width="32px")
-woman_on_smartphone = ui.tags.img(src="woman_on_smartphone.svg")
-woman_reminding = ui.tags.img(src="woman_reminding.svg")
+# use a CDN for assets instead of local
+loading_tag = ui.tags.img(src="https://gilded-mandazi-30bb2e.netlify.app/loading.svg", height="32px", width="32px")
+woman_on_smartphone = ui.tags.img(src="https://gilded-mandazi-30bb2e.netlify.app/woman_on_smartphone.svg")
+woman_reminding = ui.tags.img(src="https://gilded-mandazi-30bb2e.netlify.app/woman_reminding.svg")
 
 
 def record_observation(survey_config):

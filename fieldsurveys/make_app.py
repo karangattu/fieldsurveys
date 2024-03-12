@@ -88,7 +88,7 @@ def make_app(
         title=ui.tags.img(src=img_url, width="125px"),
         *nav_controls("page_navbar"),
         id="page_navbar",
-        header=ui.tags.link(href="styles.css", rel="stylesheet"),
+        header=ui.tags.link(href="https://gilded-mandazi-30bb2e.netlify.app/styles.css", rel="stylesheet"),
         window_title="Survey App",
     )
 
