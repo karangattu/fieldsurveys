@@ -31,8 +31,8 @@ pip install fieldsurveys
 # Prerequisites
 - Python 3.9 or higher (Install python from [here](https://www.python.org/downloads/))
 - tkinter (will be included with your python installation)
-- survey.yaml file (see instructions [below](#surveyyaml-file)
-- Data CSV files (see instructions [below](#data-csv-files)
+- survey.yaml file (see instructions [below](#surveyyaml-file))
+- Data CSV files (see instructions [below](#data-csv-files))
 - keyfile.json (see instructions [below](#keyfilejson))
 
 # survey.yaml file
