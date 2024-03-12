@@ -47,9 +47,10 @@ This is the config file that allows the user to configure the app to their speci
 4. Survey points
 5. Survey sides
 6. Survey data sources
-7. Database link
-8. Google Workbook Name
-9. Google Drive Folder Id
+7. Company logo url
+8. Database link
+9. Google Workbook Name
+10. Google Drive Folder Id
 
 ## Data CSV files
 
