@@ -2,6 +2,7 @@ import requests
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
+import time
 
 
 def upload_image_to_imgur(survey_config, image_path):
@@ -37,6 +38,12 @@ def upload_image_to_drive(survey_config, image_path, keyfile_json):
     # Upload the image
     file_metadata = {"parents": [folder_id]}
     media = MediaFileUpload(image_path, mimetype="image/jpeg", resumable=True)
+    # Generate a unique name for the file based on current time
+    file_name = f"image_{int(time.time())}.jpg"
+
+    file_metadata = {"name": file_name, "parents": [folder_id]}
+    media = MediaFileUpload(image_path, mimetype="image/jpeg", resumable=True)
+
     file = (
         service.files()
         .create(body=file_metadata, media_body=media, fields="id")
