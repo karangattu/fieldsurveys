@@ -36,7 +36,8 @@ pip install fieldsurveys
 - keyfile.json (see instructions [below](#keyfilejson))
 
 # survey.yaml file
-This is the config file that allows the user to configure the app to their specific needs. The *survey.yaml* file should be created using the survey_config_generator app over [here](https://nafcillincat.shinyapps.io/survey_config_generator/). The survey_config_generator app allows the user to create a survey.yaml file by providing the following information in a step-by-step process:
+This is the config file that allows the user to configure the app to their specific needs. The *survey.yaml* file should be created using the **Survey App config generator** over [here](https://nafcillincat.shinyapps.io/survey_config_generator/). The **Survey App config generator** allows the user to create a survey.yaml file by providing the following information in a step-by-step process:
+
 1. Surveyor names
 2. Survey locations
 3. Survey plots
