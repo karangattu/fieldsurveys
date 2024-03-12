@@ -7,7 +7,7 @@ We developed an interactive web application to facilitate multi-taxon field samp
 
 This user-friendly application streamlines the process of field sampling and data collection, making it more efficient and accessible to a wide range of users, regardless of their technical expertise or location.
 
-![App Demo](app_demo.gif)
+![App Demo](https://i.imgur.com/o51TOwA.gif)
 
 ## Table of contents
 
