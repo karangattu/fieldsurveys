@@ -7,7 +7,7 @@ We developed an interactive web application to facilitate multi-taxon field samp
 
 This user-friendly application streamlines the process of field sampling and data collection, making it more efficient and accessible to a wide range of users, regardless of their technical expertise or location.
 
-![App Demo](https://i.imgur.com/o51TOwA.gif)
+![App Demo](https://tinyurl.com/demoimg)
 
 ## Table of contents
 
@@ -37,6 +37,8 @@ pip install fieldsurveys
 - Data CSV files (see instructions [below](#data-csv-files))
 - keyfile.json (see instructions [below](#keyfilejson))
 
+Please ensure that you have all the prerequisites before proceeding with running the app.
+
 ## survey.yaml file
 
 This is the config file that allows the user to configure the app to their specific needs. The *survey.yaml* file should be created using the **Survey App config generator** over [here](https://nafcillincat.shinyapps.io/survey_config_generator/). The **Survey App config generator** allows the user to create a survey.yaml file by providing the following information in a step-by-step process:
@@ -54,6 +56,7 @@ This is the config file that allows the user to configure the app to their speci
 
 ## Data CSV files
 
+If you do not know what a CSV file is or how to create one, read this [article](https://www.computerhope.com/issues/ch001356.htm) to get you started.
 The app requires users to upload data CSV files. These CSV files should contain the data that the user wants to collect during the survey. The CSV files must have the following headers (first line) in the specified order:
 
 1. Common Name
