@@ -35,7 +35,6 @@ pip install fieldsurveys
 ## Prerequisites
 
 - Python 3.9 or higher (Install python from [here](https://www.python.org/downloads/))
-- tkinter (will be included with your python installation)
 - Data CSV files (see instructions [below](#data-csv-files))
 - keyfile.json (see instructions [below](#keyfilejson))
 - Google sheets and Google Drive folders shared with the client_email from the keyfile.json file (see instructions [below](#google-sheets-and-google-drive-folder-configured))
@@ -116,11 +115,11 @@ Here’s how to get one:
 
 9. Navigate to the path to the downloaded credentials filerename and rename this file to `keyfile.json`
 10. Open the `keyfile.json` file and get the value of client_email from this file.
-11. Share the Google Sheets and Google Drive folders with the client_email you got from the previous step.
+11. Proceed to the next section to configure your Google sheets and Google drive folder.
 
 ## Google sheets and Google Drive folder configured
 
-1. Create a new google spreadsheet that you want your survey data to live in. You can create a new workbook by going to [Google Sheets](https://docs.google.com/spreadsheets/u/0/) and clicking on the "+" button for blank spreadsheet. You can also use an existing workbook if you have one. Give it an appropriate name and make sure it has the same name as the one you provide in the survey.yaml file.
+1. Create a new google spreadsheet that you want your survey data to live in. You can create a new workbook by going to [Google Sheets](https://docs.google.com/spreadsheets/u/0/) and clicking on the **+** button for blank spreadsheet. You can also use an existing workbook if you have one. Give it an appropriate name and make sure it has the same name as the one you provide in the survey.yaml file.
   
 2. Using that spreadsheet name and share it with a client_email from the step above. Just like you do with any other Google account. Make sure the service account has editor access to the google sheet.
 
@@ -140,8 +139,9 @@ This is the config file that allows the user to configure the app to their speci
 6. Survey data sources
 7. Company logo url
 8. Database link
-9.  Google Workbook Name
+9. Google Workbook Name
 10. Google Drive Folder Id
+
 ## Run the app on your machine
 
 To instantiate the app, run the following command in your terminal:

@@ -120,12 +120,17 @@ def copy_app_files(
         for data_file in data_files:
             _copy_file(data_file, data_directory_path)
 
-    if keyfile is None:
-        keyfile = default_keyfile_path
-        _copy_file(keyfile, app_dir)
-    else:
-        for file in keyfile:
-            _copy_file(file, app_dir)
+        if keyfile is None:
+            keyfile = default_keyfile_path
+            _copy_file(keyfile, app_dir)
+        else:
+            for file in keyfile:
+                _copy_file(file, app_dir)
+                # rename the file to keyfile.json no matter what user specified
+                os.rename(
+                    os.path.join(app_dir, os.path.basename(keyfile)),
+                    os.path.join(app_dir, "keyfile.json")
+                )
 
     file_contents = """\
 import fieldsurveys
