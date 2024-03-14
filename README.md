@@ -7,7 +7,7 @@ We developed an interactive web application to facilitate multi-taxon field samp
 
 This user-friendly application streamlines the process of field sampling and data collection, making it more efficient and accessible to a wide range of users, regardless of their technical expertise or location.
 
-![App Demo](https://tinyurl.com/demoimg)
+![App Demo](https://nafcillincat.netlify.app/demo_app.gif)
 
 ## Table of contents
 
@@ -128,6 +128,8 @@ Here’s how to get one:
 4. To share that Google Drive folder, right-click on the folder and select "Share". Then, share it with the client_email from the step above. Make sure the service account has editor access to the Google Drive folder.
 
 ## survey.yaml file
+
+![Demo of the Survey App config generator](https://nafcillincat.netlify.app/create_config_file.gif)
 
 This is the config file that allows the user to configure the app to their specific needs. The *survey.yaml* file should be created using the **Survey App config generator** over [here](https://nafcillincat.shinyapps.io/survey_config_generator/). The **Survey App config generator** allows the user to create a survey.yaml file by providing the following information in a step-by-step process:
 
