@@ -6,6 +6,7 @@ setup(
     author="Karan Gathani",
     author_email="karan.gathani+fieldsurveysapp@posit.co",
     packages=find_packages(),
+    description="A Python package for creating and managing field surveys.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/karangattu/fieldsurveys",
