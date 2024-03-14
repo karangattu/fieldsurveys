@@ -15,9 +15,12 @@ This user-friendly application streamlines the process of field sampling and dat
   - [Table of contents](#table-of-contents)
   - [Installation](#installation)
   - [Prerequisites](#prerequisites)
-  - [survey.yaml file](#surveyyaml-file)
   - [Data CSV files](#data-csv-files)
   - [keyfile.json](#keyfilejson)
+    - [Enable API Access for a Project](#enable-api-access-for-a-project)
+    - [Using Service Account](#using-service-account)
+  - [Google sheets and Google Drive folder configured](#google-sheets-and-google-drive-folder-configured)
+  - [survey.yaml file](#surveyyaml-file)
   - [Run the app on your machine](#run-the-app-on-your-machine)
   - [Deploying the app on the web (so it can be accessed from anywhere)](#deploying-the-app-on-the-web-so-it-can-be-accessed-from-anywhere)
   - [Demo](#demo)
@@ -33,26 +36,12 @@ pip install fieldsurveys
 
 - Python 3.9 or higher (Install python from [here](https://www.python.org/downloads/))
 - tkinter (will be included with your python installation)
-- survey.yaml file (see instructions [below](#surveyyaml-file))
 - Data CSV files (see instructions [below](#data-csv-files))
 - keyfile.json (see instructions [below](#keyfilejson))
+- Google sheets and Google Drive folders shared with the client_email from the keyfile.json file (see instructions [below](#google-sheets-and-google-drive-folder-configured))
+- survey.yaml file (see instructions [below](#surveyyaml-file))
 
 Please ensure that you have all the prerequisites before proceeding with running the app.
-
-## survey.yaml file
-
-This is the config file that allows the user to configure the app to their specific needs. The *survey.yaml* file should be created using the **Survey App config generator** over [here](https://nafcillincat.shinyapps.io/survey_config_generator/). The **Survey App config generator** allows the user to create a survey.yaml file by providing the following information in a step-by-step process:
-
-1. Surveyor names
-2. Survey locations
-3. Survey plots
-4. Survey points
-5. Survey sides
-6. Survey data sources
-7. Company logo url
-8. Database link
-9. Google Workbook Name
-10. Google Drive Folder Id
 
 ## Data CSV files
 
@@ -82,21 +71,77 @@ Ensure your CSV file follows the required format before uploading. You can use m
 
 To download the keyfile.json for your Google Cloud account as a first-time user, follow these steps:
 
-1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
-1. If you don't have a Google Cloud project, create a new one by clicking on the "Select a project" dropdown at the top of the console and then clicking "New Project".
-1. Once you have a project, navigate to the "APIs & Services" section from the sidebar menu or search for it in the top search bar.
-1. Click on "Credentials" in the left-hand menu.
-1. Click on "Create Credentials" and then select "Service Account" from the dropdown menu.
-1. In the "Service Account" screen, provide a name for your service account and a description (optional).
-1. Under the "Grant this service account access to project" section, choose the appropriate role(s) for your service account. For example, if you want to access Google Drive, you can select the "Editor" role.
-1. Click on "Create Key" to create a new key for your service account.
-1. In the "Create Private Key" window, select the "JSON" key type.
-1. Click "Create" to generate and download the keyfile.json file to your local machine.
 
+### Enable API Access for a Project
+- Head to [Google Developers Console](https://console.developers.google.com/) and create a new project (or select the one you already have).
 
-**Note:** *Keep this **keyfile.json** file secure, as it contains sensitive information that can be used to access your Google Cloud resources. You'll need this file to authenticate and authorize your applications when making API calls to Google Cloud services.*
+- In the box labeled “Search for APIs and Services”, search for “Google Drive API” and enable it.
 
+- In the box labeled “Search for APIs and Services”, search for “Google Sheets API” and enable it.
 
+### Using Service Account
+A service account is a special type of Google account intended to represent a non-human user that needs to authenticate and be authorized to access data in Google APIs.
+
+Since it’s a separate account, by default it does not have access to any spreadsheet until you share it with this account. Just like any other Google account.
+
+Here’s how to get one:
+
+1. Enable API Access for a Project if you haven’t done it yet.
+
+2. Go to “APIs & Services > Credentials” and choose “Create credentials > Service account key”.
+
+3. Fill out the form
+
+4. Click “Create” and “Done”.
+
+5. Press “Manage service accounts” above Service Accounts.
+
+6. Press on ⋮ near recently created service account and select “Manage keys” and then click on “ADD KEY > Create new key”.
+
+7. Select JSON key type and press “Create”.
+
+8. You will automatically download a JSON file with credentials. It may look like this:
+
+    ```json
+    {
+        "type": "service_account",
+        "project_id": "api-project-XXX",
+        "private_key_id": "2cd … ba4",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nNrDyLw … jINQh/9\n-----END PRIVATE KEY-----\n",
+        "client_email": "473000000000-yoursisdifferent@developer.gserviceaccount.com",
+        "client_id": "473 … hd.apps.googleusercontent.com",
+        ...
+    }
+    ```
+
+9. Navigate to the path to the downloaded credentials filerename and rename this file to `keyfile.json`
+10. Open the `keyfile.json` file and get the value of client_email from this file.
+11. Share the Google Sheets and Google Drive folders with the client_email you got from the previous step.
+
+## Google sheets and Google Drive folder configured
+
+1. Create a new google spreadsheet that you want your survey data to live in. You can create a new workbook by going to [Google Sheets](https://docs.google.com/spreadsheets/u/0/) and clicking on the "+" button for blank spreadsheet. You can also use an existing workbook if you have one. Give it an appropriate name and make sure it has the same name as the one you provide in the survey.yaml file.
+  
+2. Using that spreadsheet name and share it with a client_email from the step above. Just like you do with any other Google account. Make sure the service account has editor access to the google sheet.
+
+3. Create a new Google Drive folder where you want to store the specimen images during the survey. You can create a new folder by going to [Google Drive](https://drive.google.com/drive/my-drive) and clicking on the "+ New" button for new folder. You can also use an existing folder if you have one. Give it an appropriate name.
+
+4. To share that Google Drive folder, right-click on the folder and select "Share". Then, share it with the client_email from the step above. Make sure the service account has editor access to the Google Drive folder.
+
+## survey.yaml file
+
+This is the config file that allows the user to configure the app to their specific needs. The *survey.yaml* file should be created using the **Survey App config generator** over [here](https://nafcillincat.shinyapps.io/survey_config_generator/). The **Survey App config generator** allows the user to create a survey.yaml file by providing the following information in a step-by-step process:
+
+1. Surveyor names
+2. Survey locations
+3. Survey plots
+4. Survey points
+5. Survey sides
+6. Survey data sources
+7. Company logo url
+8. Database link
+9.  Google Workbook Name
+10. Google Drive Folder Id
 ## Run the app on your machine
 
 To instantiate the app, run the following command in your terminal:
