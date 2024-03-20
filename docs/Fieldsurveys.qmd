@@ -73,8 +73,16 @@ If you want to play around with the app before setting up one for your case, fee
 
     Run this command on your ***Terminal*** on a `macOS`/`Linux`machine or ***Windows PowerShell***/***Command Prompt*** on a `Windows` machine.\
 
+    ![Checking python version on windows machine](assets/check_python_version.gif)
+
     ``` bash
     python3 --version
+    ```
+
+    OR
+
+    ``` bash
+    python --version
     ```
     :::
 
