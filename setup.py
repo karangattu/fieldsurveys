@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="fieldsurveys",
-    version="0.1.37",
+    version="0.1.38",
     author="Karan Gathani",
     author_email="karan.gathani+fieldsurveysapp@posit.co",
     packages=find_packages(),
