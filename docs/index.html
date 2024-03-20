@@ -262,6 +262,9 @@ If Python is not installed
 </div>
 </div>
 </div></li>
+<li><p><code>Wheel</code> python package</p>
+<p>Install this package by typing this command on your <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install wheel</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p>Data CSV files (<a href="#data-csv-files">Data CSV files</a>)</p></li>
 <li><p><code>survey.yaml</code> that is customized to your use case (Make sure Data CSV files are ready before this step)</p>
 <div class="callout callout-style-simple callout-note callout-titled">
@@ -363,15 +366,15 @@ ACMA,Bigleaf maple,Acer,macrophyllum</code></pre>
 <li><p>Press on ⋮ near recently created service account and select “Manage keys” and then click on “ADD KEY &gt; Create new key”.</p></li>
 <li><p>Select JSON key type and press “Create”.</p></li>
 <li><p>You will automatically download a JSON file with credentials. It may look like this:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"service_account"</span><span class="fu">,</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"project_id"</span><span class="fu">:</span> <span class="st">"api-project-XXX"</span><span class="fu">,</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"private_key_id"</span><span class="fu">:</span> <span class="st">"2cd … ba4"</span><span class="fu">,</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"private_key"</span><span class="fu">:</span> <span class="st">"-----BEGIN PRIVATE KEY-----</span><span class="ch">\n</span><span class="st">NrDyLw … jINQh/9</span><span class="ch">\n</span><span class="st">-----END PRIVATE KEY-----</span><span class="ch">\n</span><span class="st">"</span><span class="fu">,</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"client_email"</span><span class="fu">:</span> <span class="st">"473000000000-yoursisdifferent@developer.gserviceaccount.com"</span><span class="fu">,</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"client_id"</span><span class="fu">:</span> <span class="st">"473 … hd.apps.googleusercontent.com"</span><span class="fu">,</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="er">...</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb5"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"service_account"</span><span class="fu">,</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"project_id"</span><span class="fu">:</span> <span class="st">"api-project-XXX"</span><span class="fu">,</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"private_key_id"</span><span class="fu">:</span> <span class="st">"2cd … ba4"</span><span class="fu">,</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"private_key"</span><span class="fu">:</span> <span class="st">"-----BEGIN PRIVATE KEY-----</span><span class="ch">\n</span><span class="st">NrDyLw … jINQh/9</span><span class="ch">\n</span><span class="st">-----END PRIVATE KEY-----</span><span class="ch">\n</span><span class="st">"</span><span class="fu">,</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"client_email"</span><span class="fu">:</span> <span class="st">"473000000000-yoursisdifferent@developer.gserviceaccount.com"</span><span class="fu">,</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"client_id"</span><span class="fu">:</span> <span class="st">"473 … hd.apps.googleusercontent.com"</span><span class="fu">,</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="er">...</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p>Navigate to the path to the downloaded credentials filerename and rename this file to <code>keyfile.json</code></p></li>
 <li><p>Open the <code>keyfile.json</code> file and get the value of client_email from this file.</p></li>
 <li><p>Proceed to the next section to configure your Google sheets and Google drive folder.</p></li>
@@ -433,12 +436,12 @@ Company logo url
 <section id="installation" class="level2">
 <h2 class="anchored" data-anchor-id="installation">Installation</h2>
 <p><code>fieldsurveys</code> is a python package that can be installed on a user’s machine by satisfying all prerequisites and running this command in the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install fieldsurveys</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install fieldsurveys</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="run-the-app-on-your-machine" class="level2">
 <h2 class="anchored" data-anchor-id="run-the-app-on-your-machine">Run the app on your machine</h2>
 <p>To instantiate the app, run the following command in your terminal:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">fieldsurveys</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">fieldsurveys</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Follow the instructions on the screen to select your <code>survey.yaml</code>, <code>data CSV files</code>, and <code>keyfile.json</code>. It will then ask you for the directory where you want to store the app. Once you have provided all the necessary information, the app will be created in the specified directory.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
@@ -488,7 +491,7 @@ OR
 <li><p><strong>Copy command to clipboard:</strong> Click on the <code>With Python</code> tab and click on the <code>Copy to clipboard</code> button.</p></li>
 <li><p>Open your <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine and paste the copied command and hit enter to store the credentials on your machine that will be used for deployment.</p></li>
 <li><p>In the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong>, run the following command to deploy your app</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny /path/to/app <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny /path/to/app <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">

@@ -94,6 +94,14 @@ If you want to play around with the app before setting up one for your case, fee
     ***Note:*** You may need to add Python to `PATH` if you’ve installed Python, but typing `python` on the command line doesn’t seem to work. Follow instructions [here](https://realpython.com/add-python-to-path/ "Add Python path").
     :::
 
+-   `Wheel` python package
+
+    Install this package by typing this command on your ***Terminal*** on a `macOS`/`Linux`machine or ***Windows PowerShell***/***Command Prompt*** on a `Windows` machine.
+
+    ``` bash
+    pip install wheel
+    ```
+
 -   Data CSV files ([Data CSV files])
 
 -   `survey.yaml` that is customized to your use case (Make sure Data CSV files are ready before this step)
