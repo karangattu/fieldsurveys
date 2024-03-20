@@ -111,6 +111,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#what-is-this-app-about" id="toc-what-is-this-app-about" class="nav-link active" data-scroll-target="#what-is-this-app-about">What is this app about?</a></li>
+  <li><a href="#app-features" id="toc-app-features" class="nav-link" data-scroll-target="#app-features">App Features</a>
+  <ul class="collapse">
+  <li><a href="#seamless-integration" id="toc-seamless-integration" class="nav-link" data-scroll-target="#seamless-integration">Seamless Integration</a></li>
+  <li><a href="#precise-location-tracking" id="toc-precise-location-tracking" class="nav-link" data-scroll-target="#precise-location-tracking">Precise Location Tracking</a></li>
+  <li><a href="#comprehensive-specimen-information" id="toc-comprehensive-specimen-information" class="nav-link" data-scroll-target="#comprehensive-specimen-information">Comprehensive Specimen Information</a></li>
+  <li><a href="#data-security-and-restoration" id="toc-data-security-and-restoration" class="nav-link" data-scroll-target="#data-security-and-restoration">Data Security and Restoration</a></li>
+  <li><a href="#environmental-data-integration" id="toc-environmental-data-integration" class="nav-link" data-scroll-target="#environmental-data-integration">Environmental Data Integration</a></li>
+  </ul></li>
   <li><a href="#how-does-the-app-work" id="toc-how-does-the-app-work" class="nav-link" data-scroll-target="#how-does-the-app-work">How does the app work?</a></li>
   <li><a href="#can-i-see-a-demo-of-the-app" id="toc-can-i-see-a-demo-of-the-app" class="nav-link" data-scroll-target="#can-i-see-a-demo-of-the-app">Can I see a demo of the app?</a></li>
   <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
@@ -146,9 +154,52 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://nafcillincat.netlify.app/demo_app.gif" class="img-fluid figure-img"></p>
-<figcaption><em>App Demo</em></figcaption>
+<figcaption><em>App Demo on Desktop</em></figcaption>
 </figure>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/demo_mobile.gif" class="img-fluid figure-img" alt="Demo on a mobile device" width="353"></p>
+<figcaption><em>Demo on Mobile</em></figcaption>
+</figure>
+</div>
+</section>
+<section id="app-features" class="level2">
+<h2 class="anchored" data-anchor-id="app-features">App Features</h2>
+<section id="seamless-integration" class="level3">
+<h3 class="anchored" data-anchor-id="seamless-integration">Seamless Integration</h3>
+<ol type="1">
+<li><p><strong>Google Drive Integration:</strong> Store images of specimens effortlessly during the survey, ensuring all your visual data is securely backed up.</p></li>
+<li><p><strong>Google Sheets Integration:</strong> Record observations directly into a Google Sheet during the survey, eliminating the need for manual data entry later.</p></li>
+</ol>
+</section>
+<section id="precise-location-tracking" class="level3">
+<h3 class="anchored" data-anchor-id="precise-location-tracking">Precise Location Tracking</h3>
+<ol start="3" type="1">
+<li><strong>High-Accuracy GPS:</strong> Record your location with precision, thanks to the app’s ability to pinpoint your GPS coordinates within 15 meters.</li>
+</ol>
+</section>
+<section id="comprehensive-specimen-information" class="level3">
+<h3 class="anchored" data-anchor-id="comprehensive-specimen-information">Comprehensive Specimen Information</h3>
+<ol start="4" type="1">
+<li><p><strong>Identification Images and Notes:</strong> Access identification images and detailed notes about the selected specimen, providing you with valuable insights during your survey.</p></li>
+<li><p><strong>Attribute Recording:</strong> Easily record additional attributes such as canopy cover and vegetation height (in cm) for comprehensive vegetation surveys.</p></li>
+<li><p><strong>Specimen Lookup:</strong> Quickly look up specimens by their Genus-Species or Common Name while recording observations, ensuring accurate data collection.</p></li>
+</ol>
+</section>
+<section id="data-security-and-restoration" class="level3">
+<h3 class="anchored" data-anchor-id="data-security-and-restoration">Data Security and Restoration</h3>
+<ol start="7" type="1">
+<li><strong>Observation Restoration:</strong> In case of unexpected data loss while in the field, you can restore your recorded observations, ensuring no valuable data is lost.</li>
+</ol>
+</section>
+<section id="environmental-data-integration" class="level3">
+<h3 class="anchored" data-anchor-id="environmental-data-integration">Environmental Data Integration</h3>
+<ol start="8" type="1">
+<li><strong>Weather Information:</strong> Look up and store weather information for your detected GPS location, providing valuable environmental context to your survey data.</li>
+</ol>
+<p>With its seamless integration, precise location tracking, comprehensive specimen information, data security measures, and environmental data integration, this app empowers you to conduct efficient and accurate surveys, streamlining your field data collection process.</p>
+</section>
 </section>
 <section id="how-does-the-app-work" class="level2">
 <h2 class="anchored" data-anchor-id="how-does-the-app-work">How does the app work?</h2>
@@ -169,46 +220,55 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Python <code>3.8</code> , <code>3.9</code>, <code>3.10</code> or <code>3.11</code> <em>(<code>3.12</code> is not tested and might not work as expected)</em><br>
 </p>
 <div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Check python version on your machine
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Run this command on your <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine.<br>
 </p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
+</div>
 <div class="callout callout-style-simple callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 If Python is not installed
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Visit the <a href="https://www.python.org/downloads/" title="Python download page">official Python downloads page</a> and download the latest version of <code>Python 3</code>. Run the downloaded package and follow the installation wizard. Check the previous command to ensure python is installed successfully on the machine.</p>
+<p>Visit the <a href="https://www.python.org/downloads/" title="Python download page">official Python downloads page</a> and download the desired version of <code>Python 3</code>. Run the downloaded package and follow the installation wizard. Check the previous command to ensure python is installed successfully on the machine.</p>
 <p><strong><em>Note:</em></strong> You may need to add Python to <code>PATH</code> if you’ve installed Python, but typing <code>python</code> on the command line doesn’t seem to work. Follow instructions <a href="https://realpython.com/add-python-to-path/" title="Add Python path">here</a>.</p>
+</div>
 </div>
 </div></li>
 <li><p><code>survey.yaml</code> that is customized to your use case</p>
 <div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Create your unique survey.yaml file
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Please complete all the required information fields and then you can download your file from <a href="https://nafcillincat.shinyapps.io/survey_config_generator/" title="Survey App config generator"><em>this location</em></a>.</p>
+</div>
 </div>
 </div></li>
 <li><p>Data CSV files (<a href="#data-csv-files">Data CSV files</a>)</p></li>
@@ -316,14 +376,16 @@ ACMA,Bigleaf maple,Acer,macrophyllum</code></pre>
 <li>Google Drive Folder Id</li>
 </ol>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Company logo url
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>To get the image URL directly from the browser, follow these steps:</p>
 <ol type="1">
@@ -331,6 +393,7 @@ Company logo url
 <li><p>From the context menu that appears, select <code>Copy Image Address</code> or something similar.</p></li>
 <li><p>That’s it! The URL of the image is now copied to your clipboard.</p></li>
 </ol>
+</div>
 </div>
 </div>
 </section>

@@ -22,7 +22,39 @@ We developed an interactive web application to facilitate multi-taxon field samp
 
 This user-friendly application streamlines the process of field sampling and data collection, making it more efficient and accessible to a wide range of users, regardless of their technical expertise or location.
 
-![*App Demo*](https://nafcillincat.netlify.app/demo_app.gif)
+![*App Demo on Desktop*](https://nafcillincat.netlify.app/demo_app.gif)
+
+![*Demo on Mobile*](assets/demo_mobile.gif){fig-alt="Demo on a mobile device" width="353"}
+
+## App Features
+
+### Seamless Integration
+
+1.  **Google Drive Integration:** Store images of specimens effortlessly during the survey, ensuring all your visual data is securely backed up.
+
+2.  **Google Sheets Integration:** Record observations directly into a Google Sheet during the survey, eliminating the need for manual data entry later.
+
+### Precise Location Tracking
+
+3.  **High-Accuracy GPS:** Record your location with precision, thanks to the app's ability to pinpoint your GPS coordinates within 15 meters.
+
+### Comprehensive Specimen Information
+
+4.  **Identification Images and Notes:** Access identification images and detailed notes about the selected specimen, providing you with valuable insights during your survey.
+
+5.  **Attribute Recording:** Easily record additional attributes such as canopy cover and vegetation height (in cm) for comprehensive vegetation surveys.
+
+6.  **Specimen Lookup:** Quickly look up specimens by their Genus-Species or Common Name while recording observations, ensuring accurate data collection.
+
+### Data Security and Restoration
+
+7.  **Observation Restoration:** In case of unexpected data loss while in the field, you can restore your recorded observations, ensuring no valuable data is lost.
+
+### Environmental Data Integration
+
+8.  **Weather Information:** Look up and store weather information for your detected GPS location, providing valuable environmental context to your survey data.
+
+With its seamless integration, precise location tracking, comprehensive specimen information, data security measures, and environmental data integration, this app empowers you to conduct efficient and accurate surveys, streamlining your field data collection process.
 
 ## How does the app work?
 
@@ -36,7 +68,7 @@ If you want to play around with the app before setting up one for your case, fee
 
 -   Python `3.8` , `3.9`, `3.10` or `3.11` *(`3.12` is not tested and might not work as expected)*\
 
-    ::: {.callout-tip appearance="simple"}
+    ::: {.callout-tip collapse="true" appearance="simple"}
     ## Check python version on your machine
 
     Run this command on your ***Terminal*** on a `macOS`/`Linux`machine or ***Windows PowerShell***/***Command Prompt*** on a `Windows` machine.\
@@ -46,17 +78,17 @@ If you want to play around with the app before setting up one for your case, fee
     ```
     :::
 
-    ::: {.callout-important appearance="simple"}
+    ::: {.callout-important collapse="true" appearance="simple"}
     ## If Python is not installed
 
-    Visit the [official Python downloads page](https://www.python.org/downloads/ "Python download page") and download the latest version of `Python 3`. Run the downloaded package and follow the installation wizard. Check the previous command to ensure python is installed successfully on the machine.
+    Visit the [official Python downloads page](https://www.python.org/downloads/ "Python download page") and download the desired version of `Python 3`. Run the downloaded package and follow the installation wizard. Check the previous command to ensure python is installed successfully on the machine.
 
     ***Note:*** You may need to add Python to `PATH` if you’ve installed Python, but typing `python` on the command line doesn’t seem to work. Follow instructions [here](https://realpython.com/add-python-to-path/ "Add Python path").
     :::
 
 -   `survey.yaml` that is customized to your use case
 
-    ::: {.callout-note appearance="simple"}
+    ::: {.callout-note collapse="true" appearance="simple"}
     ## Create your unique survey.yaml file
 
     Please complete all the required information fields and then you can download your file from [*this location*](https://nafcillincat.shinyapps.io/survey_config_generator/ "Survey App config generator").
@@ -174,7 +206,7 @@ This is the config file that allows the user to configure the app to their speci
 9.  Google Workbook Name
 10. Google Drive Folder Id
 
-::: callout-tip
+::: {.callout-tip collapse="true"}
 ## Company logo url
 
 To get the image URL directly from the browser, follow these steps:
