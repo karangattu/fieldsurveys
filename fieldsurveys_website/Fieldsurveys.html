@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.6">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Karan Gathani">
+<meta name="dcterms.date" content="2024-03-20">
+
+<title>Field surveys app set-up instructions</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="Fieldsurveys_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Fieldsurveys_files/libs/quarto-html/quarto.js"></script>
+<script src="Fieldsurveys_files/libs/quarto-html/popper.min.js"></script>
+<script src="Fieldsurveys_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Fieldsurveys_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Fieldsurveys_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Fieldsurveys_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Fieldsurveys_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Fieldsurveys_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Fieldsurveys_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Field surveys app set-up instructions</h1>
+            <p class="subtitle lead">Set up your own field survey app</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Karan Gathani </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 20, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what-is-this-app-about" id="toc-what-is-this-app-about" class="nav-link active" data-scroll-target="#what-is-this-app-about">What is this app about?</a></li>
+  <li><a href="#how-does-the-app-work" id="toc-how-does-the-app-work" class="nav-link" data-scroll-target="#how-does-the-app-work">How does the app work?</a></li>
+  <li><a href="#can-i-see-a-demo-of-the-app" id="toc-can-i-see-a-demo-of-the-app" class="nav-link" data-scroll-target="#can-i-see-a-demo-of-the-app">Can I see a demo of the app?</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#data-csv-files" id="toc-data-csv-files" class="nav-link" data-scroll-target="#data-csv-files">Data CSV files</a></li>
+  <li><a href="#keyfile.json" id="toc-keyfile.json" class="nav-link" data-scroll-target="#keyfile.json">keyfile.json</a>
+  <ul class="collapse">
+  <li><a href="#enable-api-access-for-a-project" id="toc-enable-api-access-for-a-project" class="nav-link" data-scroll-target="#enable-api-access-for-a-project">Enable API Access for a Project</a></li>
+  <li><a href="#using-service-account" id="toc-using-service-account" class="nav-link" data-scroll-target="#using-service-account">Using Service Account</a></li>
+  </ul></li>
+  <li><a href="#google-sheets-and-google-drive-folder-configured" id="toc-google-sheets-and-google-drive-folder-configured" class="nav-link" data-scroll-target="#google-sheets-and-google-drive-folder-configured">Google sheets and Google Drive folder configured</a></li>
+  <li><a href="#survey.yaml-file" id="toc-survey.yaml-file" class="nav-link" data-scroll-target="#survey.yaml-file">survey.yaml file</a></li>
+  <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
+  <li><a href="#run-the-app-on-your-machine" id="toc-run-the-app-on-your-machine" class="nav-link" data-scroll-target="#run-the-app-on-your-machine">Run the app on your machine</a></li>
+  <li><a href="#deploying-the-app-on-the-web-so-it-can-be-accessed-from-anywhere" id="toc-deploying-the-app-on-the-web-so-it-can-be-accessed-from-anywhere" class="nav-link" data-scroll-target="#deploying-the-app-on-the-web-so-it-can-be-accessed-from-anywhere">Deploying the app on the web (so it can be accessed from anywhere)</a></li>
+  <li><a href="#issuesfeature-requests" id="toc-issuesfeature-requests" class="nav-link" data-scroll-target="#issuesfeature-requests">Issues/Feature requests</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="what-is-this-app-about" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-this-app-about">What is this app about?</h2>
+<p>We developed an interactive web application to facilitate multi-taxon field sampling and data collection using the <code>Shiny for Python</code> platform. This app serves the following purposes:</p>
+<ol type="1">
+<li>It allows researchers, citizen scientists, students, and others to easily design and conduct standardized surveys for various organisms, such as arthropods, birds, and plants.</li>
+<li>The app is accessible on any device with an internet connection, including desktops, laptops, tablets, and smartphones.</li>
+</ol>
+<p>This user-friendly application streamlines the process of field sampling and data collection, making it more efficient and accessible to a wide range of users, regardless of their technical expertise or location.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nafcillincat.netlify.app/demo_app.gif" class="img-fluid figure-img"></p>
+<figcaption><em>App Demo</em></figcaption>
+</figure>
+</div>
+</section>
+<section id="how-does-the-app-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-the-app-work">How does the app work?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/how_it_works.png" class="img-fluid figure-img"></p>
+<figcaption><em>How it works diagram</em></figcaption>
+</figure>
+</div>
+</section>
+<section id="can-i-see-a-demo-of-the-app" class="level2">
+<h2 class="anchored" data-anchor-id="can-i-see-a-demo-of-the-app">Can I see a demo of the app?</h2>
+<p>If you want to play around with the app before setting up one for your case, feel free to go over to this <a href="https://nafcillincat.shinyapps.io/demo_app">link</a> and explore the app and the features it offers.</p>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<ul>
+<li><p>Python <code>3.8</code> or higher<br>
+</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Check python version on your machine
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Run this command on your <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine.<br>
+</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+If Python is not installed
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Visit the <a href="https://www.python.org/downloads/" title="Python download page">official Python downloads page</a> and download the latest version of <code>Python 3</code>. Run the downloaded package and follow the installation wizard. Check the previous command to ensure python is installed successfully on the machine.</p>
+<p><strong><em>Note:</em></strong> You may need to add Python to <code>PATH</code> if you’ve installed Python, but typing <code>python</code> on the command line doesn’t seem to work. Follow instructions <a href="https://realpython.com/add-python-to-path/" title="Add Python path">here</a>.</p>
+</div>
+</div></li>
+<li><p><code>survey.yaml</code> that is customized to your use case</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Create your unique survey.yaml file
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please complete all the required information fields and then you can download your file from <a href="https://nafcillincat.shinyapps.io/survey_config_generator/" title="Survey App config generator"><em>this location</em></a>.</p>
+</div>
+</div></li>
+<li><p>Data CSV files (<a href="#data-csv-files">Data CSV files</a>)</p></li>
+<li><p>keyfile.json (<a href="#keyfile.json">keyfile.json</a>)</p></li>
+</ul>
+</section>
+<section id="data-csv-files" class="level2">
+<h2 class="anchored" data-anchor-id="data-csv-files">Data CSV files</h2>
+<p>If you do not know what a CSV file is or how to create one, read this <a href="https://www.computerhope.com/issues/ch001356.htm">article</a> to get you started. The app requires users to upload data CSV files. These CSV files should contain the data that the user wants to collect during the survey. The CSV files must have the following headers (first line) in the specified order:</p>
+<ol type="1">
+<li>Common Name</li>
+<li>Genus</li>
+<li>Species</li>
+</ol>
+<p>The app also supports an additional column called <strong><em>Alpha Code</em></strong>, but it is not mandatory.</p>
+<p>An example is shown below:</p>
+<pre class="csv"><code>Alpha Code,Common Name,Genus,Species
+PLOC,American sycamore,Platanus,occidentalis
+SALA,Arroyo willow,Salix,lasiolepis
+PEAM,Avocado,Persea,americana
+ARGL,Big berry manzanita,Arctostaphylos,glauca
+ACMA,Bigleaf maple,Acer,macrophyllum</code></pre>
+<p>Ensure your CSV file follows the required format before uploading. You can use multiple CSV files, one for each survey type (e.g., plants, trees, grasses).</p>
+</section>
+<section id="keyfile.json" class="level2">
+<h2 class="anchored" data-anchor-id="keyfile.json">keyfile.json</h2>
+<p>To download the <code>keyfile.json</code> for your Google Cloud account as a first-time user, follow these steps:</p>
+<section id="enable-api-access-for-a-project" class="level3">
+<h3 class="anchored" data-anchor-id="enable-api-access-for-a-project">Enable API Access for a Project</h3>
+<ul>
+<li><p>Head to <a href="https://console.developers.google.com/">Google Developers Console</a> and create a new project (or select the one you already have). The project name is for your reference only and can be anything you’d like.</p></li>
+<li><p>In the box labeled <code>Search for APIs and Services</code>, search for <code>Google Drive API</code> and enable it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/google_drive_api.png" class="img-fluid figure-img"></p>
+<figcaption>Enable Google Drive API</figcaption>
+</figure>
+</div></li>
+<li><p>In the box labeled <code>Search for APIs and Services</code>, search for <code>Google Sheets API</code> and enable it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/google_sheets_api.png" class="img-fluid figure-img"></p>
+<figcaption>Enable Google sheets API</figcaption>
+</figure>
+</div></li>
+</ul>
+</section>
+<section id="using-service-account" class="level3">
+<h3 class="anchored" data-anchor-id="using-service-account">Using Service Account</h3>
+<p>A service account is a special type of Google account intended to represent a non-human user that needs to authenticate and be authorized to access data in Google APIs.</p>
+<p>Since it’s a separate account, by default it does not have access to any spreadsheet until you share it with this account. Just like any other Google account.</p>
+<p>Here’s how to get one:</p>
+<ol type="1">
+<li><p>Enable API Access for a Project if you haven’t done it yet.</p></li>
+<li><p>Go to <code>APIs &amp; Services</code> &gt; <code>Credentials</code> and choose <code>Create credentials</code> &gt; <code>Service account key</code>.</p></li>
+<li><p>Fill out the form</p></li>
+<li><p>Click <code>Create</code> and <code>Done</code>.</p></li>
+<li><p>Press “Manage service accounts” above Service Accounts.</p></li>
+<li><p>Press on ⋮ near recently created service account and select “Manage keys” and then click on “ADD KEY &gt; Create new key”.</p></li>
+<li><p>Select JSON key type and press “Create”.</p></li>
+<li><p>You will automatically download a JSON file with credentials. It may look like this:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"service_account"</span><span class="fu">,</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"project_id"</span><span class="fu">:</span> <span class="st">"api-project-XXX"</span><span class="fu">,</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"private_key_id"</span><span class="fu">:</span> <span class="st">"2cd … ba4"</span><span class="fu">,</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"private_key"</span><span class="fu">:</span> <span class="st">"-----BEGIN PRIVATE KEY-----</span><span class="ch">\n</span><span class="st">NrDyLw … jINQh/9</span><span class="ch">\n</span><span class="st">-----END PRIVATE KEY-----</span><span class="ch">\n</span><span class="st">"</span><span class="fu">,</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"client_email"</span><span class="fu">:</span> <span class="st">"473000000000-yoursisdifferent@developer.gserviceaccount.com"</span><span class="fu">,</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"client_id"</span><span class="fu">:</span> <span class="st">"473 … hd.apps.googleusercontent.com"</span><span class="fu">,</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="er">...</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Navigate to the path to the downloaded credentials filerename and rename this file to <code>keyfile.json</code></p></li>
+<li><p>Open the <code>keyfile.json</code> file and get the value of client_email from this file.</p></li>
+<li><p>Proceed to the next section to configure your Google sheets and Google drive folder.</p></li>
+</ol>
+</section>
+</section>
+<section id="google-sheets-and-google-drive-folder-configured" class="level2">
+<h2 class="anchored" data-anchor-id="google-sheets-and-google-drive-folder-configured">Google sheets and Google Drive folder configured</h2>
+<ol type="1">
+<li><p>Create a new Google spreadsheet that you want your survey data to live in. You can create a new workbook by going to <a href="https://docs.google.com/spreadsheets/u/0/">Google Sheets</a> and clicking on the <strong><code>+</code></strong> button for blank spreadsheet. You can also use an existing workbook if you have one. Give it an appropriate name and make sure it has the same name as the one you provide in the survey.yaml file.</p></li>
+<li><p>Using that spreadsheet name and share it with a client_email from the step above. Just like you do with any other Google account. Make sure the service account has editor access to the Google sheet.</p></li>
+<li><p>Create a new Google Drive folder where you want to store the specimen images during the survey. You can create a new folder by going to <a href="https://drive.google.com/drive/my-drive">Google Drive</a> and clicking on the “+ New” button for new folder. You can also use an existing folder if you have one. Give it an appropriate name.</p></li>
+<li><p>To share that Google Drive folder, right-click on the folder and select <code>Share</code>. Then, share it with the client_email from the step above. Make sure the service account has editor access to the Google Drive folder.</p></li>
+</ol>
+</section>
+<section id="survey.yaml-file" class="level2">
+<h2 class="anchored" data-anchor-id="survey.yaml-file">survey.yaml file</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nafcillincat.netlify.app/create_config_file.gif" class="img-fluid figure-img"></p>
+<figcaption><em>Demo of the Survey App config generator</em></figcaption>
+</figure>
+</div>
+<p>This is the config file that allows the user to configure the app to their specific needs. The <em>survey.yaml</em> file should be created using the <strong>Survey App config generator</strong> over <a href="https://nafcillincat.shinyapps.io/survey_config_generator/">here</a>. The <strong>Survey App config generator</strong> allows the user to create a <code>survey.yaml</code> file by providing the following information in a step-by-step process:</p>
+<ol type="1">
+<li>Surveyor names</li>
+<li>Survey locations</li>
+<li>Survey plots</li>
+<li>Survey points</li>
+<li>Survey sides</li>
+<li>Survey data sources</li>
+<li>Company logo url</li>
+<li>Database link</li>
+<li>Google Workbook Name</li>
+<li>Google Drive Folder Id</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Company logo url
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To get the image URL directly from the browser, follow these steps:</p>
+<ol type="1">
+<li><p>Right-click on the image you want to get the URL for.</p></li>
+<li><p>From the context menu that appears, select <code>Copy Image Address</code> or something similar.</p></li>
+<li><p>That’s it! The URL of the image is now copied to your clipboard.</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p><code>fieldsurveys</code> is a python package that can be installed on a user’s machine by satisfying all prerequisites and running this command in the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install fieldsurveys</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="run-the-app-on-your-machine" class="level2">
+<h2 class="anchored" data-anchor-id="run-the-app-on-your-machine">Run the app on your machine</h2>
+<p>To instantiate the app, run the following command in your terminal:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">fieldsurveys</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Follow the instructions on the screen to select your <code>survey.yaml</code>, <code>data CSV files</code>, and <code>keyfile.json</code>. It will then ask you for the directory where you want to store the app. Once you have provided all the necessary information, the app will be created in the specified directory.</p>
+</section>
+<section id="deploying-the-app-on-the-web-so-it-can-be-accessed-from-anywhere" class="level2">
+<h2 class="anchored" data-anchor-id="deploying-the-app-on-the-web-so-it-can-be-accessed-from-anywhere">Deploying the app on the web (so it can be accessed from anywhere)</h2>
+<p>To deploy the app on the web, you can use the <code>Shinyapps.io</code> platform. The platform allows you to host your field survey application for <code>25 hours</code> every month. Further usage is restricted on free tier. To deploy the app, follow the instructions below:</p>
+<ol type="1">
+<li><p><strong>Create an Account</strong>: Go to <a href="https://www.shinyapps.io/" title="Shinyapps.io website">Shinyapps.io website</a> and click on the “<strong>Sign Up</strong>” button. Fill out the required information to create a new account.</p></li>
+<li><p><strong>Verify Your Email</strong>: Fill all the required information and click on the <code>Sign Up</code> button. After creating your account, you’ll receive a verification email. Open the email and click on the verification link to confirm your email address.</p></li>
+<li><p><strong>Log in to Your Account</strong>: Once your email is verified, go back to <a href="https://www.shinyapps.io/" title="Shinyapps.io website">Shinyapps.io website</a> and click on the <code>Log In</code> button in the top right corner. Enter your credentials to log in to your account.</p></li>
+<li><p><strong>Select Account name:</strong> The first time you sign in, shinyapps.io prompts you to set up your account. <code>shinyapps.io</code> uses the account name as the domain name for all of your apps. Account names <em>must be between four and 63 characters</em> and can <strong>only</strong> contain letters, numbers, and dashes (-).</p></li>
+<li><p><strong>Create token:</strong> Click on the the user name on the top right of the page and select <code>Tokens</code> from the dropdown menu.</p></li>
+<li><p><strong>Add token:</strong> Click on the <code>+ Add Token</code> button. It will add the new token below. Click on the <code>Show</code> button to reveal the token and the secret.</p></li>
+<li><p><strong>Copy command to clipboard:</strong> Click on the <code>With Python</code> tab and click on the <code>Copy to clipboard</code> button.</p></li>
+<li><p>Open your <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine and paste the copied command and hit enter to store the credentials on your machine that will be used for deployment.</p></li>
+<li><p>In the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong>, run the following command to deploy your app</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny /path/to/app <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ol>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+&lt;NAME&gt; and my-app values
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>replace &lt;NAME&gt; with the <code>account name</code> you created in <strong>step 4.</strong> For the <strong>title</strong> of your app, select any desired name in place of <code>my-app</code>. This will also be used as the url of your app.</p>
+</div>
+</div>
+<ol start="10" type="1">
+<li>Once the deployment goes through, it will open the url of your deployed app. Save that url and use that for future surveys.</li>
+</ol>
+</section>
+<section id="issuesfeature-requests" class="level2">
+<h2 class="anchored" data-anchor-id="issuesfeature-requests">Issues/Feature requests</h2>
+<p>If you encounter any issues or have any feature requests, please feel free to open an issue on the GitHub repository <a href="https://github.com/karangattu/fieldsurveys/issues">here</a></p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      const annoteTargets = window.document.querySelectorAll('.code-annotation-anchor');
+      for (let i=0; i<annoteTargets.length; i++) {
+        const annoteTarget = annoteTargets[i];
+        const targetCell = annoteTarget.getAttribute("data-target-cell");
+        const targetAnnotation = annoteTarget.getAttribute("data-target-annotation");
+        const contentFn = () => {
+          const content = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          if (content) {
+            const tipContent = content.cloneNode(true);
+            tipContent.classList.add("code-annotation-tip-content");
+            return tipContent.outerHTML;
+          }
+        }
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          onShow: (instance) => {
+            selectCodeLines(instance.reference);
+            instance.reference.classList.add('code-annotation-active');
+            window.tippy.hideAll();
+          },
+          onHide: (instance) => {
+            unselectCodeLines();
+            instance.reference.classList.remove('code-annotation-active');
+          },
+          maxWidth: 300,
+          delay: [50, 0],
+          duration: [200, 0],
+          offset: [5, 10],
+          arrow: true,
+          appendTo: function(el) {
+            return el.parentElement.parentElement.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'quarto',
+          placement: 'right',
+          popperOptions: {
+            modifiers: [
+            {
+              name: 'flip',
+              options: {
+                flipVariations: false, // true by default
+                allowedAutoPlacements: ['right'],
+                fallbackPlacements: ['right', 'top', 'top-start', 'top-end', 'bottom', 'bottom-start', 'bottom-end', 'left'],
+              },
+            },
+            {
+              name: 'preventOverflow',
+              options: {
+                mainAxis: false,
+                altAxis: false
+              }
+            }
+            ]        
+          }      
+        };
+        window.tippy(annoteTarget, config); 
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
