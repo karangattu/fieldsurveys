@@ -279,13 +279,29 @@ Create your unique survey.yaml file
 <p>Please complete all the required information fields and then you can download your file from <a href="https://nafcillincat.shinyapps.io/survey_config_generator/" title="Survey App config generator"><em>this location</em></a>.</p>
 </div>
 </div>
+</div>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Do not rename survey.yaml file
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The file you download should be named <code>survey.yaml</code>. Please do not rename it, else the app won’t work as expected.</p>
+</div>
+</div>
 </div></li>
 <li><p>keyfile.json (<a href="#keyfile.json">keyfile.json</a>)</p></li>
 </ul>
 </section>
 <section id="data-csv-files" class="level2">
 <h2 class="anchored" data-anchor-id="data-csv-files">Data CSV files</h2>
-<p>If you do not know what a CSV file is or how to create one, read this <a href="https://www.computerhope.com/issues/ch001356.htm">article</a> to get you started. The app requires users to upload data CSV files. These CSV files should contain the data that the user wants to collect during the survey. The CSV files must have the following headers (first line) in the specified order:</p>
+<p>If you do not know what a CSV file is or how to create one, read this <a href="https://www.computerhope.com/issues/ch001356.htm">article</a> to understand what CSV files are. The app requires users to upload data CSV files. These CSV files should contain the data that the user wants to collect during the survey. The CSV files must have the following headers (first line) in the specified order:</p>
 <ol type="1">
 <li>Common Name</li>
 <li>Genus</li>
@@ -300,6 +316,15 @@ PEAM,Avocado,Persea,americana
 ARGL,Big berry manzanita,Arctostaphylos,glauca
 ACMA,Bigleaf maple,Acer,macrophyllum</code></pre>
 <p>Ensure your CSV file follows the required format before uploading. You can use multiple CSV files, one for each survey type (e.g., plants, trees, grasses).</p>
+<p>Create your desired CSV file using <a href="https://tableconvert.com/csv-generator" title="CSV generator website">this website</a> or Google sheets</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/download_csv_file.gif" class="img-fluid figure-img"></p>
+<figcaption><em>Using <a href="https://tableconvert.com/csv-generator" title="CSV generator website">tableconvert website</a> for CSV generation</em></figcaption>
+</figure>
+</div>
+<p>Once the CSV file is downloaded, rename the file to something more readable like <code>birds.csv</code>, <code>trees.csv</code>from the existing name of <code>tableConvert.com_ypnog1.csv</code></p>
+<p>Do it for other files if you have more than one data CSV file.</p>
 </section>
 <section id="keyfile.json" class="level2">
 <h2 class="anchored" data-anchor-id="keyfile.json">keyfile.json</h2>
@@ -384,7 +409,7 @@ ACMA,Bigleaf maple,Acer,macrophyllum</code></pre>
 <li>Google Drive Folder Id</li>
 </ol>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -393,7 +418,7 @@ Company logo url
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>To get the image URL directly from the browser, follow these steps:</p>
 <ol type="1">
@@ -416,7 +441,7 @@ Company logo url
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">fieldsurveys</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Follow the instructions on the screen to select your <code>survey.yaml</code>, <code>data CSV files</code>, and <code>keyfile.json</code>. It will then ask you for the directory where you want to store the app. Once you have provided all the necessary information, the app will be created in the specified directory.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -425,7 +450,7 @@ Cannot run ‘fieldsurveys’ command on Windows
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>If running <code>fieldsurveys</code> on the <strong><em>Windows Powershell</em></strong>/<strong><em>Command Prompt</em></strong> throws an error stating</p>
 <pre><code>fieldsurveys : The term 'fieldsurveys' is not recognized as the name of a cmdlet, function, script file, or operable

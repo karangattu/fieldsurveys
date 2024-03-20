@@ -94,7 +94,6 @@ If you want to play around with the app before setting up one for your case, fee
     ***Note:*** You may need to add Python to `PATH` if you’ve installed Python, but typing `python` on the command line doesn’t seem to work. Follow instructions [here](https://realpython.com/add-python-to-path/ "Add Python path").
     :::
 
-
 -   Data CSV files ([Data CSV files])
 
 -   `survey.yaml` that is customized to your use case (Make sure Data CSV files are ready before this step)
@@ -105,11 +104,17 @@ If you want to play around with the app before setting up one for your case, fee
     Please complete all the required information fields and then you can download your file from [*this location*](https://nafcillincat.shinyapps.io/survey_config_generator/ "Survey App config generator").
     :::
 
+    ::: {.callout-warning collapse="true" appearance="simple"}
+    ## Do not rename survey.yaml file
+
+    The file you download should be named `survey.yaml`. Please do not rename it, else the app won't work as expected.
+    :::
+
 -   keyfile.json ([keyfile.json])
 
 ## Data CSV files
 
-If you do not know what a CSV file is or how to create one, read this [article](https://www.computerhope.com/issues/ch001356.htm) to get you started. The app requires users to upload data CSV files. These CSV files should contain the data that the user wants to collect during the survey. The CSV files must have the following headers (first line) in the specified order:
+If you do not know what a CSV file is or how to create one, read this [article](https://www.computerhope.com/issues/ch001356.htm) to understand what CSV files are. The app requires users to upload data CSV files. These CSV files should contain the data that the user wants to collect during the survey. The CSV files must have the following headers (first line) in the specified order:
 
 1.  Common Name
 2.  Genus
@@ -129,6 +134,14 @@ ACMA,Bigleaf maple,Acer,macrophyllum
 ```
 
 Ensure your CSV file follows the required format before uploading. You can use multiple CSV files, one for each survey type (e.g., plants, trees, grasses).
+
+Create your desired CSV file using [this website](https://tableconvert.com/csv-generator "CSV generator website") or Google sheets
+
+![*Using [tableconvert website](https://tableconvert.com/csv-generator "CSV generator website") for CSV generation*](assets/download_csv_file.gif)
+
+Once the CSV file is downloaded, rename the file to something more readable like `birds.csv`, `trees.csv`from the existing name of `tableConvert.com_ypnog1.csv`
+
+Do it for other files if you have more than one data CSV file.
 
 ## keyfile.json
 
