@@ -128,7 +128,7 @@ def copy_app_files(
                 _copy_file(file, app_dir)
                 # rename the file to keyfile.json no matter what user specified
                 os.rename(
-                    os.path.join(app_dir, os.path.basename(keyfile)),
+                    os.path.join(app_dir, os.path.basename(file)),
                     os.path.join(app_dir, "keyfile.json")
                 )
 
