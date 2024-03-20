@@ -5,9 +5,7 @@ We developed an interactive web application to facilitate multi-taxon field samp
 1. It allows researchers, citizen scientists, students, and others to easily design and conduct standardized surveys for various organisms, such as arthropods, birds, and plants.
 2. The app is accessible on any device with an internet connection, including desktops, laptops, tablets, and smartphones.
 
-This user-friendly application streamlines the process of field sampling and data collection, making it more efficient and accessible to a wide range of users, regardless of their technical expertise or location.
-
-![App Demo](https://nafcillincat.netlify.app/demo_app.gif)
+This user-friendly application streamlines the process of field sampling and data collection, making it more efficient and accessible to a wide range of users, regardless of their technical expertise or location. The app is designed to be flexible and customizable, allowing users to design surveys that meet their specific research needs. The app also includes a data management system that allows users to store, manage, and analyze their survey data.
 
 ## Set-up your application
 
