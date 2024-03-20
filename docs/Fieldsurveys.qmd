@@ -94,15 +94,16 @@ If you want to play around with the app before setting up one for your case, fee
     ***Note:*** You may need to add Python to `PATH` if you’ve installed Python, but typing `python` on the command line doesn’t seem to work. Follow instructions [here](https://realpython.com/add-python-to-path/ "Add Python path").
     :::
 
--   `survey.yaml` that is customized to your use case
+
+-   Data CSV files ([Data CSV files])
+
+-   `survey.yaml` that is customized to your use case (Make sure Data CSV files are ready before this step)
 
     ::: {.callout-note collapse="true" appearance="simple"}
     ## Create your unique survey.yaml file
 
     Please complete all the required information fields and then you can download your file from [*this location*](https://nafcillincat.shinyapps.io/survey_config_generator/ "Survey App config generator").
     :::
-
--   Data CSV files ([Data CSV files])
 
 -   keyfile.json ([keyfile.json])
 
