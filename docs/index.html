@@ -119,8 +119,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#enable-api-access-for-a-project" id="toc-enable-api-access-for-a-project" class="nav-link" data-scroll-target="#enable-api-access-for-a-project">Enable API Access for a Project</a></li>
   <li><a href="#using-service-account" id="toc-using-service-account" class="nav-link" data-scroll-target="#using-service-account">Using Service Account</a></li>
-  </ul></li>
   <li><a href="#google-sheets-and-google-drive-folder-configured" id="toc-google-sheets-and-google-drive-folder-configured" class="nav-link" data-scroll-target="#google-sheets-and-google-drive-folder-configured">Google sheets and Google Drive folder configured</a></li>
+  </ul></li>
   <li><a href="#survey.yaml-file" id="toc-survey.yaml-file" class="nav-link" data-scroll-target="#survey.yaml-file">survey.yaml file</a></li>
   <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
   <li><a href="#run-the-app-on-your-machine" id="toc-run-the-app-on-your-machine" class="nav-link" data-scroll-target="#run-the-app-on-your-machine">Run the app on your machine</a></li>
@@ -284,15 +284,15 @@ ACMA,Bigleaf maple,Acer,macrophyllum</code></pre>
 <li><p>Proceed to the next section to configure your Google sheets and Google drive folder.</p></li>
 </ol>
 </section>
-</section>
-<section id="google-sheets-and-google-drive-folder-configured" class="level2">
-<h2 class="anchored" data-anchor-id="google-sheets-and-google-drive-folder-configured">Google sheets and Google Drive folder configured</h2>
+<section id="google-sheets-and-google-drive-folder-configured" class="level3">
+<h3 class="anchored" data-anchor-id="google-sheets-and-google-drive-folder-configured">Google sheets and Google Drive folder configured</h3>
 <ol type="1">
 <li><p>Create a new Google spreadsheet that you want your survey data to live in. You can create a new workbook by going to <a href="https://docs.google.com/spreadsheets/u/0/">Google Sheets</a> and clicking on the <strong><code>+</code></strong> button for blank spreadsheet. You can also use an existing workbook if you have one. Give it an appropriate name and make sure it has the same name as the one you provide in the survey.yaml file.</p></li>
 <li><p>Using that spreadsheet name and share it with a client_email from the step above. Just like you do with any other Google account. Make sure the service account has editor access to the Google sheet.</p></li>
 <li><p>Create a new Google Drive folder where you want to store the specimen images during the survey. You can create a new folder by going to <a href="https://drive.google.com/drive/my-drive">Google Drive</a> and clicking on the “+ New” button for new folder. You can also use an existing folder if you have one. Give it an appropriate name.</p></li>
 <li><p>To share that Google Drive folder, right-click on the folder and select <code>Share</code>. Then, share it with the client_email from the step above. Make sure the service account has editor access to the Google Drive folder.</p></li>
 </ol>
+</section>
 </section>
 <section id="survey.yaml-file" class="level2">
 <h2 class="anchored" data-anchor-id="survey.yaml-file">survey.yaml file</h2>
@@ -344,6 +344,36 @@ Company logo url
 <p>To instantiate the app, run the following command in your terminal:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">fieldsurveys</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Follow the instructions on the screen to select your <code>survey.yaml</code>, <code>data CSV files</code>, and <code>keyfile.json</code>. It will then ask you for the directory where you want to store the app. Once you have provided all the necessary information, the app will be created in the specified directory.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Cannot run ‘fieldsurveys’ command on Windows
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If running <code>fieldsurveys</code> on the <strong><em>Windows Powershell</em></strong>/<strong><em>Command Prompt</em></strong> throws an error stating</p>
+<pre><code>fieldsurveys : The term 'fieldsurveys' is not recognized as the name of a cmdlet, function, script file, or operable
+program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.</code></pre>
+<p>You might need to add Python scripts location to the PATH.<br>
+<strong>Locate the Scripts Directory</strong>: First, you need to find the directory where your Python scripts are located. By default, this directory is usually <strong><code>C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts</code></strong> on Windows, where <strong><code>XX</code></strong> represents the Python version number.</p>
+<ol type="1">
+<li><p><strong>Open System Properties</strong>: Right-click on the “This PC” or “My Computer” icon on your desktop or File Explorer and select “Properties”. Alternatively, you can search for “System” in the Start menu and select “System” from the search results.</p></li>
+<li><p><strong>Open Advanced System Settings</strong>: In the System window, click on “Advanced system settings” on the left side. This will open the System Properties window.</p></li>
+<li><p><strong>Open Environment Variables</strong>: In the System Properties window, click on the “Environment Variables…” button.</p></li>
+<li><p><strong>Edit System Variables</strong>: In the Environment Variables window, under the “System variables” section, find the <strong><code>Path</code></strong> variable and select it. Then click on the “Edit…” button.</p></li>
+<li><p><strong>Add Python Scripts Directory</strong>: In the Edit Environment Variable window, click on the “New” button and then paste the path to the directory where your Python scripts are located. For example, if your scripts are in <strong><code>C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts</code></strong>, you would add <strong><code>C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts</code></strong> to the list of paths.</p></li>
+<li><p><strong>Apply Changes</strong>: Click “OK” to close all the windows and apply the changes.</p></li>
+<li><p><strong>Verify</strong>: Open a new command prompt window and type the name of one of your Python scripts (without the <strong><code>.py</code></strong> extension). If the script executes without errors, it means the path has been successfully added to the system PATH.</p></li>
+</ol>
+</div>
+</div>
+</div>
 </section>
 <section id="deploying-the-app-on-the-web-so-it-can-be-accessed-from-anywhere" class="level2">
 <h2 class="anchored" data-anchor-id="deploying-the-app-on-the-web-so-it-can-be-accessed-from-anywhere">Deploying the app on the web (so it can be accessed from anywhere)</h2>
@@ -358,7 +388,7 @@ Company logo url
 <li><p><strong>Copy command to clipboard:</strong> Click on the <code>With Python</code> tab and click on the <code>Copy to clipboard</code> button.</p></li>
 <li><p>Open your <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine and paste the copied command and hit enter to store the credentials on your machine that will be used for deployment.</p></li>
 <li><p>In the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong>, run the following command to deploy your app</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny /path/to/app <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny /path/to/app <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">

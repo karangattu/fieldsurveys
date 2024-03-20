@@ -147,7 +147,7 @@ Here’s how to get one:
 
 11. Proceed to the next section to configure your Google sheets and Google drive folder.
 
-## Google sheets and Google Drive folder configured
+### Google sheets and Google Drive folder configured
 
 1.  Create a new Google spreadsheet that you want your survey data to live in. You can create a new workbook by going to [Google Sheets](https://docs.google.com/spreadsheets/u/0/) and clicking on the **`+`** button for blank spreadsheet. You can also use an existing workbook if you have one. Give it an appropriate name and make sure it has the same name as the one you provide in the survey.yaml file.
 
@@ -203,6 +203,35 @@ fieldsurveys
 ```
 
 Follow the instructions on the screen to select your `survey.yaml`, `data CSV files`, and `keyfile.json`. It will then ask you for the directory where you want to store the app. Once you have provided all the necessary information, the app will be created in the specified directory.
+
+::: {.callout-warning collapse="true"}
+## Cannot run 'fieldsurveys' command on Windows
+
+If running `fieldsurveys` on the ***Windows Powershell***/***Command Prompt*** throws an error stating
+
+```         
+fieldsurveys : The term 'fieldsurveys' is not recognized as the name of a cmdlet, function, script file, or operable
+program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+```
+
+You might need to add Python scripts location to the PATH.\
+**Locate the Scripts Directory**: First, you need to find the directory where your Python scripts are located. By default, this directory is usually **`C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts`** on Windows, where **`XX`** represents the Python version number.
+
+1.  **Open System Properties**: Right-click on the "This PC" or "My Computer" icon on your desktop or File Explorer and select "Properties". Alternatively, you can search for "System" in the Start menu and select "System" from the search results.
+
+2.  **Open Advanced System Settings**: In the System window, click on "Advanced system settings" on the left side. This will open the System Properties window.
+
+3.  **Open Environment Variables**: In the System Properties window, click on the "Environment Variables..." button.
+
+4.  **Edit System Variables**: In the Environment Variables window, under the "System variables" section, find the **`Path`** variable and select it. Then click on the "Edit..." button.
+
+5.  **Add Python Scripts Directory**: In the Edit Environment Variable window, click on the "New" button and then paste the path to the directory where your Python scripts are located. For example, if your scripts are in **`C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts`**, you would add **`C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts`** to the list of paths.
+
+6.  **Apply Changes**: Click "OK" to close all the windows and apply the changes.
+
+7.  **Verify**: Open a new command prompt window and type the name of one of your Python scripts (without the **`.py`** extension). If the script executes without errors, it means the path has been successfully added to the system PATH.
+:::
 
 ## Deploying the app on the web (so it can be accessed from anywhere)
 
