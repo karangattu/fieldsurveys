@@ -143,6 +143,8 @@ ACMA,Bigleaf maple,Acer,macrophyllum
 
 Ensure your CSV file follows the required format before uploading. You can use multiple CSV files, one for each survey type (e.g., plants, trees, grasses).
 
+### Creating your CSV Data file
+
 Create your desired CSV file using [this website](https://tableconvert.com/csv-generator "CSV generator website") or Google sheets
 
 ![*Using [tableconvert website](https://tableconvert.com/csv-generator "CSV generator website") for CSV generation*](assets/download_csv_file.gif)
@@ -311,7 +313,7 @@ To deploy the app on the web, you can use the `Shinyapps.io` platform. The platf
 
 4.  **Select Account name:** The first time you sign in, shinyapps.io prompts you to set up your account. `shinyapps.io` uses the account name as the domain name for all of your apps. Account names *must be between four and 63 characters* and can **only** contain letters, numbers, and dashes (-).
 
-5.  **Create token:** Click on the the user name on the top right of the page and select `Tokens` from the dropdown menu.
+5.  **Create token:** Click on the the user name on the top right of the page and select `Tokens` from the drop down menu.
 
 6.  **Add token:** Click on the `+ Add Token` button. It will add the new token below. Click on the `Show` button to reveal the token and the secret.
 
@@ -319,10 +321,16 @@ To deploy the app on the web, you can use the `Shinyapps.io` platform. The platf
 
 8.  Open your ***Terminal*** on a `macOS`/`Linux`machine or ***Windows PowerShell***/***Command Prompt*** on a `Windows` machine and paste the copied command and hit enter to store the credentials on your machine that will be used for deployment.
 
-9.  In the ***Terminal*** on a `macOS`/`Linux`machine or ***Windows PowerShell***/***Command Prompt***, run the following command to deploy your app
+9.  In the ***Terminal*** on a `macOS`/`Linux`machine or ***Windows PowerShell***/***Command Prompt***, navigate to the path where your app is located
+
+    ``` bash
+    cd path/to/your_app
+    ```
+
+    Then, run the following command to deploy your app
 
     ``` {.bash .sh}
-    rsconnect deploy shiny /path/to/app --name <NAME> --title my-app
+    rsconnect deploy shiny . --name <NAME> --title my-app
     ```
 
 ::: callout-caution

@@ -122,7 +122,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#how-does-the-app-work" id="toc-how-does-the-app-work" class="nav-link" data-scroll-target="#how-does-the-app-work">How does the app work?</a></li>
   <li><a href="#can-i-see-a-demo-of-the-app" id="toc-can-i-see-a-demo-of-the-app" class="nav-link" data-scroll-target="#can-i-see-a-demo-of-the-app">Can I see a demo of the app?</a></li>
   <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  <li><a href="#data-csv-files" id="toc-data-csv-files" class="nav-link" data-scroll-target="#data-csv-files">Data CSV files</a></li>
+  <li><a href="#data-csv-files" id="toc-data-csv-files" class="nav-link" data-scroll-target="#data-csv-files">Data CSV files</a>
+  <ul class="collapse">
+  <li><a href="#creating-your-csv-data-file" id="toc-creating-your-csv-data-file" class="nav-link" data-scroll-target="#creating-your-csv-data-file">Creating your CSV Data file</a></li>
+  </ul></li>
   <li><a href="#keyfile.json" id="toc-keyfile.json" class="nav-link" data-scroll-target="#keyfile.json">keyfile.json</a>
   <ul class="collapse">
   <li><a href="#enable-api-access-for-a-project" id="toc-enable-api-access-for-a-project" class="nav-link" data-scroll-target="#enable-api-access-for-a-project">Enable API Access for a Project</a></li>
@@ -319,6 +322,8 @@ PEAM,Avocado,Persea,americana
 ARGL,Big berry manzanita,Arctostaphylos,glauca
 ACMA,Bigleaf maple,Acer,macrophyllum</code></pre>
 <p>Ensure your CSV file follows the required format before uploading. You can use multiple CSV files, one for each survey type (e.g., plants, trees, grasses).</p>
+<section id="creating-your-csv-data-file" class="level3">
+<h3 class="anchored" data-anchor-id="creating-your-csv-data-file">Creating your CSV Data file</h3>
 <p>Create your desired CSV file using <a href="https://tableconvert.com/csv-generator" title="CSV generator website">this website</a> or Google sheets</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -328,6 +333,7 @@ ACMA,Bigleaf maple,Acer,macrophyllum</code></pre>
 </div>
 <p>Once the CSV file is downloaded, rename the file to something more readable like <code>birds.csv</code>, <code>trees.csv</code>from the existing name of <code>tableConvert.com_ypnog1.csv</code></p>
 <p>Do it for other files if you have more than one data CSV file.</p>
+</section>
 </section>
 <section id="keyfile.json" class="level2">
 <h2 class="anchored" data-anchor-id="keyfile.json">keyfile.json</h2>
@@ -490,8 +496,8 @@ OR
 <li><p><strong>Add token:</strong> Click on the <code>+ Add Token</code> button. It will add the new token below. Click on the <code>Show</code> button to reveal the token and the secret.</p></li>
 <li><p><strong>Copy command to clipboard:</strong> Click on the <code>With Python</code> tab and click on the <code>Copy to clipboard</code> button.</p></li>
 <li><p>Open your <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine and paste the copied command and hit enter to store the credentials on your machine that will be used for deployment.</p></li>
-<li><p>In the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong>, run the following command to deploy your app</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny /path/to/app <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>In the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong>, navigate to the path where your app is located and run the following command to deploy your app</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny . <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
