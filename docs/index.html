@@ -166,7 +166,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="prerequisites" class="level2">
 <h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
 <ul>
-<li><p>Python <code>3.8</code> or higher<br>
+<li><p>Python <code>3.8</code> , <code>3.9</code>, <code>3.10</code> or <code>3.11</code> <em>(<code>3.12</code> is not tested and might not work as expected)</em><br>
 </p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -359,17 +359,21 @@ Cannot run ‘fieldsurveys’ command on Windows
 <p>If running <code>fieldsurveys</code> on the <strong><em>Windows Powershell</em></strong>/<strong><em>Command Prompt</em></strong> throws an error stating</p>
 <pre><code>fieldsurveys : The term 'fieldsurveys' is not recognized as the name of a cmdlet, function, script file, or operable
 program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.</code></pre>
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+OR
+
+'fieldsurveys' is not a recognized as an internal or external command, operable program or batch file.</code></pre>
 <p>You might need to add Python scripts location to the PATH.<br>
-<strong>Locate the Scripts Directory</strong>: First, you need to find the directory where your Python scripts are located. By default, this directory is usually <strong><code>C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts</code></strong> on Windows, where <strong><code>XX</code></strong> represents the Python version number.</p>
+<strong>Locate the Scripts Directory</strong>: First, you need to find the directory where your Python scripts are located. By default, this directory is usually <strong><code>C:\Users\username\AppData\Local\Programs\Python3XX\Scripts</code></strong> on Windows, where <strong><code>XX</code></strong> represents the Python version number.</p>
 <ol type="1">
 <li><p><strong>Open System Properties</strong>: Right-click on the “This PC” or “My Computer” icon on your desktop or File Explorer and select “Properties”. Alternatively, you can search for “System” in the Start menu and select “System” from the search results.</p></li>
 <li><p><strong>Open Advanced System Settings</strong>: In the System window, click on “Advanced system settings” on the left side. This will open the System Properties window.</p></li>
 <li><p><strong>Open Environment Variables</strong>: In the System Properties window, click on the “Environment Variables…” button.</p></li>
 <li><p><strong>Edit System Variables</strong>: In the Environment Variables window, under the “System variables” section, find the <strong><code>Path</code></strong> variable and select it. Then click on the “Edit…” button.</p></li>
-<li><p><strong>Add Python Scripts Directory</strong>: In the Edit Environment Variable window, click on the “New” button and then paste the path to the directory where your Python scripts are located. For example, if your scripts are in <strong><code>C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts</code></strong>, you would add <strong><code>C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts</code></strong> to the list of paths.</p></li>
+<li><p><strong>Add Python Scripts Directory</strong>: In the Edit Environment Variable window, click on the “New” button and then paste the path to the directory where your Python scripts are located. For example, if your scripts are in <strong><code>C:\Users\username\AppData\Local\Programs\Python3XX\Scripts</code></strong>, you would add <strong><code>C:\Users\username\AppData\Local\Programs\Python3XX\Scripts</code></strong> to the list of paths.</p></li>
 <li><p><strong>Apply Changes</strong>: Click “OK” to close all the windows and apply the changes.</p></li>
-<li><p><strong>Verify</strong>: Open a new command prompt window and type the name of one of your Python scripts (without the <strong><code>.py</code></strong> extension). If the script executes without errors, it means the path has been successfully added to the system PATH.</p></li>
+<li><p><strong>Verify</strong>: Open a new command prompt window and type the name of one of your Python scripts (i.e.&nbsp;`fieldsurveys`). If the script executes without errors, it means the path has been successfully added to the system PATH.</p></li>
 </ol>
 </div>
 </div>

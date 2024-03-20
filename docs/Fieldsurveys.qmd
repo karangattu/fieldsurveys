@@ -34,7 +34,7 @@ If you want to play around with the app before setting up one for your case, fee
 
 ## Prerequisites
 
--   Python `3.8` or higher\
+-   Python `3.8` , `3.9`, `3.10` or `3.11` *(`3.12` is not tested and might not work as expected)*\
 
     ::: {.callout-tip appearance="simple"}
     ## Check python version on your machine
@@ -213,10 +213,14 @@ If running `fieldsurveys` on the ***Windows Powershell***/***Command Prompt*** t
 fieldsurveys : The term 'fieldsurveys' is not recognized as the name of a cmdlet, function, script file, or operable
 program.
 Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+OR
+
+'fieldsurveys' is not a recognized as an internal or external command, operable program or batch file.
 ```
 
 You might need to add Python scripts location to the PATH.\
-**Locate the Scripts Directory**: First, you need to find the directory where your Python scripts are located. By default, this directory is usually **`C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts`** on Windows, where **`XX`** represents the Python version number.
+**Locate the Scripts Directory**: First, you need to find the directory where your Python scripts are located. By default, this directory is usually **`C:\Users\username\AppData\Local\Programs\Python3XX\Scripts`** on Windows, where **`XX`** represents the Python version number.
 
 1.  **Open System Properties**: Right-click on the "This PC" or "My Computer" icon on your desktop or File Explorer and select "Properties". Alternatively, you can search for "System" in the Start menu and select "System" from the search results.
 
@@ -226,11 +230,11 @@ You might need to add Python scripts location to the PATH.\
 
 4.  **Edit System Variables**: In the Environment Variables window, under the "System variables" section, find the **`Path`** variable and select it. Then click on the "Edit..." button.
 
-5.  **Add Python Scripts Directory**: In the Edit Environment Variable window, click on the "New" button and then paste the path to the directory where your Python scripts are located. For example, if your scripts are in **`C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts`**, you would add **`C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.XX_xyz\LocalCache\local-packages\Python3xx\Scripts`** to the list of paths.
+5.  **Add Python Scripts Directory**: In the Edit Environment Variable window, click on the "New" button and then paste the path to the directory where your Python scripts are located. For example, if your scripts are in **`C:\Users\username\AppData\Local\Programs\Python3XX\Scripts`**, you would add **`C:\Users\username\AppData\Local\Programs\Python3XX\Scripts`** to the list of paths.
 
 6.  **Apply Changes**: Click "OK" to close all the windows and apply the changes.
 
-7.  **Verify**: Open a new command prompt window and type the name of one of your Python scripts (without the **`.py`** extension). If the script executes without errors, it means the path has been successfully added to the system PATH.
+7.  **Verify**: Open a new command prompt window and type the name of one of your Python scripts (i.e. \`fieldsurveys\`). If the script executes without errors, it means the path has been successfully added to the system PATH.
 :::
 
 ## Deploying the app on the web (so it can be accessed from anywhere)
