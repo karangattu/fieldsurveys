@@ -242,9 +242,9 @@ Check python version on your machine
 <figcaption>Checking python version on windows machine</figcaption>
 </figure>
 </div>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>OR</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -260,8 +260,14 @@ If Python is not installed
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Visit the <a href="https://www.python.org/downloads/" title="Python download page">official Python downloads page</a> and download the desired version of <code>Python 3</code>. Run the downloaded package and follow the installation wizard. Check the previous command to ensure python is installed successfully on the machine.</p>
-<p><strong><em>Note:</em></strong> You may need to add Python to <code>PATH</code> if you’ve installed Python, but typing <code>python</code> on the command line doesn’t seem to work. Follow instructions <a href="https://realpython.com/add-python-to-path/" title="Add Python path">here</a>.</p>
+<p>Visit the <a href="https://www.python.org/downloads/" title="Python download page">official Python downloads page</a> and download the desired version of <code>Python 3</code>. Run the downloaded package and follow the installation wizard. Check the previous command to ensure python is installed successfully on the machine. Make sure you select the option to `Add Python to PATH` during installation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/add_python_to_path.png" class="img-fluid figure-img"></p>
+<figcaption>Add python to path</figcaption>
+</figure>
+</div>
+<p><strong><em>Note:</em></strong> You will need to add Python to <code>PATH</code> if you’ve installed Python but did not select that option, follow instructions <a href="https://realpython.com/add-python-to-path/" title="Add Python path">here</a> to amend that.</p>
 </div>
 </div>
 </div></li>
@@ -492,12 +498,14 @@ OR
 <li><p><strong>Verify Your Email</strong>: Fill all the required information and click on the <code>Sign Up</code> button. After creating your account, you’ll receive a verification email. Open the email and click on the verification link to confirm your email address.</p></li>
 <li><p><strong>Log in to Your Account</strong>: Once your email is verified, go back to <a href="https://www.shinyapps.io/" title="Shinyapps.io website">Shinyapps.io website</a> and click on the <code>Log In</code> button in the top right corner. Enter your credentials to log in to your account.</p></li>
 <li><p><strong>Select Account name:</strong> The first time you sign in, shinyapps.io prompts you to set up your account. <code>shinyapps.io</code> uses the account name as the domain name for all of your apps. Account names <em>must be between four and 63 characters</em> and can <strong>only</strong> contain letters, numbers, and dashes (-).</p></li>
-<li><p><strong>Create token:</strong> Click on the the user name on the top right of the page and select <code>Tokens</code> from the dropdown menu.</p></li>
+<li><p><strong>Create token:</strong> Click on the the user name on the top right of the page and select <code>Tokens</code> from the drop down menu.</p></li>
 <li><p><strong>Add token:</strong> Click on the <code>+ Add Token</code> button. It will add the new token below. Click on the <code>Show</code> button to reveal the token and the secret.</p></li>
 <li><p><strong>Copy command to clipboard:</strong> Click on the <code>With Python</code> tab and click on the <code>Copy to clipboard</code> button.</p></li>
 <li><p>Open your <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine and paste the copied command and hit enter to store the credentials on your machine that will be used for deployment.</p></li>
-<li><p>In the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong>, navigate to the path where your app is located and run the following command to deploy your app</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny . <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>In the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong>, navigate to the path where your app is located</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> path/to/your_app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Then, run the following command to deploy your app</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny . <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">

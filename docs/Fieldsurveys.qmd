@@ -76,22 +76,24 @@ If you want to play around with the app before setting up one for your case, fee
     ![Checking python version on windows machine](assets/check_python_version.gif)
 
     ``` bash
-    python3 --version
+    python --version
     ```
 
     OR
 
     ``` bash
-    python --version
+    python3 --version
     ```
     :::
 
     ::: {.callout-important collapse="true" appearance="simple"}
     ## If Python is not installed
 
-    Visit the [official Python downloads page](https://www.python.org/downloads/ "Python download page") and download the desired version of `Python 3`. Run the downloaded package and follow the installation wizard. Check the previous command to ensure python is installed successfully on the machine.
+    Visit the [official Python downloads page](https://www.python.org/downloads/ "Python download page") and download the desired version of `Python 3`. Run the downloaded package and follow the installation wizard. Check the previous command to ensure python is installed successfully on the machine. Make sure you select the option to \`Add Python to PATH\` during installation.
 
-    ***Note:*** You may need to add Python to `PATH` if you’ve installed Python, but typing `python` on the command line doesn’t seem to work. Follow instructions [here](https://realpython.com/add-python-to-path/ "Add Python path").
+    ![Add python to path](assets/add_python_to_path.png)
+
+    ***Note:*** You will need to add Python to `PATH` if you’ve installed Python but did not select that option, follow instructions [here](https://realpython.com/add-python-to-path/ "Add Python path") to amend that.
     :::
 
 -   `Wheel` python package
