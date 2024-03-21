@@ -3,7 +3,6 @@ import time
 
 import shutil
 import questionary
-from colorama import Style, Fore
 
 from tkinter import filedialog
 from tkinter import messagebox
@@ -56,6 +55,7 @@ def copy_app_files(
             "Please specify the desired name for the application",
             validate=lambda text: len(text) > 0,
         ).ask()
+        app_dir = app_dir.lower().replace(" ", "_")
 
     if config_file is None:
         show_information(
@@ -92,7 +92,7 @@ def copy_app_files(
     default_csv_dir = os.path.join(os.path.dirname(__file__), "data")
     default_keyfile_path = os.path.join(os.path.dirname(__file__), "keyfile.json")
 
-    print(Style.BRIGHT + f"Creating app at {dest}")
+    print(f"Creating App at {dest}")
 
     if app_dir and not os.path.exists(os.path.join(dest, app_dir)):
         os.makedirs(os.path.join(dest, app_dir))
@@ -105,6 +105,11 @@ def copy_app_files(
     else:
         for config in config_file:
             _copy_file(config, app_dir)
+            # rename the file to survey.yaml no matter what user specified
+            os.rename(
+                os.path.join(app_dir, os.path.basename(config)),
+                os.path.join(app_dir, "survey.yaml")
+            )
 
     data_directory_path = os.path.join(app_dir, "data")
     if not os.path.exists(data_directory_path):
@@ -149,12 +154,19 @@ fieldsurveys
         file.write(requirements)
 
     progress_bar(1)
-    print(Style.BRIGHT + f"App created at {app_dir}")
+    print(f"App created at {app_dir}")
+    print("Next Steps:")
+    print("\n")
     print(
-        Style.BRIGHT
-        + f"Navigate to {app_dir} and run the command below to run the app locally"
+        "Type the command below in your terminal/Command prompt to navigate to the app directory\n"
     )
-    print(Fore.YELLOW + "python -m shiny run app.py")
+    print("=================================================")
+    print(f"cd {app_dir}")
+    print("=================================================\n")
+    print("Then, type the command shown below in your terminal/Command prompt to start the app running locally")
+    print("=================================================")
+    print("python -m shiny run app.py")
+    print("=================================================")
 
 
 def select_directory() -> str:
