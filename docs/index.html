@@ -476,7 +476,9 @@ OR
 
 'fieldsurveys' is not a recognized as an internal or external command, operable program or batch file.</code></pre>
 <p>You might need to add Python scripts location to the PATH.<br>
-<strong>Locate the Scripts Directory</strong>: First, you need to find the directory where your Python scripts are located. By default, this directory is usually <strong><code>C:\Users\username\AppData\Local\Programs\Python3XX\Scripts</code></strong> on Windows, where <strong><code>XX</code></strong> represents the Python version number.</p>
+<strong>Locate the Scripts Directory</strong>: First, you need to find the directory where your Python scripts are located. You can find out the location of the scripts directory by running this command on your Terminal/ Command Prompt</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-c</span> <span class="st">"import sys; print(sys.prefix + '/bin' if sys.platform != 'win32' else sys.prefix + '/Scripts')"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>this command will return something like <strong><code>C:\Users\username\AppData\Local\Programs\Python3XX\Scripts</code></strong></p>
 <ol type="1">
 <li><p><strong>Open System Properties</strong>: Right-click on the “This PC” or “My Computer” icon on your desktop or File Explorer and select “Properties”. Alternatively, you can search for “System” in the Start menu and select “System” from the search results.</p></li>
 <li><p><strong>Open Advanced System Settings</strong>: In the System window, click on “Advanced system settings” on the left side. This will open the System Properties window.</p></li>
@@ -503,9 +505,9 @@ OR
 <li><p><strong>Copy command to clipboard:</strong> Click on the <code>With Python</code> tab and click on the <code>Copy to clipboard</code> button.</p></li>
 <li><p>Open your <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong> on a <code>Windows</code> machine and paste the copied command and hit enter to store the credentials on your machine that will be used for deployment.</p></li>
 <li><p>In the <strong><em>Terminal</em></strong> on a <code>macOS</code>/<code>Linux</code>machine or <strong><em>Windows PowerShell</em></strong>/<strong><em>Command Prompt</em></strong>, navigate to the path where your app is located</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> path/to/your_app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> path/to/your_app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Then, run the following command to deploy your app</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny . <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny . <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">

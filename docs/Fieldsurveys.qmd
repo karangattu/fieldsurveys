@@ -286,7 +286,13 @@ OR
 ```
 
 You might need to add Python scripts location to the PATH.\
-**Locate the Scripts Directory**: First, you need to find the directory where your Python scripts are located. By default, this directory is usually **`C:\Users\username\AppData\Local\Programs\Python3XX\Scripts`** on Windows, where **`XX`** represents the Python version number.
+**Locate the Scripts Directory**: First, you need to find the directory where your Python scripts are located. You can find out the location of the scripts directory by running this command on your Terminal/ Command Prompt
+
+``` bash
+python -c "import sys; print(sys.prefix + '/bin' if sys.platform != 'win32' else sys.prefix + '/Scripts')"
+```
+
+this command will return something like **`C:\Users\username\AppData\Local\Programs\Python3XX\Scripts`**
 
 1.  **Open System Properties**: Right-click on the "This PC" or "My Computer" icon on your desktop or File Explorer and select "Properties". Alternatively, you can search for "System" in the Start menu and select "System" from the search results.
 
