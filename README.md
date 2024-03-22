@@ -1,5 +1,7 @@
 # Field surveys App
 
+![](docs/assets/fieldsurveys_app.png)
+
 We created an interactive web app using `Shiny for Python` to streamline multi-taxon field sampling and data collection. The app enables designing standardized surveys for various organisms like arthropods, birds, and plants.
 
 Accessible on internet-connected devices, it provides a user-friendly interface for field sampling, data storage, and analysis, catering to researchers, citizen scientists, students, and others, regardless of technical expertise or location.
