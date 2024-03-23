@@ -1,17 +1,27 @@
 ---
-title: "Field surveys app set-up instructions"
-subtitle: "Set up your own field survey app"
+title: "Field surveys web app set-up instructions"
+subtitle: "Set up your own field survey web app"
 author: "Karan Gathani"
-date: "2024-03-20"
+date: "2024-03-22"
 title-block-banner: true
 toc: true
 format:
     html:
         code-fold: true
         theme: "cosmo"
+        code-links:
+          - text: GitHub code
+            icon: github
+            href: https://github.com/karangattu/fieldsurveys/
+          - text: PyPI link
+            icon: box-seam-fill
+            href: https://pypi.org/project/fieldsurveys/
 code-annotations: hover
 collapse: true
+website: https://github.com/karangattu/fieldsurveys
 ---
+
+![Fieldsurveys poster](assets/fieldsurveys_poster.png){fig-align="center"}
 
 ## What is this app about?
 
