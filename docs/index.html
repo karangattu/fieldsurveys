@@ -515,22 +515,47 @@ OR
 <p>Then, run the following command to deploy your app</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode bash sh code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rsconnect</span> deploy shiny . <span class="at">--name</span> <span class="op">&lt;</span>NAME<span class="op">&gt;</span> --title my-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 &lt;NAME&gt; and my-app values
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>replace &lt;NAME&gt; with the <code>account name</code> you created in <strong>step 4.</strong> For the <strong>title</strong> of your app, select any desired name in place of <code>my-app</code>. This will also be used as the url of your app.</p>
+</div>
 </div>
 </div>
 <ol start="10" type="1">
 <li>Once the deployment goes through, it will open the url of your deployed app. Save that url and use that for future surveys.</li>
 </ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+If you want to redeploy changes to the app
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In the scenario if you already deployed this app and want to make changes, archive the app and delete it using the <code>shinyapps.io</code> dashboard before following the deployment steps again.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/shinyapps_io_redeploy.png" class="img-fluid figure-img"></p>
+<figcaption>How to delete an app in shinyapps.io</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="issuesfeature-requests" class="level2">
 <h2 class="anchored" data-anchor-id="issuesfeature-requests">Issues/Feature requests</h2>

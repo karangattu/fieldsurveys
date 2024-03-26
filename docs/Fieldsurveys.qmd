@@ -351,13 +351,21 @@ To deploy the app on the web, you can use the `Shinyapps.io` platform. The platf
     rsconnect deploy shiny . --name <NAME> --title my-app
     ```
 
-::: callout-caution
+::: {.callout-note collapse="true"}
 ## \<NAME\> and my-app values
 
 replace \<NAME\> with the `account name` you created in **step 4.** For the **title** of your app, select any desired name in place of `my-app`. This will also be used as the url of your app.
 :::
 
 10. Once the deployment goes through, it will open the url of your deployed app. Save that url and use that for future surveys.
+
+::: {.callout-important collapse="true"}
+## If you want to redeploy changes to the app
+
+In the scenario if you already deployed this app and want to make changes, archive the app and delete it using the `shinyapps.io` dashboard before following the deployment steps again.
+
+![How to delete an app in shinyapps.io](assets/shinyapps_io_redeploy.png)
+:::
 
 ## Issues/Feature requests
 
