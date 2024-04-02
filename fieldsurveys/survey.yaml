@@ -36,6 +36,7 @@ survey_data_sources:
   - arthropod
   - bird
   - butterfly
+  - fish
   - mammal
   - plant
   - reptile
