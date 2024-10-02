@@ -209,7 +209,7 @@ def record_observation(survey_config):
                 fillable=True,
                 inline=True,
             ),
-            ui.card(ui.output_ui("notes", fillable=True, inline=True)),
+            ui.card(ui.output_ui("notes_txt", fillable=True, inline=True)),
             col_widths=[3, 9],
             class_="shiny-input-full-width",
         ),

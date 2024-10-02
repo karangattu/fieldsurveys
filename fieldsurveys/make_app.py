@@ -84,7 +84,7 @@ def make_app(
         else default_url
     )
     app_ui = ui.page_navbar(
-        shinyswatch.theme.minty(),
+        theme=shinyswatch.theme.minty,
         title=ui.tags.img(src=img_url, width="125px"),
         *nav_controls("page_navbar"),
         id="page_navbar",
@@ -202,7 +202,7 @@ def make_app(
                         notes_val.set(m)
 
         @render.ui
-        def notes():
+        def notes_txt():
             return notes_val.get()
 
         @reactive.Calc
