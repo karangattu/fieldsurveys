@@ -503,9 +503,9 @@ def make_app(
                 ui.insert_ui(
                     ui.input_file(
                         "image_file",
-                        "Upload Image File (optional)",
+                        "Upload Image file(s) for specimen (optional)",
                         accept=[".jpg", ".png", ".jpeg"],
-                        multiple=False,
+                        multiple=True,
                     ),
                     selector="#submit",
                     where="beforeBegin",
