@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="fieldsurveys",
-    version="1.0.0",
+    version="1.0.2",
     author="Karan Gathani",
     author_email="karan.gathani+fieldsurveysapp@posit.co",
     packages=find_packages(),
@@ -33,6 +33,7 @@ setup(
         "timezonefinder==6.5.3",
         "us==3.2.0",
         "Wikipedia-API==0.7.1",
+        "google-api-python-client==2.151.0"
     ],
     extras_require={
         "tests": [
