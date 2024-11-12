@@ -185,7 +185,7 @@ def record_observation(survey_config):
                         accept=[".jpg", ".png", ".jpeg"],
                         multiple=True,
                     ),
-                    "Uploads image to imgur.com",
+                    "Uploads image to Google Drive",
                     id="upload_image_tooltip",
                 ),
                 ui.tooltip(
