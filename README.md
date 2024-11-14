@@ -1,6 +1,6 @@
 # Field surveys App
 
-[![PyPI](https://img.shields.io/pypi/v/fieldsurveys.svg)](https://pypi.org/project/fieldsurveys/) ![PyPI - Downloads](https://img.shields.io/pypi/dm/fieldsurveys.svg)
+[![PyPI](https://img.shields.io/pypi/v/fieldsurveys.svg)](https://pypi.org/project/fieldsurveys/) ![PyPI - Downloads](https://img.shields.io/pypi/dm/fieldsurveys.svg) [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://karangattu.github.io/fieldsurveys/)
 
 
 ![](https://mellifluous-kelpie-496610.netlify.app/fieldsurveys_app.png)
