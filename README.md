@@ -1,6 +1,10 @@
 # Field surveys App
 
+[![PyPI](https://img.shields.io/pypi/v/fieldsurveys.svg)](https://pypi.org/project/fieldsurveys/) ![PyPI - Downloads](https://img.shields.io/pypi/dm/fieldsurveys.svg)
+
+
 ![](https://mellifluous-kelpie-496610.netlify.app/fieldsurveys_app.png)
+
 
 We created an interactive web app using `Shiny for Python` to streamline multi-taxon field sampling and data collection. The app enables designing standardized surveys for various organisms like arthropods, birds, and plants.
 
